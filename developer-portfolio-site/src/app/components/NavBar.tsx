@@ -79,7 +79,11 @@ const NavBar = () => {
         <div className="flex flex-col">
           <ul className="flex flex-col gap-2">
             {NAV_LINKS.map((link) => (
-              <li className="nav-links-mobile" key={link.key}>
+              <li
+                onClick={() => setOpenMenu(false)}
+                className="nav-links-mobile"
+                key={link.key}
+              >
                 <Link href={link.href}>{link.label}</Link>
               </li>
             ))}
