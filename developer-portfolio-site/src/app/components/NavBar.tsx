@@ -26,7 +26,7 @@ const NavBar = () => {
           />
         </Link>
 
-        <div className="">
+        <div>
           <ul className="gap-4 hidden sm:flex">
             {NAV_LINKS.map((link) => (
               <li className="nav-links-desktop" key={link.key}>
@@ -36,13 +36,9 @@ const NavBar = () => {
           </ul>
         </div>
 
-        {darkMode ? (
-          <MdDarkMode size={30} />
-        ) : (
-          <div>
-            <MdLightMode size={30} />
-          </div>
-        )}
+        <div className="hidden sm:flex">
+          {darkMode ? <MdDarkMode size={30} /> : <MdLightMode size={30} />}
+        </div>
 
         {/* Mobile Menu */}
         <div
