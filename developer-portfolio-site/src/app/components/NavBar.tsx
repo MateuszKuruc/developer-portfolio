@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS } from "../constants/textConstants";
 import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const NavBar = () => {
   return (
@@ -47,9 +48,23 @@ const NavBar = () => {
             ))}
           </ul>
         </div>
-      </div>
+        {/* Social media links */}
 
-      {/* Social media links */}
+        <div className="flex flex-row justify-around items-center mt-10">
+          <a target="_blank" href={process.env.GITHUB_LINK}>
+            <BsGithub
+              size={30}
+              className="text-white hover:text-black cursor-pointer ease-in-out duration-300"
+            />
+          </a>
+          <a target="_blank" href={process.env.LINKEDIN_LINK}>
+            <BsLinkedin
+              size={30}
+              className="text-white hover:text-black cursor-pointer ease-in-out duration-300"
+            />
+          </a>
+        </div>
+      </div>
     </nav>
   );
 };
