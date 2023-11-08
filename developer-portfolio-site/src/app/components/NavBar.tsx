@@ -50,7 +50,14 @@ const NavBar = () => {
       </div>
       <div className="fixed top-0 left-0 w-[75%] sm:hidden h-screen bg-orange-500 p-10 ease-in-out duration-500">
         <div className="flex w-full items-center justify-end">
-          <div className="cursor-pointer">
+          <div className="flex justify-between w-full cursor-pointer mb-8">
+            {darkMode ? (
+              <MdDarkMode size={30} className="text-white" />
+            ) : (
+              <div>
+                <MdLightMode size={30} className="text-white" />
+              </div>
+            )}
             <RiCloseFill className="h-8 w-8 text-white" />
           </div>
         </div>
