@@ -2,4 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.btn-submit {
+  @apply border-black font-bold border-2 bg-orange-500 px-8 py-5 hover:bg-orange-600 cursor-pointer hover:scale-105;
+}
+
+.btn-disabled {
+  @apply border-gray-700 font-bold border-2 bg-gray-500 px-8 py-5 hover:scale-100 cursor-not-allowed;
+}
+
+.content-container {
+  @apply mx-auto max-w-[1680px];
+}
+
+.padding-container {
+  @apply px-6 lg:px-20;
+}
+
+.bold-52 {
+  @apply text-[52px] font-[700] leading-[120%];
+}
+
+.bold-40 {
+  @apply text-[40px] font-[700] leading-[120%];
+}
+
+.bold-32 {
+  @apply text-[32px] font-[700] leading-[120%];
+}
+
+.bold-20 {
+  @apply text-[20px] font-[700] leading-[120%];
+}
+
+.bold-18 {
+  @apply text-[18px] font-[700] leading-[120%];
+}
+
+.regular-24 {
+  @apply text-[24px] font-[400];
+}
+
+.regular-22 {
+  @apply text-[22px] font-[400];
+}
+
+.regular-20 {
+  @apply text-[20px] font-[400];
+}
+
+.regular-18 {
+  @apply text-[18px] font-[400];
+}
