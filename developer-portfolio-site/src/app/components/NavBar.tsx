@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS } from "../constants/textConstants";
+import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
 
 const NavBar = () => {
   return (
@@ -26,7 +27,11 @@ const NavBar = () => {
           </ul>
         </div>
         {/* Mobile Menu */}
+        <div className="sm:hidden cursor-pointer">
+          <RiMenu3Fill className="h-8 w-8 text-orange-500" />
+        </div>
       </div>
+    
 
       {/* Social media links */}
     </nav>
