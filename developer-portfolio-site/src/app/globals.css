@@ -9,7 +9,7 @@
 }
 
 .nav-links {
-  @apply uppercase regular-20 text-gray-700 hover:border-b-2 hover:border-orange-500 hover:font-bold;
+  @apply uppercase regular-20 text-gray-700 hover:border-b-2 hover:border-orange-500 hover:font-bold cursor-pointer;
 }
 
 .btn-submit {

@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { NAV_LINKS } from "../constants";
+import { NAV_LINKS } from "../constants/textConstants";
 
 const NavBar = () => {
   return (
     <nav className="w-full h024 shadow-xl bg-white">
       {/* Desktop Menu */}
-      <div className="flex items-center justify-between h-full px-4 w-full">
+      <div className="flex items-center justify-between h-full px-12 w-full">
         <Link href="/">
           <Image
             src="/logo-placeholder.png"
@@ -25,9 +25,9 @@ const NavBar = () => {
             ))}
           </ul>
         </div>
+        {/* Mobile Menu */}
       </div>
 
-      {/* Mobile Menu */}
       {/* Social media links */}
     </nav>
   );
