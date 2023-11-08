@@ -20,7 +20,7 @@ const NavBar = () => {
         <div className="">
           <ul className="gap-4 hidden sm:flex">
             {NAV_LINKS.map((link) => (
-              <li className="nav-links" key={link.key}>
+              <li className="nav-links-desktop" key={link.key}>
                 <Link href={link.href}>{link.label}</Link>
               </li>
             ))}
@@ -36,6 +36,16 @@ const NavBar = () => {
           <div className="cursor-pointer">
             <RiCloseFill className="h-8 w-8 text-white" />
           </div>
+        </div>
+        {/* Mobile Menu Links */}
+        <div className="flex flex-col">
+          <ul className="flex flex-col gap-2">
+            {NAV_LINKS.map((link) => (
+              <li className="nav-links-mobile" key={link.key}>
+                <Link href={link.href}>{link.label}</Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
 

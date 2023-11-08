@@ -8,8 +8,12 @@
   box-sizing: border-box;
 }
 
-.nav-links {
+.nav-links-desktop {
   @apply uppercase regular-20 text-gray-700 hover:border-b-2 hover:border-orange-500 hover:font-bold cursor-pointer;
+}
+
+.nav-links-mobile {
+  @apply regular-20 text-gray-700 hover:underline hover:text-white hover:font-bold cursor-pointer;
 }
 
 .btn-submit {
