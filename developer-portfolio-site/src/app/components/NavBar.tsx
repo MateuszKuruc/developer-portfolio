@@ -52,51 +52,63 @@ const NavBar = () => {
           />
         </div>
       </div>
-      {openMenu && (
-        <div className="fixed top-0 left-0 w-[75%] sm:hidden h-screen bg-orange-500 p-10 ease-in-out duration-500">
-          <div className="flex w-full items-center justify-end">
-            <div className="flex justify-between w-full cursor-pointer mb-8">
-              {darkMode ? (
-                <MdDarkMode size={30} className="text-white" />
-              ) : (
-                <div>
-                  <MdLightMode size={30} className="text-white" />
-                </div>
-              )}
-              <RiCloseFill
-                onClick={() => setOpenMenu(false)}
-                className="h-8 w-8 text-white"
-              />
-            </div>
-          </div>
-          {/* Mobile Menu Links */}
-          <div className="flex flex-col">
-            <ul className="flex flex-col gap-2">
-              {NAV_LINKS.map((link) => (
-                <li className="nav-links-mobile" key={link.key}>
-                  <Link href={link.href}>{link.label}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          {/* Social media links */}
 
-          <div className="flex flex-row justify-around items-center mt-10">
-            <a target="_blank" href={process.env.GITHUB_LINK}>
-              <BsGithub
-                size={30}
-                className="text-white hover:text-black cursor-pointer ease-in-out duration-300"
-              />
-            </a>
-            <a target="_blank" href={process.env.LINKEDIN_LINK}>
-              <BsLinkedin
-                size={30}
-                className="text-white hover:text-black cursor-pointer ease-in-out duration-300"
-              />
-            </a>
+      <div
+        className={
+          openMenu
+            ? "fixed top-0 left-0 w-[75%] sm:hidden h-screen bg-orange-500 p-10 ease-in-out duration-1000"
+            : "fixed top-0 w-[75%] left-[-100%] p-10 h-screen ease-in-out duration-1000"
+        }
+      >
+        <div className="flex w-full items-center justify-end">
+          <div className="flex justify-between w-full cursor-pointer mb-8">
+            {darkMode ? (
+              <MdDarkMode size={30} className="text-white" />
+            ) : (
+              <div>
+                <MdLightMode size={30} className="text-white" />
+              </div>
+            )}
+            <RiCloseFill
+              onClick={() => setOpenMenu(false)}
+              className="h-8 w-8 text-white"
+            />
           </div>
         </div>
-      )}
+        {/* Mobile Menu Links */}
+        <div className="flex flex-col">
+          <ul className="flex flex-col gap-2">
+            {NAV_LINKS.map((link) => (
+              <li className="nav-links-mobile" key={link.key}>
+                <Link href={link.href}>{link.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        {/* Social media links */}
+
+        <div className="flex flex-row justify-around items-center mt-10">
+          <a target="_blank" href={process.env.GITHUB_LINK}>
+            <BsGithub
+              size={30}
+              className="text-white hover:text-black cursor-pointer ease-in-out duration-300"
+            />
+          </a>
+          <a target="_blank" href={process.env.LINKEDIN_LINK}>
+            <BsLinkedin
+              size={30}
+              className="text-white hover:text-black cursor-pointer ease-in-out duration-300"
+            />
+          </a>
+        </div>
+        {/* <Image
+          src="/logo-placeholder.png"
+          alt="logo"
+          width={200}
+          height={100}
+          className="mx-auto"
+        /> */}
+      </div>
     </nav>
   );
 };
