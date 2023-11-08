@@ -1,10 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS } from "../constants/textConstants";
 import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { MdLightMode, MdDarkMode } from "react-icons/md";
+import { useState } from "react";
 
 const NavBar = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
     <nav className="w-full h024 shadow-xl bg-white">
       {/* Desktop Menu */}
@@ -18,6 +24,7 @@ const NavBar = () => {
             className="cursor-pointer"
           />
         </Link>
+
         <div className="">
           <ul className="gap-4 hidden sm:flex">
             {NAV_LINKS.map((link) => (
@@ -27,6 +34,15 @@ const NavBar = () => {
             ))}
           </ul>
         </div>
+
+        {darkMode ? (
+          <MdDarkMode size={30} />
+        ) : (
+          <div>
+            <MdLightMode size={30} />
+          </div>
+        )}
+
         {/* Mobile Menu */}
         <div className="sm:hidden cursor-pointer">
           <RiMenu3Fill className="h-8 w-8 text-orange-500" />
