@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { NAV_LINKS } from "../constants";
 
 const NavBar = () => {
   return (
@@ -15,8 +16,16 @@ const NavBar = () => {
             className="cursor-pointer"
           />
         </Link>
+        <div className="hidden sm:flex">
+          <ul className="gap-4 hidden sm:flex">
+            {NAV_LINKS.map((link) => (
+              <li className="nav-links" key={link.key}>
+                <Link href={link.href}>{link.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
-      
 
       {/* Mobile Menu */}
       {/* Social media links */}

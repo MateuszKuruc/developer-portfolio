@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+.nav-links {
+  @apply uppercase regular-20 text-gray-700 hover:border-b-2 hover:border-orange-500 hover:font-bold;
+}
+
 .btn-submit {
   @apply border-black font-bold border-2 bg-orange-500 px-8 py-5 hover:bg-orange-600 cursor-pointer hover:scale-105;
 }
