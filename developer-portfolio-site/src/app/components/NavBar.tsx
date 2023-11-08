@@ -17,7 +17,7 @@ const NavBar = () => {
             className="cursor-pointer"
           />
         </Link>
-        <div className="hidden sm:flex">
+        <div className="">
           <ul className="gap-4 hidden sm:flex">
             {NAV_LINKS.map((link) => (
               <li className="nav-links" key={link.key}>
@@ -31,7 +31,13 @@ const NavBar = () => {
           <RiMenu3Fill className="h-8 w-8 text-orange-500" />
         </div>
       </div>
-    
+      <div className="fixed top-0 left-0 w-[75%] sm:hidden h-screen bg-orange-500 p-10 ease-in-out duration-500">
+        <div className="flex w-full items-center justify-end">
+          <div className="cursor-pointer">
+            <RiCloseFill className="h-8 w-8 text-white" />
+          </div>
+        </div>
+      </div>
 
       {/* Social media links */}
     </nav>
