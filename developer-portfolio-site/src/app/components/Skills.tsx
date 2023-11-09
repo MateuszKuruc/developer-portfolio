@@ -9,13 +9,10 @@ import {
 
 const Skills = () => {
   return (
-    <section
-      id="skills"
-      className="bg-white flex flex-col items-center dark:bg-blue-950"
-    >
-      <h2 className="bold-40 content-container">Skills</h2>
+    <section id="skills" className="bg-white flex flex-col">
+      <h2 className="bold-40 content-container mb-6">Skills</h2>
 
-      <div className="w-auto padding-container border-2 text-center flex flex-col items-center py-6">
+      <div className="padding-container border-t-2 border-b-2 text-center flex flex-row items-center justify-center py-6">
         <h3 className="bold-32 pb-6 text-orange-700">Frontend</h3>
 
         {/* Mobile version */}
@@ -40,11 +37,56 @@ const Skills = () => {
 
         {/* Desktop version */}
 
-        <ul className="hidden gap-8 sm:grid sm:grid-cols-6 ">
+        <ul className="hidden sm:grid sm:grid-cols-6 gap-8 w-[1200px] self-center">
           {FRONTEND_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col items-center justify-start gap-2"
+              className="flex flex-col justify-end items-center gap-2"
+            >
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={50}
+                height={40}
+                className="rounded-xl "
+              />
+
+              <p className="regular-18 text-center">{skill.name}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="padding-container border-b-2 text-center flex flex-row items-center justify-center py-6">
+        <h3 className="bold-32 pb-6 text-orange-700">Backend</h3>
+
+        {/* Mobile version */}
+        <ul className="gap-8 grid grid-cols-4 sm:hidden">
+          {BACKEND_SKILLS.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col lg:flex-row items-center justify-start lg:gap-2 "
+            >
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={40}
+                height={40}
+                className="rounded-xl "
+              />
+
+              <p className="regular-18 text-center">{skill.name}</p>
+            </li>
+          ))}
+        </ul>
+
+        {/* Desktop version */}
+
+        <ul className="hidden sm:grid sm:grid-cols-6 gap-8 w-[1200px] self-center">
+          {BACKEND_SKILLS.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col justify-end items-center gap-2"
             >
               <Image
                 src={skill.src}
@@ -60,43 +102,46 @@ const Skills = () => {
         </ul>
       </div>
 
-      <div className="w-full padding-container">
-        <h3 className="bold-32 py-12 text-orange-700">Backend</h3>
-        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-          {BACKEND_SKILLS.map((skill) => (
+      <div className="padding-container border-b-2 text-center flex flex-row items-center justify-center py-6">
+        <h3 className="bold-32 text-orange-700">Other tools</h3>
+
+        {/* Mobile version */}
+        <ul className="gap-8 grid grid-cols-4 sm:hidden">
+          {OTHER_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col items-center justify-end gap-2"
+              className="flex flex-col lg:flex-row items-center justify-start lg:gap-2 "
+            >
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={40}
+                height={40}
+                className="rounded-xl "
+              />
+
+              <p className="regular-18 text-center">{skill.name}</p>
+            </li>
+          ))}
+        </ul>
+
+        {/* Desktop version */}
+
+        <ul className="hidden sm:grid sm:grid-cols-6 gap-8 w-[1200px] self-center">
+          {OTHER_SKILLS.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col justify-end items-center gap-2"
             >
               <Image
                 src={skill.src}
                 alt={skill.label}
                 width={50}
                 height={50}
-                className="rounded-xl"
+                className="rounded-xl "
               />
-              <p className="regular-18">{skill.name}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
 
-      <div className="w-full padding-container">
-        <h3 className="bold-32  py-12 text-orange-700">More tools</h3>
-        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-          {OTHER_SKILLS.map((skill) => (
-            <li
-              key={skill.name}
-              className="flex flex-col items-center justify-end gap-2 "
-            >
-              <Image
-                src={skill.src}
-                alt={skill.label}
-                width={75}
-                height={75}
-                className="rounded-xl"
-              />
-              <p className="regular-18">{skill.name}</p>
+              <p className="regular-18 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
