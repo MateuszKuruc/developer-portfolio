@@ -16,6 +16,11 @@
   @apply bg-gray-800
 } */
 
+.colored-icon {
+  fill: #ffffff;
+  background-color: white;
+}
+
 .nav-links-desktop {
   @apply uppercase regular-20 text-gray-700 hover:border-b-2 hover:border-orange-500 hover:font-bold cursor-pointer;
 }

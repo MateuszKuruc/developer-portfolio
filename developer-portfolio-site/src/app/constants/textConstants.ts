@@ -24,7 +24,7 @@ export const FRONTEND_SKILLS = [
 export const BACKEND_SKILLS = [
   { src: "/nodejs.svg", name: "NodeJS", label: "NodeJS icon" },
   { src: "/express.svg", name: "Express", label: "Express icon" },
-  { src: "/aws.svg", name: "AWS S3", label: "AWS icon" },
+  { src: "/aws-icon.svg", name: "AWS S3", label: "AWS icon" },
   { src: "/mongodb.svg", name: "MongoDB", label: "MongoDB icon" },
   { src: "/restapi.svg", name: "REST API", label: "REST API icon" },
   { src: "/sql.svg", name: "SQL", label: "SQL icon" },

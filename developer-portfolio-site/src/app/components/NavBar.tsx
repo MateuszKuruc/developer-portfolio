@@ -10,7 +10,7 @@ import { useState } from "react";
 import { useTheme } from "next-themes";
 
 const NavBar = () => {
-  const [openMenu, setOpenMenu] = useState(true);
+  const [openMenu, setOpenMenu] = useState(false);
 
   const { theme, setTheme } = useTheme();
 
@@ -48,9 +48,17 @@ const NavBar = () => {
 
         <div className="hidden sm:flex">
           {theme === "dark" ? (
-            <MdDarkMode size={30} onClick={setLightTheme} className="hover:text-orange-500" />
+            <MdDarkMode
+              size={30}
+              onClick={setLightTheme}
+              className="hover:text-orange-500"
+            />
           ) : (
-            <MdLightMode size={30} onClick={setDarkTheme} className="hover:text-orange-500" />
+            <MdLightMode
+              size={30}
+              onClick={setDarkTheme}
+              className="hover:text-orange-500"
+            />
           )}
         </div>
 
