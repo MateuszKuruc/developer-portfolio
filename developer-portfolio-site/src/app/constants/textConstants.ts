@@ -18,6 +18,7 @@ export const FRONTEND_SKILLS = [
   { src: "/tailwind.svg", name: "Tailwind CSS", label: "Tailwind icon" },
   { src: "/typescript.svg", name: "TypeScript", label: "Typescript icon" },
   { src: "/redux.svg", name: "Redux", label: "Redux icon" },
+  { src: "/styled-components.svg", name: "Styled components", label: "Redux icon" },
 ];
 
 export const BACKEND_SKILLS = [
@@ -36,4 +37,5 @@ export const OTHER_SKILLS = [
   { src: "/github.svg", name: "Github", label: "Github icon" },
   { src: "/jest.svg", name: "jest", label: "jest icon" },
   { src: "/cypress.svg", name: "Cypress", label: "Cypress icon" },
+  { src: "/formik.svg", name: "Formik", label: "Formik icon" },
 ];

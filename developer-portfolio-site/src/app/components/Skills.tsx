@@ -17,11 +17,11 @@ const Skills = () => {
 
       <div className="w-full padding-container">
         <h3 className="bold-32 text-center py-4 text-orange-500">Frontend</h3>
-        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-6">
+        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {FRONTEND_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col items-center justify-end"
+              className="flex flex-col items-center justify-end gap-2 "
             >
               <Image
                 src={skill.src}
@@ -38,11 +38,11 @@ const Skills = () => {
 
       <div className="w-full padding-container">
         <h3 className="bold-32 text-center py-4 text-orange-500">Backend</h3>
-        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-6">
+        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {BACKEND_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col items-center justify-end"
+              className="flex flex-col items-center justify-end gap-2 "
             >
               <Image
                 src={skill.src}
@@ -59,11 +59,11 @@ const Skills = () => {
 
       <div className="w-full padding-container">
         <h3 className="bold-32 text-center py-4 text-orange-500">More</h3>
-        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-6">
+        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {OTHER_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col items-center justify-end"
+              className="flex flex-col items-center justify-end gap-2 "
             >
               <Image
                 src={skill.src}
