@@ -7,13 +7,16 @@ import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { useState } from "react";
+import { useTheme } from "next-themes";
 
 const NavBar = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  //   const [darkMode, setDarkMode] = useState(false);
   const [openMenu, setOpenMenu] = useState(true);
 
+  const { theme, setTheme } = useTheme();
+
   return (
-    <nav className="w-full h024 shadow-xl bg-white">
+    <nav className="w-full h024 shadow-xl bg-white dark:bg-black">
       {/* Desktop Menu */}
       <div className="flex items-center justify-between h-full px-12 w-full">
         <Link href="/">
@@ -37,7 +40,12 @@ const NavBar = () => {
         </div>
 
         <div className="hidden sm:flex">
-          {darkMode ? <MdDarkMode size={30} /> : <MdLightMode size={30} />}
+          {/* {darkMode ? <MdDarkMode size={30} /> : <MdLightMode size={30} />} */}
+          {theme === "dark" ? (
+            <MdDarkMode size={30} onClick={() => setTheme("light")} />
+          ) : (
+            <MdLightMode size={30} onClick={() => setTheme("dark")} />
+          )}
         </div>
 
         {/* Mobile Menu */}
@@ -62,13 +70,16 @@ const NavBar = () => {
       >
         <div className="flex w-full items-center justify-end">
           <div className="flex justify-between w-full cursor-pointer mb-8">
-            {darkMode ? (
+            {/* {darkMode ? (
               <MdDarkMode size={30} className="text-white" />
             ) : (
               <div>
                 <MdLightMode size={30} className="text-white" />
               </div>
-            )}
+            )} */}
+
+            <button>color mode</button>
+
             <RiCloseFill
               onClick={() => setOpenMenu(false)}
               className="h-8 w-8 text-white"

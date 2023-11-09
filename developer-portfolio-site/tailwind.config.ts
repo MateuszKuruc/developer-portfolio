@@ -6,15 +6,14 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       borderWidth: {
         "2.5": "2.5px",
         "3": "3px",
       },
-      screens: {
-        
-      }
+      screens: {},
     },
   },
   plugins: [],
