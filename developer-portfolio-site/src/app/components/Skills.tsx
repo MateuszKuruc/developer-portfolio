@@ -17,11 +17,11 @@ const Skills = () => {
 
       <div className="w-full padding-container">
         <h3 className="bold-32 text-center py-4 text-orange-500">Frontend</h3>
-        <ul className="gap-8 grid grid-cols-5">
+        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-6">
           {FRONTEND_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col items-center justify-center"
+              className="flex flex-col items-center justify-end"
             >
               <Image src={skill.src} alt={skill.label} width={75} height={75} />
               <p className="regular-18">{skill.name}</p>
@@ -32,11 +32,11 @@ const Skills = () => {
 
       <div className="w-full padding-container">
         <h3 className="bold-32 text-center py-4 text-orange-500">Backend</h3>
-        <ul className="gap-8 grid grid-cols-5">
+        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-6">
           {BACKEND_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col items-center justify-center"
+              className="flex flex-col items-center justify-end"
             >
               <Image src={skill.src} alt={skill.label} width={75} height={75} />
               <p className="regular-18">{skill.name}</p>
@@ -46,12 +46,12 @@ const Skills = () => {
       </div>
 
       <div className="w-full padding-container">
-        <h3 className="bold-32 text-center py-4 text-orange-500">MORE TOOLS</h3>
-        <ul className="gap-8 grid grid-cols-5">
+        <h3 className="bold-32 text-center py-4 text-orange-500">More</h3>
+        <ul className="gap-8 grid grid-cols-3 lg:grid-cols-6">
           {OTHER_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col items-center justify-center"
+              className="flex flex-col items-center justify-end"
             >
               <Image src={skill.src} alt={skill.label} width={75} height={75} />
               <p className="regular-18">{skill.name}</p>
