@@ -75,7 +75,7 @@ const NavBar = () => {
       <div
         className={
           openMenu
-            ? "fixed top-0 left-0 w-[75%] sm:hidden h-screen bg-orange-500 dark:bg-orange-700 p-10 ease-in-out duration-1000"
+            ? "z-30 fixed top-0 left-0 w-[75%] sm:hidden h-screen bg-orange-500 dark:bg-orange-700 p-10 ease-in-out duration-1000"
             : "fixed top-0 w-[75%] left-[-100%] p-10 h-screen ease-in-out duration-1000"
         }
       >
