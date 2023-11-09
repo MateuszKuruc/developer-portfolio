@@ -15,18 +15,46 @@ const Skills = () => {
     >
       <h2 className="bold-40 content-container">Skills</h2>
 
-      <h3 className="bold-20">Frontend</h3>
-      <div className="w-full padding-container border-2 border-blue-400">
+      <div className="w-full padding-container">
+        <h3 className="bold-32 text-center py-4 text-orange-500">Frontend</h3>
         <ul className="gap-8 grid grid-cols-5">
           {FRONTEND_SKILLS.map((skill) => (
-            <li key={skill.name}>
-              <Image
-                src={skill.src}
-                alt={skill.label}
-                width={100}
-                height={100}
-              />
-              <p>{skill.name}</p>
+            <li
+              key={skill.name}
+              className="flex flex-col items-center justify-center"
+            >
+              <Image src={skill.src} alt={skill.label} width={75} height={75} />
+              <p className="regular-18">{skill.name}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="w-full padding-container">
+        <h3 className="bold-32 text-center py-4 text-orange-500">Backend</h3>
+        <ul className="gap-8 grid grid-cols-5">
+          {BACKEND_SKILLS.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col items-center justify-center"
+            >
+              <Image src={skill.src} alt={skill.label} width={75} height={75} />
+              <p className="regular-18">{skill.name}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="w-full padding-container">
+        <h3 className="bold-32 text-center py-4 text-orange-500">MORE TOOLS</h3>
+        <ul className="gap-8 grid grid-cols-5">
+          {OTHER_SKILLS.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col items-center justify-center"
+            >
+              <Image src={skill.src} alt={skill.label} width={75} height={75} />
+              <p className="regular-18">{skill.name}</p>
             </li>
           ))}
         </ul>
