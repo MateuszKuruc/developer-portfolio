@@ -12,7 +12,7 @@ const Skills = () => {
     <section id="skills" className="bg-white flex flex-col">
       <h2 className="bold-40 content-container mb-6">Skills</h2>
 
-      <div className="padding-container border-t-2 border-b-2 text-center flex flex-row items-center justify-center py-6">
+      <div className="padding-container border-t-2 border-b-2 text-center flex flex-col sm:flex-row sm:items-center sm:justify-center py-6">
         <h3 className="bold-32 pb-6 text-orange-700">Frontend</h3>
 
         {/* Mobile version */}
@@ -20,17 +20,17 @@ const Skills = () => {
           {FRONTEND_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col lg:flex-row items-center justify-start lg:gap-2 "
+              className="flex flex-col lg:flex-row items-center justify-start gap-2"
             >
               <Image
                 src={skill.src}
                 alt={skill.label}
                 width={40}
                 height={40}
-                className="rounded-xl "
+                className="rounded-lg"
               />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="regular-16 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
@@ -57,7 +57,7 @@ const Skills = () => {
         </ul>
       </div>
 
-      <div className="padding-container border-b-2 text-center flex flex-row items-center justify-center py-6">
+      <div className="padding-container border-t-2 border-b-2 text-center flex flex-col sm:flex-row sm:items-center sm:justify-center py-6">
         <h3 className="bold-32 pb-6 text-orange-700">Backend</h3>
 
         {/* Mobile version */}
@@ -65,15 +65,9 @@ const Skills = () => {
           {BACKEND_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col lg:flex-row items-center justify-start lg:gap-2 "
+              className="flex flex-col lg:flex-row items-center justify-end gap-2"
             >
-              <Image
-                src={skill.src}
-                alt={skill.label}
-                width={40}
-                height={40}
-                className="rounded-xl "
-              />
+              <Image src={skill.src} alt={skill.label} width={40} height={40} />
 
               <p className="regular-18 text-center">{skill.name}</p>
             </li>
@@ -102,15 +96,15 @@ const Skills = () => {
         </ul>
       </div>
 
-      <div className="padding-container border-b-2 text-center flex flex-row items-center justify-center py-6">
-        <h3 className="bold-32 text-orange-700">Other tools</h3>
+      <div className="padding-container border-t-2 border-b-2 text-center flex flex-col sm:flex-row sm:items-center sm:justify-center py-6">
+        <h3 className="bold-32 text-orange-700 pb-6">Other tools</h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
           {OTHER_SKILLS.map((skill) => (
             <li
               key={skill.name}
-              className="flex flex-col lg:flex-row items-center justify-start lg:gap-2 "
+              className="flex flex-col lg:flex-row items-center justify-start gap-2"
             >
               <Image
                 src={skill.src}
