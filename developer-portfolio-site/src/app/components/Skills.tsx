@@ -117,45 +117,7 @@ const Skills = () => {
           <li></li>
         </ul>
       </div>
-      {/* <div className="w-full padding-container flex justify-around bg-yellow-500">
-        <div>
-          <h3 className="bold-32">Frontend</h3>
-          <ul className="flex gap-8">
-            <li>
-              <Image
-                src="/javascript-original.svg"
-                width={70}
-                height={70}
-                alt="javascript icon"
-                className="rounded-2xl"
-              />
-              JavaScript
-            </li>
-            <li>
-              <Image
-                src="/react-original.svg"
-                width={70}
-                height={70}
-                alt="react icon"
-                className="rounded-2xl"
-              />
-              React
-            </li>
-            <li>NextJs</li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="bold-32">Backend</h3>
-          <ul>
-            <li>NodeJs</li>
-            <li>Express</li>
-            <li></li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="bold-32">Other</h3>
-        </div>
-      </div> */}
+      
     </section>
   );
 };
