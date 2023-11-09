@@ -23,7 +23,13 @@ const Skills = () => {
               key={skill.name}
               className="flex flex-col items-center justify-end"
             >
-              <Image src={skill.src} alt={skill.label} width={75} height={75} />
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={75}
+                height={75}
+                className="rounded-xl"
+              />
               <p className="regular-18">{skill.name}</p>
             </li>
           ))}
@@ -38,7 +44,13 @@ const Skills = () => {
               key={skill.name}
               className="flex flex-col items-center justify-end"
             >
-              <Image src={skill.src} alt={skill.label} width={75} height={75} />
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={75}
+                height={75}
+                className="rounded-xl"
+              />
               <p className="regular-18">{skill.name}</p>
             </li>
           ))}
@@ -53,7 +65,13 @@ const Skills = () => {
               key={skill.name}
               className="flex flex-col items-center justify-end"
             >
-              <Image src={skill.src} alt={skill.label} width={75} height={75} />
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={75}
+                height={75}
+                className="rounded-xl"
+              />
               <p className="regular-18">{skill.name}</p>
             </li>
           ))}
