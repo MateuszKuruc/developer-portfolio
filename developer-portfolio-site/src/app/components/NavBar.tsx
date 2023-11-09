@@ -10,10 +10,17 @@ import { useState } from "react";
 import { useTheme } from "next-themes";
 
 const NavBar = () => {
-  //   const [darkMode, setDarkMode] = useState(false);
   const [openMenu, setOpenMenu] = useState(true);
 
   const { theme, setTheme } = useTheme();
+
+  const setLightTheme = () => {
+    setTheme("light");
+  };
+
+  const setDarkTheme = () => {
+    setTheme("dark");
+  };
 
   return (
     <nav className="w-full h024 shadow-xl bg-white dark:bg-black">
@@ -40,19 +47,15 @@ const NavBar = () => {
         </div>
 
         <div className="hidden sm:flex">
-          {/* {darkMode ? <MdDarkMode size={30} /> : <MdLightMode size={30} />} */}
           {theme === "dark" ? (
-            <MdDarkMode size={30} onClick={() => setTheme("light")} />
+            <MdDarkMode size={30} onClick={setLightTheme} className="hover:text-orange-500" />
           ) : (
-            <MdLightMode size={30} onClick={() => setTheme("dark")} />
+            <MdLightMode size={30} onClick={setDarkTheme} className="hover:text-orange-500" />
           )}
         </div>
 
         {/* Mobile Menu */}
-        <div
-          //   onClick={() => setOpenMenu(false)}
-          className="sm:hidden cursor-pointer"
-        >
+        <div className="sm:hidden cursor-pointer">
           <RiMenu3Fill
             onClick={() => setOpenMenu(!openMenu)}
             size={40}
@@ -70,15 +73,11 @@ const NavBar = () => {
       >
         <div className="flex w-full items-center justify-end">
           <div className="flex justify-between w-full cursor-pointer mb-8">
-            {/* {darkMode ? (
-              <MdDarkMode size={30} className="text-white" />
+            {theme === "dark" ? (
+              <MdDarkMode size={30} onClick={setLightTheme} />
             ) : (
-              <div>
-                <MdLightMode size={30} className="text-white" />
-              </div>
-            )} */}
-
-            <button>color mode</button>
+              <MdLightMode size={30} onClick={setDarkTheme} />
+            )}
 
             <RiCloseFill
               onClick={() => setOpenMenu(false)}
