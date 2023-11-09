@@ -9,11 +9,11 @@ import {
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-white flex flex-col">
+    <section id="skills" className="content-container bg-white flex flex-col">
       <h2 className="bold-40 content-container mb-6">Skills</h2>
 
-      <div className="padding-container border-t-2 border-b-2 text-center flex flex-col sm:flex-row sm:items-center sm:justify-center py-6">
-        <h3 className="bold-32 pb-6 text-orange-700 sm:mr-12">Frontend</h3>
+      <div className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
+        <h3 className="bold-32 pb-6 text-orange-700 mr-6">Frontend</h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
@@ -37,7 +37,7 @@ const Skills = () => {
 
         {/* Desktop version */}
 
-        <ul className="hidden sm:grid sm:grid-cols-6 gap-8 w-[1200px] self-center">
+        <ul className="hidden sm:grid sm:grid-cols-6 gap-8 lg:w-[1200px] self-center">
           {FRONTEND_SKILLS.map((skill) => (
             <li
               key={skill.name}
@@ -57,8 +57,8 @@ const Skills = () => {
         </ul>
       </div>
 
-      <div className="padding-container border-t-2 border-b-2 text-center flex flex-col sm:flex-row sm:items-center sm:justify-center py-6">
-        <h3 className="bold-32 pb-6 text-orange-700 sm:mr-12">Backend</h3>
+      <div className="padding-container border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
+        <h3 className="bold-32 pb-6 text-orange-700 mr-6">Backend</h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
@@ -76,7 +76,7 @@ const Skills = () => {
 
         {/* Desktop version */}
 
-        <ul className="hidden sm:grid sm:grid-cols-6 gap-8 w-[1200px] self-center">
+        <ul className="hidden sm:grid sm:grid-cols-6 gap-8 lg:w-[1200px] self-center">
           {BACKEND_SKILLS.map((skill) => (
             <li
               key={skill.name}
@@ -96,8 +96,8 @@ const Skills = () => {
         </ul>
       </div>
 
-      <div className="padding-container border-t-2 border-b-2 text-center flex flex-col sm:flex-row sm:items-center sm:justify-center py-6">
-        <h3 className="bold-32 text-orange-700 pb-6 sm:mr-12">Other tools</h3>
+      <div className="padding-container border-b-2 flex flex-col lg:flex-row sm:items-center sm:justify-around py-6 text-center">
+        <h3 className="bold-32 text-orange-700 pb-6">More tools</h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
@@ -121,7 +121,7 @@ const Skills = () => {
 
         {/* Desktop version */}
 
-        <ul className="hidden sm:grid sm:grid-cols-6 gap-8 w-[1200px] self-center">
+        <ul className="hidden sm:grid sm:grid-cols-6 gap-8 lg:w-[1200px] self-center">
           {OTHER_SKILLS.map((skill) => (
             <li
               key={skill.name}
