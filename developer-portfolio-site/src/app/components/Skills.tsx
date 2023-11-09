@@ -20,7 +20,7 @@ const Skills = () => {
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
-          {FRONTEND_SKILLS.map((skill) => (
+          {FRONTEND_SKILLS.standard.map((skill) => (
             <li
               key={skill.name}
               className="flex flex-col lg:flex-row items-center justify-start gap-2"
@@ -36,12 +36,28 @@ const Skills = () => {
               <p className="regular-16 text-center">{skill.name}</p>
             </li>
           ))}
+          {FRONTEND_SKILLS.invert.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col lg:flex-row items-center justify-start gap-2"
+            >
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={40}
+                height={40}
+                className="rounded-lg dark:invert"
+              />
+
+              <p className="regular-16 text-center">{skill.name}</p>
+            </li>
+          ))}
         </ul>
 
         {/* Desktop version */}
 
         <ul className="hidden sm:grid sm:grid-cols-6 gap-8 lg:w-[1200px] self-center">
-          {FRONTEND_SKILLS.map((skill) => (
+          {FRONTEND_SKILLS.standard.map((skill) => (
             <li
               key={skill.name}
               className="flex flex-col justify-end items-center gap-2"
@@ -57,6 +73,22 @@ const Skills = () => {
               <p className="regular-18 text-center">{skill.name}</p>
             </li>
           ))}
+          {FRONTEND_SKILLS.invert.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col justify-end items-center gap-2"
+            >
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={50}
+                height={50}
+                className="rounded-lg dark:invert"
+              />
+
+              <p className="regular-18 text-center">{skill.name}</p>
+            </li>
+          ))}
         </ul>
       </div>
 
@@ -65,7 +97,7 @@ const Skills = () => {
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
-          {BACKEND_SKILLS.map((skill) => (
+          {BACKEND_SKILLS.standard.map((skill) => (
             <li
               key={skill.name}
               className="flex flex-col lg:flex-row items-center justify-end gap-2"
@@ -75,17 +107,49 @@ const Skills = () => {
               <p className="regular-18 text-center">{skill.name}</p>
             </li>
           ))}
+          {BACKEND_SKILLS.invert.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col lg:flex-row items-center justify-end gap-2"
+            >
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={40}
+                height={40}
+                className="dark:invert"
+              />
+
+              <p className="regular-18 text-center">{skill.name}</p>
+            </li>
+          ))}
         </ul>
 
         {/* Desktop version */}
 
         <ul className="hidden sm:grid sm:grid-cols-6 gap-8 lg:w-[1200px] self-center">
-          {BACKEND_SKILLS.map((skill) => (
+          {BACKEND_SKILLS.standard.map((skill) => (
             <li
               key={skill.name}
               className="flex flex-col justify-end items-center gap-2"
             >
               <Image src={skill.src} alt={skill.label} width={50} height={50} />
+
+              <p className="regular-18 text-center">{skill.name}</p>
+            </li>
+          ))}
+          {BACKEND_SKILLS.invert.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col justify-end items-center gap-2"
+            >
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={50}
+                height={50}
+                className="dark:invert"
+              />
 
               <p className="regular-18 text-center">{skill.name}</p>
             </li>
@@ -98,7 +162,7 @@ const Skills = () => {
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
-          {OTHER_SKILLS.map((skill) => (
+          {OTHER_SKILLS.standard.map((skill) => (
             <li
               key={skill.name}
               className="flex flex-col lg:flex-row items-center justify-start gap-2"
@@ -114,12 +178,28 @@ const Skills = () => {
               <p className="regular-18 text-center">{skill.name}</p>
             </li>
           ))}
+          {OTHER_SKILLS.invert.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col lg:flex-row items-center justify-start gap-2"
+            >
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={40}
+                height={40}
+                className="rounded-lg dark:invert"
+              />
+
+              <p className="regular-18 text-center">{skill.name}</p>
+            </li>
+          ))}
         </ul>
 
         {/* Desktop version */}
 
         <ul className="hidden sm:grid sm:grid-cols-6 gap-8 lg:w-[1200px] self-center">
-          {OTHER_SKILLS.map((skill) => (
+          {OTHER_SKILLS.standard.map((skill) => (
             <li
               key={skill.name}
               className="flex flex-col justify-end items-center gap-2"
@@ -130,6 +210,22 @@ const Skills = () => {
                 width={50}
                 height={50}
                 className="rounded-lg "
+              />
+
+              <p className="regular-18 text-center">{skill.name}</p>
+            </li>
+          ))}
+          {OTHER_SKILLS.invert.map((skill) => (
+            <li
+              key={skill.name}
+              className="flex flex-col justify-end items-center gap-2"
+            >
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={50}
+                height={50}
+                className="rounded-lg dark:invert"
               />
 
               <p className="regular-18 text-center">{skill.name}</p>
