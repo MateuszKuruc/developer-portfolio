@@ -9,7 +9,10 @@ import {
 
 const Skills = () => {
   return (
-    <section id="skills" className="content-container bg-white flex flex-col dark:bg-gray-950">
+    <section
+      id="skills"
+      className="content-container bg-white flex flex-col dark:bg-gray-950"
+    >
       <h2 className="bold-40 content-container mb-6">Skills</h2>
 
       <div className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
@@ -48,7 +51,7 @@ const Skills = () => {
                 alt={skill.label}
                 width={50}
                 height={50}
-                className="rounded-xl "
+                className="rounded-lg"
               />
 
               <p className="regular-18 text-center">{skill.name}</p>
@@ -82,13 +85,7 @@ const Skills = () => {
               key={skill.name}
               className="flex flex-col justify-end items-center gap-2"
             >
-              <Image
-                src={skill.src}
-                alt={skill.label}
-                width={50}
-                height={50}
-                className="rounded-xl "
-              />
+              <Image src={skill.src} alt={skill.label} width={50} height={50} />
 
               <p className="regular-18 text-center">{skill.name}</p>
             </li>
@@ -111,7 +108,7 @@ const Skills = () => {
                 alt={skill.label}
                 width={40}
                 height={40}
-                className="rounded-xl "
+                className="rounded-lg"
               />
 
               <p className="regular-18 text-center">{skill.name}</p>
@@ -132,7 +129,7 @@ const Skills = () => {
                 alt={skill.label}
                 width={50}
                 height={50}
-                className="rounded-xl "
+                className="rounded-lg "
               />
 
               <p className="regular-18 text-center">{skill.name}</p>
