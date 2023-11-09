@@ -17,7 +17,18 @@ const Skills = () => {
 
       <h3 className="bold-20">Frontend</h3>
       <div className="w-full padding-container border-2 border-blue-400">
-     
+        <ul className="gap-8 grid grid-cols-5">
+          {FRONTEND_SKILLS.map((skill) => (
+            <li key={skill.name}>
+              <Image
+                src={skill.src}
+                alt={skill.label}
+                width={100}
+                height={100}
+              />
+              <p>{skill.name}</p>
+            </li>
+          ))}
         </ul>
       </div>
     </section>
