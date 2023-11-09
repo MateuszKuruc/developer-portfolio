@@ -13,7 +13,7 @@ const Skills = () => {
       <h2 className="bold-40 content-container mb-6">Skills</h2>
 
       <div className="padding-container border-t-2 border-b-2 text-center flex flex-col sm:flex-row sm:items-center sm:justify-center py-6">
-        <h3 className="bold-32 pb-6 text-orange-700">Frontend</h3>
+        <h3 className="bold-32 pb-6 text-orange-700 sm:mr-12">Frontend</h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
@@ -58,7 +58,7 @@ const Skills = () => {
       </div>
 
       <div className="padding-container border-t-2 border-b-2 text-center flex flex-col sm:flex-row sm:items-center sm:justify-center py-6">
-        <h3 className="bold-32 pb-6 text-orange-700">Backend</h3>
+        <h3 className="bold-32 pb-6 text-orange-700 sm:mr-12">Backend</h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
@@ -97,7 +97,7 @@ const Skills = () => {
       </div>
 
       <div className="padding-container border-t-2 border-b-2 text-center flex flex-col sm:flex-row sm:items-center sm:justify-center py-6">
-        <h3 className="bold-32 text-orange-700 pb-6">Other tools</h3>
+        <h3 className="bold-32 text-orange-700 pb-6 sm:mr-12">Other tools</h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
