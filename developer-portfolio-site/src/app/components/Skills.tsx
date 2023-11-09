@@ -15,11 +15,9 @@ const Skills = () => {
     >
       <h2 className="bold-40 content-container">Skills</h2>
 
-      <div className="w-full padding-container border-2 text-center flex flex-col items-center">
-       
+      <div className="w-auto padding-container border-2 text-center flex flex-col items-center py-6">
+        <h3 className="bold-32 pb-6 text-orange-700">Frontend</h3>
 
-        <h3 className="bold-32 py-12 text-orange-700">Frontend</h3>
-        
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
           {FRONTEND_SKILLS.map((skill) => (
@@ -27,7 +25,6 @@ const Skills = () => {
               key={skill.name}
               className="flex flex-col lg:flex-row items-center justify-start lg:gap-2 "
             >
-                
               <Image
                 src={skill.src}
                 alt={skill.label}
@@ -35,7 +32,7 @@ const Skills = () => {
                 height={40}
                 className="rounded-xl "
               />
-              
+
               <p className="regular-18 text-center">{skill.name}</p>
             </li>
           ))}
@@ -43,13 +40,12 @@ const Skills = () => {
 
         {/* Desktop version */}
 
-        <ul className="hidden gap-8 sm:grid sm:grid-cols-6 max-w-[1200px]">
+        <ul className="hidden gap-8 sm:grid sm:grid-cols-6 ">
           {FRONTEND_SKILLS.map((skill) => (
             <li
               key={skill.name}
               className="flex flex-col items-center justify-start gap-2"
             >
-                
               <Image
                 src={skill.src}
                 alt={skill.label}
@@ -57,15 +53,12 @@ const Skills = () => {
                 height={50}
                 className="rounded-xl "
               />
-              
+
               <p className="regular-18 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
-
       </div>
-
-
 
       <div className="w-full padding-container">
         <h3 className="bold-32 py-12 text-orange-700">Backend</h3>
