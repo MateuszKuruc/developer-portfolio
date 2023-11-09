@@ -9,7 +9,7 @@ import {
 
 const Skills = () => {
   return (
-    <section id="skills" className="content-container bg-white flex flex-col">
+    <section id="skills" className="content-container bg-white flex flex-col dark:bg-gray-950">
       <h2 className="bold-40 content-container mb-6">Skills</h2>
 
       <div className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
@@ -47,7 +47,7 @@ const Skills = () => {
                 src={skill.src}
                 alt={skill.label}
                 width={50}
-                height={40}
+                height={50}
                 className="rounded-xl "
               />
 
@@ -97,7 +97,7 @@ const Skills = () => {
       </div>
 
       <div className="padding-container border-b-2 flex flex-col lg:flex-row sm:items-center sm:justify-around py-6 text-center">
-        <h3 className="bold-32 text-orange-700 pb-6">More tools</h3>
+        <h3 className="bold-32 text-orange-700 pb-6">Other tools</h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">

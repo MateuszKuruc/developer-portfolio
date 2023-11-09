@@ -44,4 +44,5 @@ export const OTHER_SKILLS = [
   { src: "/formik.svg", name: "Formik", label: "Formik icon" },
   { src: "/postman.svg", name: "Postman", label: "Postman icon" },
   { src: "/mongoose.svg", name: "Mongoose", label: "Mongoose icon" },
+  { src: "/apollo.svg", name: "Apollo", label: "Mongoose icon" },
 ];
