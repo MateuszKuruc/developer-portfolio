@@ -16,7 +16,9 @@ const Skills = () => {
       <h2 className="bold-40 content-container mb-6">Skills</h2>
 
       <div className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
-        <h3 className="bold-32 pb-6 text-orange-700 mr-6">Frontend</h3>
+        <h3 className="bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-b from-orange-500 via-pink-500 to-orange-700">
+          Frontend
+        </h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
@@ -93,7 +95,9 @@ const Skills = () => {
       </div>
 
       <div className="padding-container border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
-        <h3 className="bold-32 pb-6 text-orange-700 mr-6">Backend</h3>
+        <h3 className="bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-b from-orange-500 via-pink-500 to-orange-700">
+          Backend
+        </h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
@@ -158,7 +162,9 @@ const Skills = () => {
       </div>
 
       <div className="padding-container border-b-2 flex flex-col lg:flex-row sm:items-center sm:justify-around py-6 text-center">
-        <h3 className="bold-32 text-orange-700 pb-6">Other tools</h3>
+        <h3 className="bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-b from-orange-500 via-pink-500 to-orange-700">
+          Other tools
+        </h3>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
