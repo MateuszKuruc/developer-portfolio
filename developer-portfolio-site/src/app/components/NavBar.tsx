@@ -80,16 +80,24 @@ const NavBar = () => {
         }
       >
         <div className="flex w-full items-center justify-end">
-          <div className="flex justify-between w-full cursor-pointer mb-8">
+          <div className="flex justify-between w-full mb-8 ">
             {theme === "dark" ? (
-              <MdDarkMode size={30} onClick={setLightTheme} />
+              <MdDarkMode
+                size={30}
+                onClick={setLightTheme}
+                className="cursor-pointer hover:text-black ease-in-out duration-300"
+              />
             ) : (
-              <MdLightMode size={30} onClick={setDarkTheme} />
+              <MdLightMode
+                size={30}
+                onClick={setDarkTheme}
+                className="text-white cursor-pointer hover:text-black ease-in-out duration-300"
+              />
             )}
 
             <RiCloseFill
               onClick={() => setOpenMenu(false)}
-              className="h-8 w-8 text-white"
+              className="h-8 w-8 text-white hover:text-black ease-in-out duration-300 cursor-pointer"
             />
           </div>
         </div>

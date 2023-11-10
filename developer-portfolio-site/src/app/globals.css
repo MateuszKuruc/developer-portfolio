@@ -26,7 +26,7 @@
 }
 
 .nav-links-mobile {
-  @apply regular-20 text-gray-700 hover:underline hover:text-white hover:font-bold cursor-pointer pl-4 rounded-lg hover:bg-orange-600;
+  @apply bold-20 text-white hover:underline hover:text-gray-800 hover:font-bold cursor-pointer pl-4 rounded-lg hover:bg-orange-600;
 }
 
 .btn-submit {
