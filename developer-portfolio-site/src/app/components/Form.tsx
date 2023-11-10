@@ -4,6 +4,8 @@ import { useFormik } from "formik";
 import { formSchema } from "../schemas/yupSchema";
 import { FormValues, FormActions } from "../../../types";
 import { useState } from "react";
+import { BiErrorCircle } from "react-icons/bi";
+import { GiConfirmed } from "react-icons/gi";
 
 const Form = () => {
   const [successMessage, setSuccessMessage] = useState(true);
@@ -67,18 +69,32 @@ const Form = () => {
       className="flex flex-col gap-4 w-[500px] p-5 text-center"
       noValidate
     >
-        {successMessage && (
-            <div role="status" className="bg-green-700 border-2 flex px-4 py-3 rounded-2xl">
-<p className="regular-16">Form has been sent. Thank you!</p>
-            </div>
-        )}
+      {successMessage && (
+        <div
+          role="status"
+          className="bg-green-700 border-2 border-black dark:border-white flex px-4 py-3 rounded-2xl items-center justify-around"
+        >
+          <p className="regular-16 text-white">
+            Form has been sent. Thank you!
+          </p>
+          <GiConfirmed size={20} color="white" />
+        </div>
+      )}
 
-        {errorMessage && (
-            <div role="status" className="bg-red-700 px-4 py-3 rounded-2xl border-2 flex">
-                <p className="regular-16">There was a problem. Please try again.</p>
-            </div>
-        )}
-      <label className="bold-20" htmlFor="name">Name</label>
+      {errorMessage && (
+        <div
+          role="status"
+          className="bg-red-700 px-4 py-3 rounded-2xl border-2 flex border-black dark:border-white items-center justify-around"
+        >
+          <p className="regular-16 text-white">
+            There was a problem. Please try again.
+          </p>
+          <BiErrorCircle size={20} color="white" />
+        </div>
+      )}
+      <label className="bold-20" htmlFor="name">
+        Name
+      </label>
       <input
         id="name"
         className="border-2 p-2 rounded-lg"
@@ -86,7 +102,9 @@ const Form = () => {
         placeholder="Enter your name"
       />
 
-      <label className="bold-20" htmlFor="email">Email</label>
+      <label className="bold-20" htmlFor="email">
+        Email
+      </label>
       <input
         id="email"
         className="border-2 p-2 rounded-lg"
@@ -94,7 +112,9 @@ const Form = () => {
         placeholder="Enter your email"
       />
 
-      <label className="bold-20" htmlFor="name">Message</label>
+      <label className="bold-20" htmlFor="name">
+        Message
+      </label>
       <textarea
         id="message"
         rows={6}
