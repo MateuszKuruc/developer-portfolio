@@ -1,11 +1,31 @@
 import { useFormik } from "formik";
 import { formSchema } from "../schemas/yupSchema";
+import { FormValues } from "../../../types";
 
 const Form = () => {
+  const onSubmit = async (
+    values: FormValues,
+    actions: { resetForm: () => void }
+  ) => {
+    try {
+      const response = await fetch("/api/handleEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: values.name,
+          email: values.email,
+          message: values.message,
+        }),
+      });
+      if (response.ok) {
+      } else {
+      }
 
-const onSubmit = async (
-    
-)
+      actions.resetForm();
+    } catch (error) {}
+  };
 
   const {
     values,
