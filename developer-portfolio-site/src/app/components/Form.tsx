@@ -1,8 +1,12 @@
 import { useFormik } from "formik";
 import { formSchema } from "../schemas/yupSchema";
 import { FormValues } from "../../../types";
+import { useState } from "react";
 
 const Form = () => {
+  const [successMessage, setSuccessMessage] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
+
   const onSubmit = async (
     values: FormValues,
     actions: { resetForm: () => void }
@@ -20,11 +24,24 @@ const Form = () => {
         }),
       });
       if (response.ok) {
+        setSuccessMessage(true);
+        setTimeout(() => {
+          setSuccessMessage(false);
+        }, 3000);
       } else {
+        setErrorMessage(true);
+        setTimeout(() => {
+          setErrorMessage(false);
+        }, 3000);
       }
 
       actions.resetForm();
-    } catch (error) {}
+    } catch (error) {
+      setErrorMessage(true);
+      setTimeout(() => {
+        setErrorMessage(false);
+      }, 3000);
+    }
   };
 
   const {
@@ -38,7 +55,7 @@ const Form = () => {
   } = useFormik({
     initialValues: {
       name: "",
-      emil: "",
+      email: "",
       message: "",
     },
     onSubmit,
