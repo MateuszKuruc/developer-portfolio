@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 import {
   FRONTEND_SKILLS,
@@ -13,8 +14,11 @@ const Skills = () => {
       id="skills"
       className="content-container bg-white flex flex-col dark:bg-gray-950"
     >
-      <h2 className="bold-40 content-container mb-6">Skills</h2>
-
+      {/* <h2 className="bold-40 content-container mb-6">Skills</h2> */}
+      <div className="flex items-center justify-center gap-2 pb-20">
+        <p>See how I build my stuff</p>
+        <AiOutlineArrowDown size={30} />
+      </div>
       <div className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
         <h3 className="sm:w-[150px] bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Frontend
