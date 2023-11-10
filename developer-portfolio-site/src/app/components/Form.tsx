@@ -1,3 +1,5 @@
+"use client";
+
 import { useFormik } from "formik";
 import { formSchema } from "../schemas/yupSchema";
 import { FormValues, FormActions } from "../../../types";
@@ -60,15 +62,37 @@ const Form = () => {
   });
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="name">Name</label>
-      <input id="name" type="text" placeholder="Enter your name" />
+    <form
+      onSubmit={handleSubmit}
+      className="flex flex-col gap-4 w-[500px] p-5 text-center"
+      noValidate
+    >
+      <label className="bold-20" htmlFor="name">Name</label>
+      <input
+        id="name"
+        className="border-2 p-2 rounded-lg"
+        type="text"
+        placeholder="Enter your name"
+      />
 
-      <label htmlFor="email">Email</label>
-      <input id="email" type="email" placeholder="Enter your emal" />
+      <label className="bold-20" htmlFor="email">Email</label>
+      <input
+        id="email"
+        className="border-2 p-2 rounded-lg"
+        type="email"
+        placeholder="Enter your email"
+      />
 
-      <label htmlFor="name">Message</label>
-      <textarea id="message" placeholder="Write the message..." />
+      <label className="bold-20" htmlFor="name">Message</label>
+      <textarea
+        id="message"
+        rows={6}
+        className="border-2 p-2 rounded-lg"
+        placeholder="Write a message..."
+      />
+      <button type="submit" className="btn-submit self-center">
+        Send
+      </button>
     </form>
   );
 };
