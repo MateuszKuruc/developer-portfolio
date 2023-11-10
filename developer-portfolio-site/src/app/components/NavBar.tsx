@@ -67,7 +67,7 @@ const NavBar = () => {
           <RiMenu3Fill
             onClick={() => setOpenMenu(!openMenu)}
             size={40}
-            className=" text-orange-500"
+            className=" text-orange-500 hover:text-orange-700 ease-in-out duration-300"
           />
         </div>
       </div>
