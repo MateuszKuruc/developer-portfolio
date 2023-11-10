@@ -32,10 +32,16 @@ const Footer = () => {
 
           <div className="flex gap-4 justify-center">
             <a target="_blank" href={process.env.LINKEDIN_LINK}>
-              <BsLinkedin size={30} />
+              <BsLinkedin
+                size={30}
+                className="hover:text-orange-500 ease-in-out duration-300"
+              />
             </a>
             <a target="_blank" href={process.env.GITHUB_LINK}>
-              <BsGithub size={30} />
+              <BsGithub
+                size={30}
+                className="hover:text-orange-500 ease-in-out duration-300"
+              />
             </a>
           </div>
         </div>
