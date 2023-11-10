@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="max-w-[400px]">
           <h2 className="regular-24 text-orange-500">
             Want to get in touch? Awesome! Write an e-mail, use the contact form
-            or give me a call
+            or give me a call.
           </h2>
         </div>
 

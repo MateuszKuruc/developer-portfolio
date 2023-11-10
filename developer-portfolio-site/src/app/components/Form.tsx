@@ -6,8 +6,8 @@ import { FormValues, FormActions } from "../../../types";
 import { useState } from "react";
 
 const Form = () => {
-  const [successMessage, setSuccessMessage] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(false);
+  const [successMessage, setSuccessMessage] = useState(true);
+  const [errorMessage, setErrorMessage] = useState(true);
 
   const onSubmit = async (values: FormValues, actions: FormActions) => {
     try {
@@ -67,6 +67,17 @@ const Form = () => {
       className="flex flex-col gap-4 w-[500px] p-5 text-center"
       noValidate
     >
+        {successMessage && (
+            <div role="status" className="bg-green-700 border-2 flex px-4 py-3 rounded-2xl">
+<p className="regular-16">Form has been sent. Thank you!</p>
+            </div>
+        )}
+
+        {errorMessage && (
+            <div role="status" className="bg-red-700 px-4 py-3 rounded-2xl border-2 flex">
+                <p className="regular-16">There was a problem. Please try again.</p>
+            </div>
+        )}
       <label className="bold-20" htmlFor="name">Name</label>
       <input
         id="name"
