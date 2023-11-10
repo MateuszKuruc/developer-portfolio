@@ -3,3 +3,7 @@ export interface FormValues {
   email: string;
   message: string;
 }
+
+export interface FormActions {
+  resetForm: () => void;
+}

@@ -1,16 +1,13 @@
 import { useFormik } from "formik";
 import { formSchema } from "../schemas/yupSchema";
-import { FormValues } from "../../../types";
+import { FormValues, FormActions } from "../../../types";
 import { useState } from "react";
 
 const Form = () => {
   const [successMessage, setSuccessMessage] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
 
-  const onSubmit = async (
-    values: FormValues,
-    actions: { resetForm: () => void }
-  ) => {
+  const onSubmit = async (values: FormValues, actions: FormActions) => {
     try {
       const response = await fetch("/api/handleEmail", {
         method: "POST",
