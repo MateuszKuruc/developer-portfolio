@@ -51,13 +51,13 @@ const NavBar = () => {
             <MdDarkMode
               size={30}
               onClick={setLightTheme}
-              className="hover:text-orange-500"
+              className="hover:text-orange-500 ease-in-out duration-300"
             />
           ) : (
             <MdLightMode
               size={30}
               onClick={setDarkTheme}
-              className="hover:text-orange-500"
+              className="hover:text-orange-500 ease-in-out duration-300"
             />
           )}
         </div>
