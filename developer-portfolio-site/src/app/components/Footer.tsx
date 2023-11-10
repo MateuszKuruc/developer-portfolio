@@ -6,7 +6,9 @@ const Footer = () => {
         <p className="reguar-18">
           Email:{" "}
           <span className="contact-details contact-email">
-            {process.env.CONTACT_EMAIL}
+            <a href={`mailto:${process.env.CONTACT_EMAIL}`}>
+              {process.env.CONTACT_EMAIL}
+            </a>
           </span>
         </p>
         <p className="regular-18">
