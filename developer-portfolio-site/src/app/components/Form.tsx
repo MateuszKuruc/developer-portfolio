@@ -66,13 +66,13 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col gap-4 w-[500px] p-5 text-center"
+      className="flex flex-col gap-4 md:w-[500px] p-5 text-center"
       noValidate
     >
       {successMessage && (
         <div
           role="status"
-          className="bg-green-700 border-2 border-black dark:border-white flex px-4 py-3 rounded-2xl items-center justify-around"
+          className="bg-green-700 gap-2 border-2 border-black dark:border-white flex px-4 py-3 rounded-2xl items-center justify-around"
         >
           <p className="regular-16 text-white">
             Form has been sent. Thank you!
@@ -84,7 +84,7 @@ const Form = () => {
       {errorMessage && (
         <div
           role="status"
-          className="bg-red-700 px-4 py-3 rounded-2xl border-2 flex border-black dark:border-white items-center justify-around"
+          className="bg-red-700 gap-2 px-4 py-3 rounded-2xl border-2 flex border-black dark:border-white items-center justify-around"
         >
           <p className="regular-16 text-white">
             There was a problem. Please try again.
