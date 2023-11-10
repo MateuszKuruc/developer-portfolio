@@ -46,23 +46,23 @@
 }
 
 .bold-52 {
-  @apply text-[52px] font-[700] leading-[120%];
+  @apply text-[52px] font-[700];
 }
 
 .bold-40 {
-  @apply text-[40px] font-[700] leading-[120%];
+  @apply text-[40px] font-[700];
 }
 
 .bold-32 {
-  @apply text-[32px] font-[700] leading-[120%];
+  @apply text-[32px] font-[700];
 }
 
 .bold-20 {
-  @apply text-[20px] font-[700] leading-[120%];
+  @apply text-[20px] font-[700];
 }
 
 .bold-18 {
-  @apply text-[18px] font-[700] leading-[120%];
+  @apply text-[18px] font-[700];
 }
 
 .regular-24 {
