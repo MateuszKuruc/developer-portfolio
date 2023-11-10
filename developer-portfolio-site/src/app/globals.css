@@ -37,6 +37,10 @@
   @apply border-gray-700 font-bold border-2 bg-gray-500 px-8 py-5 hover:scale-100 cursor-not-allowed;
 }
 
+.btn-about {
+  @apply flex items-center justify-center gap-4 border-2 border-black bg-orange-500 py-3 px-4 rounded-lg w-[200px]
+}
+
 .content-container {
   @apply mx-auto max-w-[1680px];
 }

@@ -1,8 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-
-import { AiOutlineArrowDown } from "react-icons/ai";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -21,6 +18,21 @@ const About = () => {
             ante maximus rhoncus. Fusce orci sem, hendrerit nec aliquam ac,
             mattis quis augue.
           </p>
+          <div className="flex flex-col md:flex-row gap-4 items-center justify-left pt-12">
+            <a target="_blank" href="placeholder">
+              <button className="btn-about ">
+                <p className="bold-18">Github</p>
+                <BsGithub size={30} />
+              </button>
+            </a>
+
+            <a target="_blank" href="placeholder">
+              <button className="btn-about">
+                <p className="bold-18">LinkedIn</p>
+                <BsLinkedin size={30} />
+              </button>
+            </a>
+          </div>
         </div>
         <div>
           <Image
