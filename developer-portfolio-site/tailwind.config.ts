@@ -13,7 +13,9 @@ const config: Config = {
         "2.5": "2.5px",
         "3": "3px",
       },
-      screens: {},
+      screens: {
+        "3xl": "2560px",
+      },
     },
   },
   plugins: [],
