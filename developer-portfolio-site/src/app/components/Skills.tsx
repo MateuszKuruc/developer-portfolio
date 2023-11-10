@@ -11,18 +11,18 @@ import Link from "next/link";
 
 const Skills = () => {
   return (
-    <section
-      id="skills"
-      className="content-container bg-white flex flex-col dark:bg-gray-950"
-    >
+    <section className="content-container bg-white flex flex-col dark:bg-gray-950 my-20 pt-20 rounded-lg">
       {/* <h2 className="bold-40 content-container mb-6">Skills</h2> */}
-      <Link href="#skills-middle">
+      <Link href="#skills">
         <div className="flex justify-center gap-2 pb-20">
-          <p>See how I build my stuff</p>
+          <p className="bold-20">See how I build my stuff</p>
           <AiOutlineArrowDown size={30} className="animate-bounce" />
         </div>
       </Link>
-      <div className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
+      <div
+        id="skills"
+        className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6"
+      >
         <h3 className="sm:w-[150px] bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Frontend
         </h3>
@@ -101,10 +101,7 @@ const Skills = () => {
         </ul>
       </div>
 
-      <div
-        id="skills-middle"
-        className="padding-container border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6"
-      >
+      <div className="padding-container border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
         <h3 className="sm:w-[150px] bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Backend
         </h3>
@@ -171,7 +168,7 @@ const Skills = () => {
         </ul>
       </div>
 
-      <div className="padding-container border-b-2 flex flex-col lg:flex-row sm:items-center sm:justify-around py-6 text-center">
+      <div className="padding-container flex flex-col lg:flex-row sm:items-center sm:justify-around py-6 text-center">
         <h3 className="sm:w-[150px] bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Other tools
         </h3>

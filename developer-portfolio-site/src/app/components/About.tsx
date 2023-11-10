@@ -3,7 +3,7 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const About = () => {
   return (
-    <section className="content-container">
+    <section className="content-container ">
       <div className="padding-container flex flex-col xl:flex-row items-center justify-around py-10 sm:py-20 2xl:py-40 gap-10">
         <div className="3xl:max-w-[800px] sm:max-w-[600px]">
           <h2 className="bold-40 leading-[120%]">Mateusz Kuruc</h2>

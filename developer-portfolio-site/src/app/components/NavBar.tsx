@@ -23,7 +23,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="w-full h024 shadow-xl bg-white dark:bg-black">
+    <nav className="w-full h024 shadow-xl bg-white dark:bg-gray-950">
       {/* Desktop Menu */}
       <div className="flex items-center justify-between h-full px-12 w-full">
         <Link href="/">
