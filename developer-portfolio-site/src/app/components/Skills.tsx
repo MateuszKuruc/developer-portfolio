@@ -7,6 +7,7 @@ import {
   BACKEND_SKILLS,
   OTHER_SKILLS,
 } from "../constants/textConstants";
+import Link from "next/link";
 
 const Skills = () => {
   return (
@@ -15,10 +16,12 @@ const Skills = () => {
       className="content-container bg-white flex flex-col dark:bg-gray-950"
     >
       {/* <h2 className="bold-40 content-container mb-6">Skills</h2> */}
-      <div className="flex items-center justify-center gap-2 pb-20">
-        <p>See how I build my stuff</p>
-        <AiOutlineArrowDown size={30} />
-      </div>
+      <Link href="#skills-middle">
+        <div className="flex justify-center gap-2 pb-20">
+          <p>See how I build my stuff</p>
+          <AiOutlineArrowDown size={30} className="animate-bounce" />
+        </div>
+      </Link>
       <div className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
         <h3 className="sm:w-[150px] bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Frontend
@@ -98,7 +101,10 @@ const Skills = () => {
         </ul>
       </div>
 
-      <div className="padding-container border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
+      <div
+        id="skills-middle"
+        className="padding-container border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6"
+      >
         <h3 className="sm:w-[150px] bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Backend
         </h3>
