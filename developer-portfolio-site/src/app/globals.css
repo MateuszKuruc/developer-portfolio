@@ -30,7 +30,7 @@
 }
 
 .btn-submit {
-  @apply border-black rounded-lg w-[250px] self-center font-bold border-2 bg-orange-500 py-5 hover:bg-orange-600 cursor-pointer hover:scale-105;
+  @apply border-black rounded-lg w-[250px] self-center font-bold border-2 dark:border-white dark:text-black bg-orange-500 py-5 hover:bg-orange-600 cursor-pointer hover:scale-105;
 }
 
 .btn-disabled {
@@ -67,6 +67,10 @@
 
 .bold-32 {
   @apply text-[32px] font-[700];
+}
+
+.bold-24 {
+  @apply text-[24px] font-[700]
 }
 
 .bold-20 {
