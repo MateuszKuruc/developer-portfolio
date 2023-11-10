@@ -38,7 +38,7 @@
 }
 
 .btn-about {
-  @apply flex items-center justify-center gap-4 border-2 border-black bg-orange-500 py-3 px-4 rounded-lg w-[200px] dark:text-black dark:hover:text-white hover:text-white hover:bg-orange-700 ease-in-out duration-300;
+  @apply flex items-center justify-center gap-4 border-2 dark:border-white border-black bg-orange-500 py-3 px-4 rounded-lg w-[200px] dark:text-black dark:hover:text-white hover:text-white hover:bg-orange-700 ease-in-out duration-300;
 }
 
 .content-container {
