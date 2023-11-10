@@ -87,10 +87,10 @@ const Form = () => {
       <textarea
         id="message"
         rows={6}
-        className="border-2 p-2 rounded-lg"
+        className="border-2 p-2 rounded-lg "
         placeholder="Write a message..."
       />
-      <button type="submit" className="btn-submit self-center">
+      <button type="submit" className="btn-submit">
         Send
       </button>
     </form>

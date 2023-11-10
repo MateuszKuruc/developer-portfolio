@@ -30,7 +30,7 @@
 }
 
 .btn-submit {
-  @apply border-black rounded-full w-[200px] font-bold border-2 bg-orange-500 px-8 py-5 hover:bg-orange-600 cursor-pointer hover:scale-105;
+  @apply border-black rounded-lg w-[250px] self-center font-bold border-2 bg-orange-500 py-5 hover:bg-orange-600 cursor-pointer hover:scale-105;
 }
 
 .btn-disabled {
