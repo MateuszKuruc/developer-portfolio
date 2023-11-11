@@ -10,7 +10,7 @@ const About = () => {
           <h2 className="bold-40">
             Junior{" "}
             <span className="text-orange-500 inline-flex flex-col h-[calc(40px*1.2)] overflow-hidden drop-shadow-xl border-b-2 border-orange-500">
-              <ul className="block animate-text-slide-3 text-center leading-[120%] [&_li]:block">
+              <ul className=" animate-text-slide-3 text-center leading-[120%]">
                 <li>Frontend</li>
                 <li>JavaScript</li>
                 <li>Fullstack</li>
