@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const Skills = () => {
   return (
-    <section className="content-container bg-white flex flex-col dark:bg-gray-950 my-20 pt-20 rounded-lg">
+    <section className="content-container bg-white flex flex-col dark:bg-gray-950 my-20 pt-20 rounded-lg border-t-2 border-b-2">
       {/* <h2 className="bold-40 content-container mb-6">Skills</h2> */}
       <Link href="#skills">
         <div className="flex justify-center gap-2 pb-20">

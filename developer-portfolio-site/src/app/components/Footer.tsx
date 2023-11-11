@@ -2,10 +2,12 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <section className="content-container border-t-2 bg-gray-950">
+    <section className="border-t-2 bg-neutral-200 dark:bg-gray-950">
       <div className="gap-4 md:gap-0 p-8 flex flex-col md:flex-row items-center justify-around">
         <div>
-          <p className="bold-24 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">Mateusz Kuruc © 2023</p>
+          <p className="bold-24 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
+            Mateusz Kuruc © 2023
+          </p>
         </div>
 
         <div className="flex flex-col items-center">

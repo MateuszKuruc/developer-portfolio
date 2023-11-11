@@ -8,8 +8,8 @@ import { BiErrorCircle } from "react-icons/bi";
 import { GiConfirmed } from "react-icons/gi";
 
 const Form = () => {
-  const [successMessage, setSuccessMessage] = useState(true);
-  const [errorMessage, setErrorMessage] = useState(true);
+  const [successMessage, setSuccessMessage] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
 
   const onSubmit = async (values: FormValues, actions: FormActions) => {
     try {
@@ -121,7 +121,7 @@ const Form = () => {
         className="border-2 p-2 rounded-lg "
         placeholder="Write a message..."
       />
-      <button type="submit" className="btn-submit">
+      <button type="submit" className="btn-submit bold-20 uppercase">
         Send
       </button>
     </form>
