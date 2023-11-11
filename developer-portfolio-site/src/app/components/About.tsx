@@ -7,10 +7,7 @@ const About = () => {
       <div className="padding-container flex flex-col xl:flex-row items-center justify-around py-10 sm:py-20 2xl:py-40 gap-10">
         <div className="3xl:max-w-[800px] sm:max-w-[600px]">
           <h2 className="bold-40 leading-[120%]">Mateusz Kuruc</h2>
-          <h2
-            // className="bold-40 leading-[120%] border-b-8 rounded-md border-orange-500 mb-6 pb-2"
-            className="bold-40"
-          >
+          <h2 className="bold-40">
             Junior{" "}
             <span className="text-orange-500 inline-flex flex-col h-[calc(40px*1.2)] overflow-hidden drop-shadow-xl border-b-2 border-orange-500">
               <ul className="block animate-text-slide-3 text-center leading-[120%] [&_li]:block">
@@ -21,9 +18,6 @@ const About = () => {
               </ul>
             </span>{" "}
             Developer
-            {/* <span className="text-orange-500 inline-flex flex-col"><ul><li>Frontend</li>
-            <li>JavaScript</li>
-            <li>Fullstack</li></ul></span> */}
           </h2>
           <p className="regular-18 leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
