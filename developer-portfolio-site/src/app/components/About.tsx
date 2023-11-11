@@ -9,21 +9,18 @@ const About = () => {
           <h2 className="bold-40 leading-[120%]">Mateusz Kuruc</h2>
           <h2
             // className="bold-40 leading-[120%] border-b-8 rounded-md border-orange-500 mb-6 pb-2"
-            className="font-extrabold text-3xl md:text-4xl [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200"
+            className="bold-40"
           >
             Junior{" "}
-            <span
-              // className="text-orange-500 inline-flex flex-col h-[calc(theme(fontSize.bold40)*theme(lineHeight.120%))] overflow-hidden"
-              className="text-indigo-500 inline-flex flex-col h-[calc(40px)] overflow-hidden"
-            >
-              <ul className="block animate-text-slide-3 text-left leading-tight [&_li]:block">
-                <li>Frontend Developer</li>
-                <li>JavaScript Developer</li>
-                <li>Fullstack Developer</li>
-                <li aria-hidden="true">Frontend Developer</li>
+            <span className="text-orange-500 inline-flex flex-col h-[calc(40px*1.2)] overflow-hidden drop-shadow-xl border-b-2 border-orange-500">
+              <ul className="block animate-text-slide-3 text-center leading-[120%] [&_li]:block">
+                <li>Frontend</li>
+                <li>JavaScript</li>
+                <li>Fullstack</li>
+                <li aria-hidden="true">Frontend</li>
               </ul>
             </span>{" "}
-            {/* Developer */}
+            Developer
             {/* <span className="text-orange-500 inline-flex flex-col"><ul><li>Frontend</li>
             <li>JavaScript</li>
             <li>Fullstack</li></ul></span> */}
