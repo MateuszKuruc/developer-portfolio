@@ -21,9 +21,9 @@ const Projects = () => {
           />
         </div>
         <div className="padding-container">
-          <h2 className="bold-40">Applicant Tracking System</h2>
-          <p className="regular-16 border-t-2 border-b-2 py-4">
-            React ◆ Redux ◆ Material UI ◆ NodeJS ◆ Express ◆ MongoDB ◆{" "}
+          <h2 className="bold-40 text-center">Applicant Tracking System</h2>
+          <p className="regular-16 border-t-2 border-b-2 py-4 max-w-[3000px]">
+            React ◆ Redux ◆ Material UI ◆ NodeJS ◆ Express ◆ AWS ◆ MongoDB ◆{" "}
           </p>
         </div>
       </div>
@@ -45,7 +45,10 @@ const Projects = () => {
           />
         </div>
         <div className="padding-container">
-          <h2 className="bold-40">Marketing portfolio site</h2>
+          <h2 className="bold-40 text-center">Marketing portfolio website</h2>
+          <p className="regular-16 border-t-2 border-b-2 py-4">
+            Next.js ◆ TypeScript ◆ Tailwind ◆ Formik ◆ Yup
+          </p>
         </div>
       </div>
     </section>
