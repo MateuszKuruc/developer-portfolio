@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section className="content-container border-t-2 border-b-2 bg-white dark:bg-gray-950 my-20">
       <h2 className="bold-40 text-center">Projects</h2>
-      <div className="relative max-w-[500px] border-2">
+      <div className="relative max-w-[500px]">
         <Image
           src="/project1_desktop_1.png"
           alt="ATS project desktop screen"
@@ -32,6 +32,7 @@ const Projects = () => {
           alt="marketing portfolio mobile screen"
           width={150}
           height={150}
+          className="absolute top-1/3 left-3/4"
         />
       </div>
     </section>
