@@ -29,14 +29,14 @@ const About = () => {
           </p>
           <div className="flex flex-col md:flex-row gap-4 items-center justify-left pt-12">
             <a target="_blank" href="placeholder">
-              <button className="btn-about ">
+              <button className="btn-about shadow-button dark:shadow-dark">
                 <p className="bold-18">Github</p>
                 <BsGithub size={30} />
               </button>
             </a>
 
             <a target="_blank" href="placeholder">
-              <button className="btn-about">
+              <button className="btn-about shadow-button dark:shadow-dark">
                 <p className="bold-18">LinkedIn</p>
                 <BsLinkedin size={30} />
               </button>

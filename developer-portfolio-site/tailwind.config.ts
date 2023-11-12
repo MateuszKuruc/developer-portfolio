@@ -9,6 +9,10 @@ const config: Config = {
   darkMode: "class",
   theme: {
     extend: {
+      boxShadow: {
+        button: "5px 5px 10px #030712",
+        dark: "2px 2px 10px #9ca3af",
+      },
       borderWidth: {
         "2.5": "2.5px",
         "3": "3px",
