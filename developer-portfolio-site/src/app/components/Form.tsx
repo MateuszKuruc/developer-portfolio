@@ -121,7 +121,10 @@ const Form = () => {
         className="border-2 p-2 rounded-lg "
         placeholder="Write a message..."
       />
-      <button type="submit" className="btn-submit bold-20 uppercase">
+      <button
+        type="submit"
+        className="btn-submit bold-20 uppercase shadow-button dark:shadow-dark"
+      >
         Send
       </button>
     </form>
