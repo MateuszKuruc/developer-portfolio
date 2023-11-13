@@ -7,11 +7,12 @@ const AtsPage = () => {
       <div className="padding-container max-w-[800px]">
         <h2 className="bold-40">Applicant Tracking System for IT recruiters</h2>
         <p className="regular-18 py-8">
-          This is a full-fledged app for recruiters working in the IT field. I
-          have built this project from scratch on my own and am responsible for
-          graphic design, backend, frontend, database and cloud integration. The
-          app was written with modern tools and adjusted to the needs of
-          recruiters based on my experience in this position.
+          This is a full-fledged app which streamlines the recruitment process
+          for IT professionals. I have built this project from scratch on my own
+          and am responsible for handling graphic design, backend, frontend,
+          database and cloud integration. The app was written with modern tools
+          and is adjusted to the needs of recruiters based on my experience in
+          this position.
         </p>
         <div className="flex justify-between">
           <div>
@@ -37,35 +38,122 @@ const AtsPage = () => {
       </div>
 
       {/* project goals */}
-      <div className="padding-container">
-        <h2 className="bold-32-tight">Project goals</h2>
-        <p className="regular-18">
-          My intention was to build a complex system, similar to the ones I
-          encountered in my work as IT recruiter, that would make it easier to
-          control the recruitment stages for the candidates that are currently
-          being processed.
+      <div className="padding-container regular-18">
+        <h2 className="bold-32-tight py-4">Key features</h2>
+        <p>
+          My intention was to build a robust system, similar to the ones I
+          encountered in my work in the IT recruitment, simplifying the control
+          of recruitment stages for all candidates that are being actively
+          processed.
         </p>
+        <p>Key features include:</p>
+        <ul className="list-disc">
+          <li>adding, editing and deleting candidate profiles</li>
+          <li>uploading, downloading and deleting files</li>
+          <li>displaying sorted tables of candidates and their statistics</li>
+          <li>responsive design</li>
+        </ul>
       </div>
 
       {/* Project challenges */}
 
-      <div className="padding-container">
-        <h2 className="bold-32-tight">Challenges</h2>
-        <p className="regular-18">
+      <div className="padding-container regular-18">
+        <h2 className="bold-32-tight py-4">Main Challenges</h2>
+        <p>
           During the time I worked on the project I faced multiple problems that
           needed solving, which ultimately forced me to learn a lot about the
           tools I used for the project.
         </p>
-        <h3 className="bold-24">1. Real time updates</h3>
-        <p className="regular-18">One of the obstacles was that I wanted to make all data in the app easily editable. This was a demanding task, as there are a few different places where separate parts of candidates' profiles are being edited. For example, when the candidate profile is initially created it only includes basic details, but at a later stage the user can provide additional data (like notes, assessment, notice period etc.) or edit the data that already exists and all the fields need to have options to:</p>
-        <ul>
-            <li>edit existing data and save it</li>
-            <li>start editing the data, but cancel and restore previous data</li>
-            <li></li>
+        {/* Challenge 1 */}
+        <h3 className="bold-24 py-4">1. State management</h3>
+        <p>
+          One of the obstacles was that I wanted to make all data in the app
+          easily editable. This was a demanding task, as there are a few
+          different sections where separate parts of candidates' profiles can be
+          edited. For example, when the candidate profile is initially created
+          it only includes basic details, but at a later stage the user can
+          provide additional data (like notes, assessment, notice period etc.)
+          or edit the data that already exists and all the fields need to have
+          options to:
+        </p>
+        <ul className="list-disc">
+          <li>edit existing data and save it</li>
+          <li>start editing the data, but cancel and restore previous data</li>
+          <li>
+            upload or delete file on candidate's profile and refresh the state
+          </li>
         </ul>
+        To make these actions possible, I needed to set up Redux store, which
+        let me take control of the state management across the components that
+        my application consists of. Additionally, I needed to handle request to
+        the backend server (written in NodeJS) which then interacted with
+        non-relational database (MongoDB) to retrieve, edit or save data
+        accordingly when the user performed actions on client-side.
+        {/* Challenge 2 */}
+        <h3 className="bold-24 py-4">2. File upload, download and delete</h3>
+        Possibly the toughest situation for me was introducing options for
+        working on files in each candidate's profile. I decided to make use of{" "}
+        <strong>AWS</strong> for a few reasons:
+        <ul className="list-disc">
+          <li>I wanted to gain practical experience with cloud solutions</li>
+          <li>Knowledge about AWS is very in-demand in current market</li>
+          <li>It is free if you do not exceed storage limits</li>
+        </ul>
+        Ultimately, I went with <strong>AWS S3</strong> and managed to integrate
+        functionalities for instant uploading, downloading and deleting pdf and
+        doc files for each profile. On backend side I used{" "}
+        <strong>Multer</strong>library to handle files sent from client side and
+        upload them to my <strong>AWS S3 storage</strong>. On the frontend side,
+        I restricted users to only upload pdf or doc files, prepared requests
+        for all actions (upload/download/delete) and set up state management to
+        instantly reflect changes to candidate's profile.
+        {/* Challenge 3 */}
+        <h3 className="bold-24 py-4">
+          3. Project structure and components reusability
+        </h3>
+        <p>
+          Since this is by far the biggest project I worked on, I had to learn
+          how to manage project folders, files and components so that updates
+          can be made intuitively and the{" "}
+          <strong>components are as reusable as possible</strong>. I tried to
+          incorporate best practises when it comes to folder structure on both
+          backend and frontend side and use universally accepted naming
+          conventions for clarity.
+        </p>
+        <p>
+          Moreover, I studied which design patterns I should follow when writing
+          my React components, so I can <strong>reuse</strong> them throughout
+          my application and <strong>avoid code duplication</strong>. I am
+          especially proud of this part, as e.g. one of my React components was
+          responsible for rendering <strong>9 different subpages </strong>
+          depending on the data that was passed to it - this really made me
+          understand biggest strength of React.
+        </p>
+        {/* Challenge 4 */}
+        <h3 className="bold-24 py-4">4. Responsive design and styling</h3>
+        My goal was to strike a balance between a <em>
+          nice looking app
+        </em> and <em>functional, easy to use app</em>. This was especially
+        difficult because the ATS app uses tables, forms and text fields
+        everywhere, and they are not the easiest to style for mobile phone use.
+        I decided to introduce additional switching of display mode in a few
+        tabs to make the tables easier to display on the smaller, mobile screen.
+        <p>
+          As my styling tools, I chose the combination of Material UI and Styled
+          components. While Material UI gives some guidance in terms of theme,
+          styling and general design, Styled components make everything easily
+          adjustable on component by component basis.
+          <p>
+            All in all, I am happy with the final result and how the app looks
+            and works across all screen sizes. It can be comfortably used on
+            huge monitors and mobile phones alike.
+          </p>
+        </p>
       </div>
 
       {/* Tech stack choices */}
+      <h2 className="bold-32-tight">Tech stack choices</h2>
+      <p></p>
     </section>
   );
 };
