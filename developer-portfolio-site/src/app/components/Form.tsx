@@ -104,6 +104,9 @@ const Form = () => {
         onChange={handleChange}
         onBlur={handleBlur}
       />
+      {errors.name && touched.name && (
+        <p className="regular-20 text-red-600">{errors.name}</p>
+      )}
 
       <label className="bold-20" htmlFor="email">
         Email
@@ -117,6 +120,9 @@ const Form = () => {
         onChange={handleChange}
         onBlur={handleBlur}
       />
+      {errors.email && touched.email && (
+        <p className="regular-20 text-red-600">{errors.email}</p>
+      )}
 
       <label className="bold-20" htmlFor="message">
         Message
@@ -130,6 +136,10 @@ const Form = () => {
         onChange={handleChange}
         onBlur={handleBlur}
       />
+      {errors.message && touched.message && (
+        <p className="regular-20 text-red-600">{errors.message}</p>
+      )}
+
       <button
         disabled={isSubmitting}
         type="submit"
