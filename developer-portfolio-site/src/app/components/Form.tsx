@@ -131,10 +131,14 @@ const Form = () => {
         onBlur={handleBlur}
       />
       <button
+        disabled={isSubmitting}
         type="submit"
-        className="btn-submit bold-20 uppercase shadow-button dark:shadow-dark ease-in-out duration-300"
+        className={`${
+          isSubmitting ? "btn-disabled" : "btn-submit"
+        } bold-20 uppercase shadow-button dark:shadow-dark ease-in-out duration-300`}
+        aria-label="send contact form"
       >
-        Send
+        <p className="bold-20">Send</p>
       </button>
     </form>
   );

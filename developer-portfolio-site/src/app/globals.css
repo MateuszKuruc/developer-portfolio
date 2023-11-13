@@ -28,7 +28,7 @@
 }
 
 .btn-disabled {
-  @apply border-gray-700 border-2 bg-gray-500 px-8 py-5 hover:scale-100 cursor-not-allowed;
+  @apply border-gray-700 border-2 bg-gray-500 rounded-lg w-[200px] py-3 hover:scale-100 cursor-not-allowed;
 }
 
 .btn-about {
