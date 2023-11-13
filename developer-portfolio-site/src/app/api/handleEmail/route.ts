@@ -20,12 +20,15 @@ export async function POST(request: NextRequest) {
       text: "Test message 123",
       subject: "Contact form message - mateuszkuruc.com",
       html: `
-            <h3>Cześć ${process.env.USER_NAME},</h3>
+            <h3 style="font-size: 20px">Cześć ${process.env.USER_NAME},</h3>
+            <div style="font-size: 18px">
             <p>Czeka na Ciebie nowa wiadomość!</p>
             <p>Ktoś skorzystał z formularza na Twojej stronie internetowej. Treść wiadomości poniżej:</p>
-            <li>Imię i nazwisko: ${name}</li>
-            <li>Email: ${email}</li>
-            <li>Wiadomość: ${message}</li>
+            <li>Imię i nazwisko: <strong>${name}</strong></li>
+            <li>Email: <strong>${email}</strong></li>
+            <li>Wiadomość: <strong>${message}</strong></li>
+            <p>Sprawdź koniecznie!</p>
+            </div>
             `,
     };
 
