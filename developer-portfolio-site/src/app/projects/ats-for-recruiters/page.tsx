@@ -200,7 +200,7 @@ const AtsPage = () => {
         non-relational database (MongoDB) to retrieve, edit or save data
         accordingly when the user performed actions on client-side.
         {/* Challenge 2 */}
-        <div className="flex flex-col md:flex-row md:justify-around border-2 py-4">
+        <div className="flex flex-col md:flex-row md:justify-around py-4">
           <Image
             src="/project1_mobile_3.png"
             alt="mobile screen"
@@ -208,29 +208,33 @@ const AtsPage = () => {
             height={300}
             className="self-center"
           />
-          <div className="max-w-[800px]">
+          <div className="w-[50%]">
             <h3 className="bold-24 py-4">
               2. File upload, download and delete
             </h3>
             Possibly the toughest situation for me was introducing options for
             working on files in each candidate's profile. I decided to make use
             of <strong>AWS</strong> for a few reasons:
-            <ul className="list-disc">
+            <ul className="list-disc p-4">
               <li>
                 I wanted to gain practical experience with cloud solutions
               </li>
               <li>Knowledge about AWS is very in-demand in current market</li>
               <li>It is free if you do not exceed storage limits</li>
             </ul>
-            Ultimately, I went with <strong>AWS S3</strong> and managed to
-            integrate functionalities for instant uploading, downloading and
-            deleting pdf and doc files for each profile. On backend side I used{" "}
-            <strong>Multer</strong>library to handle files sent from client side
-            and upload them to my <strong>AWS S3 storage</strong>. On the
-            frontend side, I restricted users to only upload pdf or doc files,
-            prepared requests for all actions (upload/download/delete) and set
-            up state management to instantly reflect changes to candidate's
-            profile.
+            <p>
+              Ultimately, I went with <strong>AWS S3</strong> and managed to
+              integrate functionalities for instant uploading, downloading and
+              deleting pdf and doc files for each profile. On backend side I
+              used <strong>Multer</strong> library to handle files sent from
+              client side and upload them to my <strong>AWS S3 storage</strong>.
+            </p>
+            <p className="pt-4">
+              On the frontend side, I restricted users to only upload pdf or doc
+              files, prepared requests for all actions (upload/download/delete)
+              and set up state management to instantly reflect changes to
+              candidate's profile.
+            </p>
             {/* Challenge 3 */}
             <h3 className="bold-24 py-4">
               3. Project structure and components reusability
@@ -244,7 +248,7 @@ const AtsPage = () => {
               both backend and frontend side and use universally accepted naming
               conventions for clarity.
             </p>
-            <p>
+            <p className="pt-4">
               Moreover, I studied which design patterns I should follow when
               writing my React components, so I can <strong>reuse</strong> them
               throughout my application and{" "}
