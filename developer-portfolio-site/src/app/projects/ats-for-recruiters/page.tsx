@@ -206,6 +206,7 @@ const AtsPage = () => {
             alt="mobile screen"
             width={300}
             height={300}
+            className="self-center"
           />
           <div className="max-w-[800px]">
             <h3 className="bold-24 py-4">
