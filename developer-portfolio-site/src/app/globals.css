@@ -98,3 +98,7 @@
 .regular-18 {
   @apply text-[18px] font-[400] font-header1;
 }
+
+.regular-16 {
+  @apply text-[16px] font-[400] font-header1;
+}

@@ -22,7 +22,7 @@ const Projects = () => {
         </div>
         <div className="padding-container flex flex-col justify-center items-center">
           <h2 className="bold-40 text-center">Applicant Tracking System</h2>
-          <p className="regular-16 border-t-2 border-b-2 py-4 max-w-[700px]">
+          <p className="regular-18 border-t-2 border-b-2 py-4 max-w-[700px]">
             React ◆ Redux ◆ NodeJS ◆ Express ◆ AWS ◆ MongoDB ◆ Material UI ◆
             Styled components
           </p>
@@ -32,7 +32,7 @@ const Projects = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               efficitur ex sit amet sollicitudin porta.
             </p>
-            <ul className="list-disc">
+            <ul className="list-disc regular-18">
               <li>
                 Nulla quis ex sed dolor iaculis gravida. Curabitur quis turpis
                 diam. Etiam euismod, tellus ut pretium pharetra, sem odio
@@ -77,7 +77,7 @@ const Projects = () => {
 
         <div className="padding-container flex flex-col justify-center items-center">
           <h2 className="bold-40 text-center">Marketing Portfolio website</h2>
-          <p className="regular-16 border-t-2 border-b-2 py-4 max-w-[700px]">
+          <p className="regular-18 border-t-2 border-b-2 py-4 max-w-[700px]">
             Next.js ◆ TypeScript ◆ Tailwind ◆ Formik ◆ Yup
           </p>
 
@@ -86,7 +86,7 @@ const Projects = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               efficitur ex sit amet sollicitudin porta.
             </p>
-            <ul className="list-disc">
+            <ul className="list-disc regular-18">
               <li>
                 Nulla quis ex sed dolor iaculis gravida. Curabitur quis turpis
                 diam. Etiam euismod, tellus ut pretium pharetra, sem odio
