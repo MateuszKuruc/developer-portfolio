@@ -58,7 +58,9 @@ const Projects = () => {
                 commodo.{" "}
               </li>
             </ul>
-            <p className="bold-20 text-orange-500 py-4">Read more...</p>
+            <p className="bold-20 text-orange-500 py-4 hover:text-orange-700 cursor-pointer">
+              Read more...
+            </p>
             <div className="flex flex-col md:flex-row gap-4 items-center">
               <a target="_blank" href="placeholder">
                 <button className="btn-about">
@@ -77,7 +79,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-around pb-8 md:py-12 md:items-end">
+      <div className="flex flex-col md:flex-row justify-around pb-8 md:pb-12 md:items-end">
         <div className="max-w-[400px] md:max-w-[600px] relative">
           <Image
             src="/project2_desktop_1.png"
@@ -129,7 +131,9 @@ const Projects = () => {
                 commodo.{" "}
               </li>
             </ul>
-            <p className="bold-20 text-orange-500 py-4">Read more...</p>
+            <p className="bold-20 text-orange-500 py-4 hover:text-orange-700 cursor-pointer">
+              Read more...
+            </p>
             <div className="flex flex-col md:flex-row gap-4 items-center">
               <a target="_blank" href="placeholder">
                 <button className="btn-about">
