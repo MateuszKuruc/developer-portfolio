@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,14 +9,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-/* .light {
-  @apply bg-white text-black;
-}
-
-.dark {
-  @apply bg-gray-800
-} */
 
 .colored-icon {
   fill: #ffffff;
@@ -64,45 +56,53 @@
 }
 
 .bold-40 {
-  @apply text-[40px] font-[700] font-header4 tracking-tighter;
+  @apply text-[40px] font-[700] font-header tracking-tighter;
 }
 
 .bold-32 {
-  @apply text-[32px] font-[700] font-header4;
+  @apply text-[32px] font-[700] font-header;
 }
 
 .bold-32-tight {
-  @apply text-[32px] font-[700] font-header4 tracking-tighter;
+  @apply text-[32px] font-[700] font-header tracking-tighter;
 }
 
 .bold-24 {
-  @apply text-[24px] font-[700] font-header4 tracking-tighter;
+  @apply text-[24px] font-[700] font-header tracking-tighter;
 }
 
 .bold-20 {
-  @apply text-[20px] font-[700] font-header4 tracking-tighter;
+  @apply text-[20px] font-[700] font-header;
 }
 
 .bold-18 {
-  @apply text-[18px] font-[700] font-header4;
+  @apply text-[18px] font-[700] font-header;
 }
 
 .regular-24 {
-  @apply text-[24px] font-[400] font-header1;
+  @apply text-[24px] font-[400] font-body;
 }
 
 .regular-22 {
-  @apply text-[22px] font-[400] font-header1;
+  @apply text-[22px] font-[400] font-body;
 }
 
 .regular-20 {
-  @apply text-[20px] font-[400] font-header1;
+  @apply text-[20px] font-[400] font-header;
 }
 
 .regular-18 {
-  @apply text-[18px] font-[400] font-header1;
+  @apply text-[18px] font-[400] font-body;
 }
 
 .regular-16 {
-  @apply text-[16px] font-[400] font-header1;
+  @apply text-[16px] font-[400] font-body;
+}
+
+.skills-18 {
+  @apply text-[18px] font-[400] font-header;
+}
+
+.skills-16 {
+  @apply text-[16px] font-[400] font-header;
 }

@@ -42,7 +42,7 @@ const Skills = () => {
                 className="rounded-lg"
               />
 
-              <p className="regular-16 text-center">{skill.name}</p>
+              <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
           {FRONTEND_SKILLS.invert.map((skill) => (
@@ -58,7 +58,7 @@ const Skills = () => {
                 className="rounded-lg dark:invert"
               />
 
-              <p className="regular-16 text-center">{skill.name}</p>
+              <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
@@ -79,7 +79,7 @@ const Skills = () => {
                 className="rounded-lg"
               />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="skills-18 text-center">{skill.name}</p>
             </li>
           ))}
           {FRONTEND_SKILLS.invert.map((skill) => (
@@ -95,7 +95,7 @@ const Skills = () => {
                 className="rounded-lg dark:invert"
               />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="skills-18 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
@@ -115,7 +115,7 @@ const Skills = () => {
             >
               <Image src={skill.src} alt={skill.label} width={40} height={40} />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
           {BACKEND_SKILLS.invert.map((skill) => (
@@ -131,7 +131,7 @@ const Skills = () => {
                 className="dark:invert"
               />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
@@ -146,7 +146,7 @@ const Skills = () => {
             >
               <Image src={skill.src} alt={skill.label} width={50} height={50} />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="skills-18 text-center">{skill.name}</p>
             </li>
           ))}
           {BACKEND_SKILLS.invert.map((skill) => (
@@ -162,7 +162,7 @@ const Skills = () => {
                 className="dark:invert"
               />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="skills-18 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
@@ -188,7 +188,7 @@ const Skills = () => {
                 className="rounded-lg"
               />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
           {OTHER_SKILLS.invert.map((skill) => (
@@ -204,7 +204,7 @@ const Skills = () => {
                 className="rounded-lg dark:invert"
               />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
@@ -225,7 +225,7 @@ const Skills = () => {
                 className="rounded-lg "
               />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="skills-18 text-center">{skill.name}</p>
             </li>
           ))}
           {OTHER_SKILLS.invert.map((skill) => (
@@ -241,7 +241,7 @@ const Skills = () => {
                 className="rounded-lg dark:invert"
               />
 
-              <p className="regular-18 text-center">{skill.name}</p>
+              <p className="skills-18 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>

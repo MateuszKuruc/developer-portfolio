@@ -10,13 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        header1: ["Montserrat"],
-        header2: ["Open Sans"],
-        header3: ["Poppins"],
-        header4: ["Playfair Display"],
-        body1: ["Lato"],
-        body2: ["Roboto"],
-        body3: ["Raleway"],
+        body: ["Montserrat"],
+        header: ["Playfair Display"],
       },
       boxShadow: {
         button: "5px 5px 10px #030712",
