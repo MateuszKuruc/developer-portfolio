@@ -9,6 +9,12 @@ const config: Config = {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        header1: ["Montserrat"],
+        header2: ["Open Sans"],
+        header3: ["Poppins"],
+        header4: ["Playfair Display"]
+      },
       boxShadow: {
         button: "5px 5px 10px #030712",
         dark: "2px 2px 10px #9ca3af",

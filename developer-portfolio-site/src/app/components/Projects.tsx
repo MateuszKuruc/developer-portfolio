@@ -74,12 +74,7 @@ const Projects = () => {
             className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
           />
         </div>
-        {/* <div className="padding-container">
-          <h2 className="bold-40 text-center">Marketing portfolio website</h2>
-          <p className="regular-16 border-t-2 border-b-2 py-4">
-            Next.js ◆ TypeScript ◆ Tailwind ◆ Formik ◆ Yup
-          </p>
-        </div> */}
+
         <div className="padding-container flex flex-col justify-center items-center">
           <h2 className="bold-40 text-center">Marketing Portfolio website</h2>
           <p className="regular-16 border-t-2 border-b-2 py-4 max-w-[700px]">
