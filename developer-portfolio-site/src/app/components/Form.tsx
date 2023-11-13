@@ -97,7 +97,9 @@ const Form = () => {
       </label>
       <input
         id="name"
-        className="border-2 p-2 rounded-lg"
+        className={`border-2 p-2 rounded-lg ${
+          errors.name && touched.name ? "border-red-600" : ""
+        }`}
         type="text"
         placeholder="Enter your name"
         value={values.name}
@@ -113,7 +115,9 @@ const Form = () => {
       </label>
       <input
         id="email"
-        className="border-2 p-2 rounded-lg"
+        className={`border-2 p-2 rounded-lg ${
+          errors.email && touched.email ? "border-red-600" : ""
+        }`}
         type="email"
         placeholder="Enter your email"
         value={values.email}
@@ -130,7 +134,9 @@ const Form = () => {
       <textarea
         id="message"
         rows={6}
-        className="border-2 p-2 rounded-lg "
+        className={`border-2 p-2 rounded-lg ${
+          errors.message && touched.message ? "border-red-600" : ""
+        }`}
         placeholder="Write a message..."
         value={values.message}
         onChange={handleChange}
