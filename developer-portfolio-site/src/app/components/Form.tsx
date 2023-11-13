@@ -66,7 +66,7 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col gap-4 md:w-[500px] p-5 text-center"
+      className="flex flex-col gap-4 md:w-[500px] p-5 text-center w-[400px]"
       noValidate
     >
       {successMessage && (
