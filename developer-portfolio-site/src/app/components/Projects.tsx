@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import { FaExternalLinkAlt, FaGithubSquare } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
 
 const Projects = () => {
   return (
@@ -55,15 +57,25 @@ const Projects = () => {
               </li>
             </ul>
             <p className="bold-20 text-orange-500 py-4">Read more...</p>
-            <div className="flex gap-4">
-              <button className="btn-about">Live</button>
-              <button className="btn-about">Code</button>
+            <div className="flex flex-col md:flex-row gap-4 items-center">
+              <a target="_blank" href="placeholder">
+                <button className="btn-about">
+                  <p className="bold-18">Live</p>
+                  <FaExternalLinkAlt size={30} />
+                </button>
+              </a>
+              <a target="_blank" href="placeholder">
+                <button className="btn-about">
+                  <p className="bold-18">Code</p>
+                  <BsGithub size={30} />
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-around">
+      <div className="flex flex-col md:flex-row justify-around pb-8 md:py-24">
         <div className="max-w-[400px] md:max-w-[600px] relative">
           <Image
             src="/project2_desktop_1.png"
@@ -113,6 +125,21 @@ const Projects = () => {
                 commodo.{" "}
               </li>
             </ul>
+            <p className="bold-20 text-orange-500 py-4">Read more...</p>
+            <div className="flex flex-col md:flex-row gap-4 items-center">
+              <a target="_blank" href="placeholder">
+                <button className="btn-about">
+                  <p className="bold-18">Live</p>
+                  <FaExternalLinkAlt size={30} />
+                </button>
+              </a>
+              <a target="_blank" href="placeholder">
+                <button className="btn-about">
+                  <p className="bold-18">Code</p>
+                  <BsGithub size={30} />
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
