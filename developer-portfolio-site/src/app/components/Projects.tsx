@@ -23,7 +23,7 @@ const Projects = () => {
           />
         </div>
         <div className="padding-container flex flex-col justify-center items-center">
-          <h2 className="bold-40 text-center">Applicant Tracking System</h2>
+          <h2 className="bold-40 text-center py-0 pb-4 md:py-4">Applicant Tracking System</h2>
           <p className="regular-18 border-t-2 border-b-2 py-4 max-w-[700px]">
             React ◆ Redux ◆ NodeJS ◆ Express ◆ AWS ◆ MongoDB ◆ Material UI ◆
             Styled components
@@ -93,8 +93,8 @@ const Projects = () => {
         </div>
 
         <div className="padding-container flex flex-col justify-center items-center">
-          <h2 className="bold-40 text-center">Marketing Portfolio website</h2>
-          <p className="regular-18 border-t-2 border-b-2 py-4 max-w-[700px]">
+          <h2 className="bold-40 text-center py-0 pb-4 md:py-4">Marketing Portfolio website</h2>
+          <p className="regular-18 border-t-2 border-b-2 py-4 w-[auto] md:w-[700px] text-center">
             Next.js ◆ TypeScript ◆ Tailwind ◆ Formik ◆ Yup
           </p>
 
