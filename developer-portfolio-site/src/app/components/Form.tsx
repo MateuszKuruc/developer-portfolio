@@ -100,6 +100,9 @@ const Form = () => {
         className="border-2 p-2 rounded-lg"
         type="text"
         placeholder="Enter your name"
+        value={values.name}
+        onChange={handleChange}
+        onBlur={handleBlur}
       />
 
       <label className="bold-20" htmlFor="email">
@@ -110,9 +113,12 @@ const Form = () => {
         className="border-2 p-2 rounded-lg"
         type="email"
         placeholder="Enter your email"
+        value={values.email}
+        onChange={handleChange}
+        onBlur={handleBlur}
       />
 
-      <label className="bold-20" htmlFor="name">
+      <label className="bold-20" htmlFor="message">
         Message
       </label>
       <textarea
@@ -120,6 +126,9 @@ const Form = () => {
         rows={6}
         className="border-2 p-2 rounded-lg "
         placeholder="Write a message..."
+        value={values.message}
+        onChange={handleChange}
+        onBlur={handleBlur}
       />
       <button
         type="submit"
