@@ -123,7 +123,7 @@ const Form = () => {
       />
       <button
         type="submit"
-        className="btn-submit bold-20 uppercase shadow-button dark:shadow-dark"
+        className="btn-submit bold-20 uppercase shadow-button dark:shadow-dark ease-in-out duration-300"
       >
         Send
       </button>
