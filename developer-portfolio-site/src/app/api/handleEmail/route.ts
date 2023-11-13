@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
       from: process.env.HANDLE_EMAIL,
       to: process.env.HANDLE_EMAIL,
       text: "Test message 123",
-      subject: "Email sent test 123",
+      subject: "Contact form message - mateuszkuruc.com",
       html: `
             <h3>Cześć ${process.env.USER_NAME},</h3>
             <p>Czeka na Ciebie nowa wiadomość!</p>
