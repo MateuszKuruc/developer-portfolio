@@ -23,7 +23,7 @@ const Skills = () => {
         id="skills"
         className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6"
       >
-        <h3 className="sm:w-[150px] bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
+        <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Frontend
         </h3>
 
@@ -102,7 +102,7 @@ const Skills = () => {
       </div>
 
       <div className="padding-container border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6">
-        <h3 className="sm:w-[150px] bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
+        <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Backend
         </h3>
 
@@ -169,7 +169,7 @@ const Skills = () => {
       </div>
 
       <div className="padding-container flex flex-col lg:flex-row sm:items-center sm:justify-around py-6 text-center">
-        <h3 className="sm:w-[150px] bold-32 pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
+        <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Other tools
         </h3>
 

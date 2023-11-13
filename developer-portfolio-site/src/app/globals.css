@@ -68,6 +68,10 @@
 }
 
 .bold-32 {
+  @apply text-[32px] font-[700] font-header4;
+}
+
+.bold-32-tight {
   @apply text-[32px] font-[700] font-header4 tracking-tighter;
 }
 
@@ -80,7 +84,7 @@
 }
 
 .bold-18 {
-  @apply text-[18px] font-[700] font-header4 tracking-tighter;
+  @apply text-[18px] font-[700] font-header4;
 }
 
 .regular-24 {
