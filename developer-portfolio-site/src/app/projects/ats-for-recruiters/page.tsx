@@ -5,7 +5,6 @@ const AtsPage = () => {
   return (
     <section className="content-container py-12">
       {/* main header and stack */}
-
       <div className="flex flex-col md:flex-row border-2 justify-around items-center py-4">
         <div className="padding-container max-w-[800px]">
           <h2 className="bold-40">
@@ -48,7 +47,6 @@ const AtsPage = () => {
           height={300}
         />
       </div>
-
       {/* project goals */}
       <div className="padding-container regular-18">
         <h2 className="bold-32-tight py-4">Key features</h2>
@@ -73,9 +71,102 @@ const AtsPage = () => {
           alt="project desktop screen"
         />
       </div>
+      {/* Tech stack choices */}
+      <div className="padding-container regular-18 border-b-2 border-t-2 py-8">
+        <h2 className="bold-32-tight">Tech stack choices</h2>
+
+        <div className="flex py-8">
+          <div className="w-[50%]">
+            <p>
+              The selection of tools was deliberate and thought out with the aim
+              to write a modern app with the least amount of duplicate code when
+              it comes to logic, with responsive design and functionality of
+              efficiently handling client state while also allowing for file
+              management.
+            </p>
+            <p>
+              React came in handy and helped me neatly divide app in logical
+              chunks and provide opportunity to
+              <strong> reuse a lot of code</strong> with appropriate component
+              design. For client-side state management, I relied on{" "}
+              <strong>React hooks and Redux store</strong>.
+            </p>
+          </div>
+          <div className="flex w-[50%] justify-around">
+            <Image src="/react.svg" width={100} height={30} alt="react icon" />
+            <Image src="/redux.svg" width={100} height={30} alt="redux icon" />
+          </div>
+        </div>
+
+        <div className="flex py-8">
+          <div className="flex w-[50%] justify-around">
+            <Image
+              src="/nodejs.svg"
+              width={100}
+              height={30}
+              alt="nodejs icon"
+            />
+            <Image
+              src="/express.svg"
+              width={100}
+              height={30}
+              alt="express icon"
+            />
+            <Image src="/aws-icon.svg" width={100} height={30} alt="aws icon" />
+            <Image
+              src="/mongodb.svg"
+              width={100}
+              height={30}
+              alt="mongodb icon"
+            />
+          </div>
+          <div className="w-[50%]">
+            <p>
+              Backend side was set up with <strong>NodeJS</strong> runtime and{" "}
+              <strong>Express</strong> library, which allowed me to stay within
+              JavaScript system for both client and server side code. I opted
+              for <strong>MongoDB</strong> as non-relational database, which was
+              more than enough for the purpose of storing, editing and
+              retrieving candidate data.
+            </p>
+            <p>
+              On top of that, I learned a state-of-the-art cloud technology in
+              <strong> Amazon Web Services</strong>, allowing me to leverage
+              their S3 tool to handle file management for my application. It was
+              my attempt to add <em>something extra</em> to the application's
+              funcitonality and tech stack used.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex py-8">
+          <div className="w-[50%]">
+            <p>
+              The choice of <strong>Material UI</strong> was made in order to
+              keep the coherent and harmonious design for the whole app, easily
+              manage theme and styling of repetitive elements. Thanks to MUI
+              components, putting the layout in place was rather intuitive.
+            </p>
+            <p>
+              <strong>Styled components</strong> were added to the mix to allow
+              for more freedom and organisation when it comes to styling
+              individual components.
+            </p>
+          </div>
+
+          <div className="flex w-[50%] justify-around">
+            <Image src="/mui.svg" width={100} height={30} alt="mui icon" />
+            <Image
+              src="/styled-components.svg"
+              width={100}
+              height={30}
+              alt="styled components icon"
+            />
+          </div>
+        </div>
+      </div>
 
       {/* Project challenges */}
-
       <div className="padding-container regular-18">
         <h2 className="bold-32-tight py-4">Main Challenges</h2>
         <p>
@@ -183,32 +274,6 @@ const AtsPage = () => {
             and works across all screen sizes. It can be comfortably used on
             huge monitors and mobile phones alike.
           </p>
-        </p>
-      </div>
-
-      {/* Tech stack choices */}
-      <div className="padding-container regular-18">
-        <h2 className="bold-32-tight">Tech stack choices</h2>
-        <p>
-          The selection of tools was deliberate and thought out with the aim to
-          write a modern app with the least amount of duplicate code when it
-          comes to logic, with responsive design and functionality of
-          efficiently handling client state while also allowing for file
-          management. React's hooks and components allowed me to reuse a lot of
-          code and nodeJS with Express allowed me to handle backend actions
-          while staying within JavaScript ecosystem.
-        </p>
-        <p>
-          MongoDB as non-relational database was more than enough for the
-          purpose of storing, editing and retrieving candidate data, while
-          material UI and Styled components made it easier for me to keep the
-          coherent and harmonious design for the whole app.
-        </p>
-        <p>
-          On top of that, I learned a state-of-the-art cloud technology in AWS,
-          allowing me to leverage their S3 tool to handle file management for my
-          application. I believe this vastly extends functionalities typically
-          found in this type of portfolio projects built by self-learners.
         </p>
       </div>
     </section>
