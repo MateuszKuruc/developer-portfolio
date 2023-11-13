@@ -66,7 +66,9 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col gap-4 md:w-[500px] p-5 text-center w-[400px]"
+      className={`flex flex-col gap-4 md:w-[500px] p-5 text-center w-[400px] ${
+        isSubmitting ? "opacity-50" : "opacity-100"
+      }`}
       noValidate
     >
       {successMessage && (
