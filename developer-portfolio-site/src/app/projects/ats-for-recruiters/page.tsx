@@ -1,9 +1,12 @@
+import Image from "next/image";
 import React from "react";
 
 const AtsPage = () => {
   return (
-    <section className="content-container">
+    <section className="content-container py-12">
       {/* main header and stack */}
+
+      <div className="flex flex-col md:flex-row border-2 justify-around items-center py-4">
       <div className="padding-container max-w-[800px]">
         <h2 className="bold-40">Applicant Tracking System for IT recruiters</h2>
         <p className="regular-18 py-8">
@@ -15,9 +18,9 @@ const AtsPage = () => {
           this position.
         </p>
         <div className="flex justify-between">
-          <div>
-            <h3 className="uppercase bold-20">Stack</h3>
-            <ul className="flex flex-col gap-4 regular-18">
+          <div className="">
+            <h3 className="uppercase bold-20 pb-4">Stack</h3>
+            <ul className="gap-4 regular-18 grid grid-cols-2">
               <li>React</li>
               <li>Redux</li>
               <li>NodeJS</li>
@@ -35,6 +38,11 @@ const AtsPage = () => {
             </a>
           </div>
         </div>
+        
+
+        
+      </div>
+        <Image src="/project1_mobile_3.png" alt="ats app desktop screen" width={300} height={300} />
       </div>
 
       {/* project goals */}
@@ -48,6 +56,7 @@ const AtsPage = () => {
         </p>
         <p>Key features include:</p>
         <ul className="list-disc">
+          <li>logging in, token-based authentication</li>
           <li>adding, editing and deleting candidate profiles</li>
           <li>uploading, downloading and deleting files</li>
           <li>displaying sorted tables of candidates and their statistics</li>
@@ -152,7 +161,7 @@ const AtsPage = () => {
       </div>
 
       {/* Tech stack choices */}
-      <div className="padding-container">
+      <div className="padding-container regular-18">
         <h2 className="bold-32-tight">Tech stack choices</h2>
         <p>
           The selection of tools was deliberate and thought out with the aim to
