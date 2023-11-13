@@ -152,8 +152,30 @@ const AtsPage = () => {
       </div>
 
       {/* Tech stack choices */}
-      <h2 className="bold-32-tight">Tech stack choices</h2>
-      <p></p>
+      <div className="padding-container">
+        <h2 className="bold-32-tight">Tech stack choices</h2>
+        <p>
+          The selection of tools was deliberate and thought out with the aim to
+          write a modern app with the least amount of duplicate code when it
+          comes to logic, with responsive design and functionality of
+          efficiently handling client state while also allowing for file
+          management. React's hooks and components allowed me to reuse a lot of
+          code and nodeJS with Express allowed me to handle backend actions
+          while staying within JavaScript ecosystem.
+        </p>
+        <p>
+          MongoDB as non-relational database was more than enough for the
+          purpose of storing, editing and retrieving candidate data, while
+          material UI and Styled components made it easier for me to keep the
+          coherent and harmonious design for the whole app.
+        </p>
+        <p>
+          On top of that, I learned a state-of-the-art cloud technology in AWS,
+          allowing me to leverage their S3 tool to handle file management for my
+          application. I believe this vastly extends functionalities typically
+          found in this type of portfolio projects built by self-learners.
+        </p>
+      </div>
     </section>
   );
 };
