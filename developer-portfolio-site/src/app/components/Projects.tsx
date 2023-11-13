@@ -6,7 +6,7 @@ import { BsGithub } from "react-icons/bs";
 const Projects = () => {
   return (
     <section className="content-container border-t-2 border-b-2 bg-white dark:bg-gray-950 my-20 rounded-lg">
-      <div className="flex flex-col md:flex-row justify-around">
+      <div className="flex flex-col md:flex-row justify-around md:items-end border-b-2 pb-12">
         <div className="max-w-[400px] md:max-w-[600px] relative">
           <Image
             src="/project1_desktop_1.png"
@@ -23,7 +23,9 @@ const Projects = () => {
           />
         </div>
         <div className="padding-container flex flex-col justify-center items-center">
-          <h2 className="bold-40 text-center py-0 pb-4 md:py-4">Applicant Tracking System</h2>
+          <h2 className="bold-40 text-center py-0 pb-4 md:py-4">
+            Applicant Tracking System
+          </h2>
           <p className="regular-18 border-t-2 border-b-2 py-4 max-w-[700px]">
             React ◆ Redux ◆ NodeJS ◆ Express ◆ AWS ◆ MongoDB ◆ Material UI ◆
             Styled components
@@ -34,7 +36,7 @@ const Projects = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               efficitur ex sit amet sollicitudin porta.
             </p>
-            <ul className="list-disc regular-18">
+            <ul className="list-disc regular-18 p-2 md:p-0">
               <li>
                 Nulla quis ex sed dolor iaculis gravida. Curabitur quis turpis
                 diam. Etiam euismod, tellus ut pretium pharetra, sem odio
@@ -75,7 +77,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-around pb-8 md:py-24">
+      <div className="flex flex-col md:flex-row justify-around pb-8 md:py-12 md:items-end">
         <div className="max-w-[400px] md:max-w-[600px] relative">
           <Image
             src="/project2_desktop_1.png"
@@ -93,7 +95,9 @@ const Projects = () => {
         </div>
 
         <div className="padding-container flex flex-col justify-center items-center">
-          <h2 className="bold-40 text-center py-0 pb-4 md:py-4">Marketing Portfolio website</h2>
+          <h2 className="bold-40 text-center py-0 pb-4 md:py-4">
+            Marketing Portfolio website
+          </h2>
           <p className="regular-18 border-t-2 border-b-2 py-4 w-[auto] md:w-[700px] text-center">
             Next.js ◆ TypeScript ◆ Tailwind ◆ Formik ◆ Yup
           </p>
@@ -103,7 +107,7 @@ const Projects = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               efficitur ex sit amet sollicitudin porta.
             </p>
-            <ul className="list-disc regular-18">
+            <ul className="list-disc regular-18 p-2 md:p-0">
               <li>
                 Nulla quis ex sed dolor iaculis gravida. Curabitur quis turpis
                 diam. Etiam euismod, tellus ut pretium pharetra, sem odio
