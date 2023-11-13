@@ -5,8 +5,9 @@ const AtsPage = () => {
   return (
     <section className="content-container py-12">
       {/* main header and stack */}
-      <div className="flex flex-col md:flex-row border-2 justify-around items-center py-4">
-        <div className="padding-container max-w-[800px]">
+      {/* <div className="flex flex-col justify-around md:flex-row items-center py-4"> */}
+      <div className="padding-container regular-18 flex justify-around">
+        <div className="w-[50%]">
           <h2 className="bold-40">
             Applicant Tracking System for IT recruiters
           </h2>
@@ -19,7 +20,7 @@ const AtsPage = () => {
             experience in this position.
           </p>
           <div className="flex justify-between">
-            <div className="">
+            <div>
               <h3 className="uppercase bold-20 pb-4">Stack</h3>
               <ul className="gap-4 regular-18 grid grid-cols-2">
                 <li>React</li>
@@ -40,12 +41,14 @@ const AtsPage = () => {
             </div>
           </div>
         </div>
-        <Image
-          src="/project1_mobile_2.png"
-          alt="ats app desktop screen"
-          width={300}
-          height={300}
-        />
+        <div className="w-[50%] flex justify-center">
+          <Image
+            src="/project1_mobile_2.png"
+            alt="ats app desktop screen"
+            width={300}
+            height={300}
+          />
+        </div>
       </div>
       {/* project goals */}
       <div className="padding-container regular-18">
