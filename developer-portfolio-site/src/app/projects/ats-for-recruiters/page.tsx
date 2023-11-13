@@ -67,7 +67,7 @@ const AtsPage = () => {
           <li>responsive design</li>
         </ul>
         <Image
-          src="/project1_desktop_2.png"
+          src="/project1_desktop_3.png"
           width={1200}
           height={800}
           alt="project desktop screen"
@@ -109,45 +109,61 @@ const AtsPage = () => {
         non-relational database (MongoDB) to retrieve, edit or save data
         accordingly when the user performed actions on client-side.
         {/* Challenge 2 */}
-        <h3 className="bold-24 py-4">2. File upload, download and delete</h3>
-        Possibly the toughest situation for me was introducing options for
-        working on files in each candidate's profile. I decided to make use of{" "}
-        <strong>AWS</strong> for a few reasons:
-        <ul className="list-disc">
-          <li>I wanted to gain practical experience with cloud solutions</li>
-          <li>Knowledge about AWS is very in-demand in current market</li>
-          <li>It is free if you do not exceed storage limits</li>
-        </ul>
-        Ultimately, I went with <strong>AWS S3</strong> and managed to integrate
-        functionalities for instant uploading, downloading and deleting pdf and
-        doc files for each profile. On backend side I used{" "}
-        <strong>Multer</strong>library to handle files sent from client side and
-        upload them to my <strong>AWS S3 storage</strong>. On the frontend side,
-        I restricted users to only upload pdf or doc files, prepared requests
-        for all actions (upload/download/delete) and set up state management to
-        instantly reflect changes to candidate's profile.
-        {/* Challenge 3 */}
-        <h3 className="bold-24 py-4">
-          3. Project structure and components reusability
-        </h3>
-        <p>
-          Since this is by far the biggest project I worked on, I had to learn
-          how to manage project folders, files and components so that updates
-          can be made intuitively and the{" "}
-          <strong>components are as reusable as possible</strong>. I tried to
-          incorporate best practises when it comes to folder structure on both
-          backend and frontend side and use universally accepted naming
-          conventions for clarity.
-        </p>
-        <p>
-          Moreover, I studied which design patterns I should follow when writing
-          my React components, so I can <strong>reuse</strong> them throughout
-          my application and <strong>avoid code duplication</strong>. I am
-          especially proud of this part, as e.g. one of my React components was
-          responsible for rendering <strong>9 different subpages </strong>
-          depending on the data that was passed to it - this really made me
-          understand biggest strength of React.
-        </p>
+        <div className="flex flex-col md:flex-row md:justify-around border-2 py-4">
+          <Image
+            src="/project1_mobile_3.png"
+            alt="mobile screen"
+            width={300}
+            height={300}
+          />
+          <div className="max-w-[800px]">
+            <h3 className="bold-24 py-4">
+              2. File upload, download and delete
+            </h3>
+            Possibly the toughest situation for me was introducing options for
+            working on files in each candidate's profile. I decided to make use
+            of <strong>AWS</strong> for a few reasons:
+            <ul className="list-disc">
+              <li>
+                I wanted to gain practical experience with cloud solutions
+              </li>
+              <li>Knowledge about AWS is very in-demand in current market</li>
+              <li>It is free if you do not exceed storage limits</li>
+            </ul>
+            Ultimately, I went with <strong>AWS S3</strong> and managed to
+            integrate functionalities for instant uploading, downloading and
+            deleting pdf and doc files for each profile. On backend side I used{" "}
+            <strong>Multer</strong>library to handle files sent from client side
+            and upload them to my <strong>AWS S3 storage</strong>. On the
+            frontend side, I restricted users to only upload pdf or doc files,
+            prepared requests for all actions (upload/download/delete) and set
+            up state management to instantly reflect changes to candidate's
+            profile.
+            {/* Challenge 3 */}
+            <h3 className="bold-24 py-4">
+              3. Project structure and components reusability
+            </h3>
+            <p>
+              Since this is by far the biggest project I worked on, I had to
+              learn how to manage project folders, files and components so that
+              updates can be made intuitively and the{" "}
+              <strong>components are as reusable as possible</strong>. I tried
+              to incorporate best practises when it comes to folder structure on
+              both backend and frontend side and use universally accepted naming
+              conventions for clarity.
+            </p>
+            <p>
+              Moreover, I studied which design patterns I should follow when
+              writing my React components, so I can <strong>reuse</strong> them
+              throughout my application and{" "}
+              <strong>avoid code duplication</strong>. I am especially proud of
+              this part, as e.g. one of my React components was responsible for
+              rendering <strong>9 different subpages </strong>
+              depending on the data that was passed to it - this really made me
+              understand biggest strength of React.
+            </p>
+          </div>
+        </div>
         {/* Challenge 4 */}
         <h3 className="bold-24 py-4">4. Responsive design and styling</h3>
         My goal was to strike a balance between a <em>
