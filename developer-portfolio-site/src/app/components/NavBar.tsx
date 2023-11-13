@@ -110,7 +110,11 @@ const NavBar = () => {
                 className="nav-links-mobile"
                 key={link.key}
               >
-                <Link href={link.href}>{link.label}</Link>
+                <Link href={link.href}><p className="bold-24">
+                  
+                  {link.label}
+                  </p>
+                  </Link>
               </li>
             ))}
           </ul>

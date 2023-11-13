@@ -24,15 +24,15 @@
 }
 
 .btn-submit {
-  @apply border-black rounded-lg w-[200px] self-center font-bold border-2 dark:border-white dark:text-black bg-orange-500 py-3 hover:bg-orange-600 cursor-pointer hover:scale-105;
+  @apply border-black rounded-lg w-[200px] self-center border-2 dark:border-white dark:text-black bg-orange-500 py-3 hover:bg-orange-600 cursor-pointer hover:scale-105;
 }
 
 .btn-disabled {
-  @apply border-gray-700 font-bold border-2 bg-gray-500 px-8 py-5 hover:scale-100 cursor-not-allowed;
+  @apply border-gray-700 border-2 bg-gray-500 px-8 py-5 hover:scale-100 cursor-not-allowed;
 }
 
 .btn-about {
-  @apply flex items-center justify-center gap-4 border-2 dark:border-white border-black bg-orange-500 py-3 px-4 rounded-lg w-[200px] dark:text-black dark:hover:text-white hover:text-white hover:bg-orange-700 ease-in-out duration-300;
+  @apply flex items-center justify-center gap-4 border-2 dark:border-white border-black bg-orange-500 py-3 px-4 rounded-lg w-[200px] dark:text-black dark:hover:text-white hover:text-white hover:bg-orange-700 ease-in-out duration-300 shadow-button dark:shadow-dark;
 }
 
 .contact-details {

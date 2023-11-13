@@ -3,7 +3,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <section className="content-container border-t-2 border-b-2 bg-white dark:bg-gray-950 my-20">
+    <section className="content-container border-t-2 border-b-2 bg-white dark:bg-gray-950 my-20 rounded-lg">
       <div className="flex flex-col md:flex-row justify-around">
         <div className="max-w-[400px] md:max-w-[600px] relative">
           <Image
@@ -54,6 +54,11 @@ const Projects = () => {
                 commodo.{" "}
               </li>
             </ul>
+            <p className="bold-20 text-orange-500 py-4">Read more...</p>
+            <div className="flex gap-4">
+              <button className="btn-about">Live</button>
+              <button className="btn-about">Code</button>
+            </div>
           </div>
         </div>
       </div>
