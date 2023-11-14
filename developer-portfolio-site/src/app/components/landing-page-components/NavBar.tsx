@@ -23,7 +23,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="w-full h024 shadow-xl bg-neutral-200 dark:bg-gray-950 rounded-lg sticky top-0 opacity-95 border-b-3 border-black dark:border-orange-500 z-30">
+    <nav className="w-full shadow-xl bg-neutral-200 dark:bg-gray-950 rounded-lg sticky top-0 opacity-95 border-b-3 border-black dark:border-orange-500 z-30">
       {/* Desktop Menu */}
       <div className="flex items-center justify-between h-full px-12 w-full">
         <Link href="/">
@@ -120,13 +120,13 @@ const NavBar = () => {
         {/* Social media links */}
 
         <div className="flex flex-row justify-around items-center mt-10">
-          <a target="_blank" href={process.env.GITHUB_LINK}>
+          <a target="_blank" href="https://github.com/MateuszKuruc">
             <BsGithub
               size={30}
               className="text-white hover:text-black cursor-pointer ease-in-out duration-300"
             />
           </a>
-          <a target="_blank" href={process.env.LINKEDIN_LINK}>
+          <a target="_blank" href="https://www.linkedin.com/in/mateuszkuruc/">
             <BsLinkedin
               size={30}
               className="text-white hover:text-black cursor-pointer ease-in-out duration-300"
