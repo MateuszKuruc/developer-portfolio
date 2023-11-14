@@ -65,13 +65,13 @@ const Projects = () => {
               </p>
             </Link>
             <div className="flex flex-col md:flex-row gap-4 items-center">
-              <a target="_blank" href="placeholder">
+              <a target="_blank" href="https://ats-mateuszkuruc.onrender.com/">
                 <button className="btn-about">
                   <p className="bold-18">Live</p>
                   <FaExternalLinkAlt size={30} />
                 </button>
               </a>
-              <a target="_blank" href="placeholder">
+              <a target="_blank" href={process.env.GITHUB_LINK}>
                 <button className="btn-about">
                   <p className="bold-18">Code</p>
                   <BsGithub size={30} />
@@ -141,13 +141,13 @@ const Projects = () => {
               </p>
             </Link>
             <div className="flex flex-col md:flex-row gap-4 items-center">
-              <a target="_blank" href="placeholder">
+              <a target="_blank" href="https://www.reklamyfacebook.pl/">
                 <button className="btn-about">
                   <p className="bold-18">Live</p>
                   <FaExternalLinkAlt size={30} />
                 </button>
               </a>
-              <a target="_blank" href="placeholder">
+              <a target="_blank" href={process.env.GITHUB_LINK}>
                 <button className="btn-about">
                   <p className="bold-18">Code</p>
                   <BsGithub size={30} />
