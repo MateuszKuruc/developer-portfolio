@@ -54,17 +54,20 @@ const AtsPage = () => {
       <div className="padding-container regular-18">
         <h2 className="bold-32-tight py-4">Key features</h2>
         <p>
-          My intention was to build a robust system, similar to the ones I
-          encountered in my work in the IT recruitment, simplifying the control
-          of recruitment stages for all candidates that are being actively
-          processed.
+          My aim was to build a robust recruitment system, similar to the ones I
+          encountered in my work as IT recruiter. I wanted the tool to simplify
+          the recruitment process on the recruiter side, conveniently divide
+          candidates into categories and ensure that each recruiter only has
+          only got access to their own candidates and statistics.
         </p>
-        <p>Key features include:</p>
-        <ul className="list-disc">
-          <li>logging in, token-based authentication</li>
+        <p className="bold-20 py-4">Key features include:</p>
+        <ul className="list-disc p-4">
+          <li>login with token-based authentication</li>
           <li>adding, editing and deleting candidate profiles</li>
           <li>uploading, downloading and deleting files</li>
-          <li>displaying sorted tables of candidates and their statistics</li>
+          <li>
+            displaying sorted data related to candidate profiles and statistics
+          </li>
           <li>responsive design</li>
         </ul>
         <Image
