@@ -4,8 +4,8 @@ import Image from "next/image";
 const AtsHeader = () => {
   return (
     <>
-      <div className="padding-container regular-18 flex justify-around">
-        <div className="w-[50%]">
+      <div className="padding-container regular-18 flex flex-col md:flex-row justify-around">
+        <div className="md:w-[50%]">
           <h2 className="bold-40 dark:text-orange-500">
             Applicant Tracking System for IT recruiters
           </h2>
@@ -17,7 +17,7 @@ const AtsHeader = () => {
             modern tools and is adjusted to the needs of recruiters based on my
             experience in this position.
           </p>
-          <div className="flex justify-between">
+          <div className="flex flex-col md:flex-row justify-between">
             <div>
               <h3 className="uppercase bold-20 pb-4">Stack</h3>
               <ul className="gap-4 regular-18 grid grid-cols-2 dark:text-orange-500">
@@ -31,15 +31,17 @@ const AtsHeader = () => {
                 <li>Styled components</li>
               </ul>
             </div>
-            <div>
+            <div className="py-6 md:py-0">
               <h3 className="uppercase bold-20">Live</h3>
               <a target="_blank" href="placeholder">
-                <p className="bold-20 text-orange-500">View site</p>
+                <p className="bold-20 text-orange-500 hover:text-orange-700">
+                  View site
+                </p>
               </a>
             </div>
           </div>
         </div>
-        <div className="w-[50%] flex justify-center">
+        <div className="md:w-[50%] flex justify-center">
           <Image
             src="/project1_mobile_2.png"
             alt="ats app desktop screen"
