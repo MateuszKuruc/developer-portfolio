@@ -63,7 +63,7 @@ const AtsPage = () => {
         <p className="bold-20 py-4">Key features include:</p>
         <ul className="list-disc p-4">
           <li>login with token-based authentication</li>
-          <li>adding, editing and deleting candidate profiles</li>
+          <li>adding, updating and deleting candidate profiles</li>
           <li>uploading, downloading and deleting files</li>
           <li>
             displaying sorted data related to candidate profiles and statistics
@@ -90,7 +90,7 @@ const AtsPage = () => {
               efficiently handling client state while also allowing for file
               management.
             </p>
-            <p>
+            <p className="py-4">
               React came in handy and helped me neatly divide app in logical
               chunks and provide opportunity to
               <strong> reuse a lot of code</strong> with appropriate component
@@ -142,7 +142,7 @@ const AtsPage = () => {
               more than enough for the purpose of storing, editing and
               retrieving candidate data.
             </p>
-            <p>
+            <p className="py-4">
               On top of that, I learned a state-of-the-art cloud technology in
               <strong> Amazon Web Services</strong>, allowing me to leverage
               their S3 tool to handle file management for my application. It was
@@ -160,7 +160,7 @@ const AtsPage = () => {
               manage theme and styling of repetitive elements. Thanks to MUI
               components, putting the layout in place was rather intuitive.
             </p>
-            <p>
+            <p className="py-4">
               <strong>Styled components</strong> were added to the mix to allow
               for more freedom and organisation when it comes to styling
               individual components.
@@ -184,35 +184,46 @@ const AtsPage = () => {
       <div className="padding-container regular-18">
         <h2 className="bold-32-tight py-4">Main Challenges</h2>
         <p>
-          During the time I worked on the project I faced multiple problems that
-          needed solving, which ultimately forced me to learn a lot about the
-          tools I used for the project.
+          The ATS project is quite extensive so, as an unexperienced developer,
+          I faced plenty of challenges which pushed me in the right direction
+          when it comes to further learning. To build the project in the way I
+          imagined, I first needed to get solid grasp on React for state
+          management, learn enough about backend to implement token-based
+          authentication and handle requests, then add non-relational MongoDB
+          database to the mix and learn about schemas.
+        </p>
+        <p className="py-4">
+          To sprinkle some extra flavour, I decided to implement AWS cloud for
+          file management, which was completely out of scope for me before the
+          project. To finish the app, I put my responsive design knowledge to
+          test, and it was especially tricky because mobile apps usually aren't
+          focused on displaying data, but I found some solutions to this.
         </p>
         {/* Challenge 1 */}
         <h3 className="bold-24 py-4">1. State management</h3>
         <p>
-          One of the obstacles was that I wanted to make all data in the app
-          easily editable. This was a demanding task, as there are a few
-          different sections where separate parts of candidates' profiles can be
-          edited. For example, when the candidate profile is initially created
-          it only includes basic details, but at a later stage the user can
-          provide additional data (like notes, assessment, notice period etc.)
-          or edit the data that already exists and all the fields need to have
-          options to:
+          Of course, I wanted to make all data in the app easily editable. This
+          was a demanding task, as there are a few different app sections where
+          separate parts of candidates' profiles can be updated. For example,
+          when the candidate profile is initially created it only includes basic
+          details, but at a later stage the user can provide additional data
+          (e.g. extended feedback) or update the data that already exists.
         </p>
-        <ul className="list-disc">
+        <p className="py-4">All the fields need to present options to:</p>
+        <ul className="list-disc p-4">
           <li>edit existing data and save it</li>
           <li>start editing the data, but cancel and restore previous data</li>
           <li>
             upload or delete file on candidate's profile and refresh the state
           </li>
         </ul>
-        To make these actions possible, I needed to set up Redux store, which
-        let me take control of the state management across the components that
-        my application consists of. Additionally, I needed to handle request to
-        the backend server (written in NodeJS) which then interacted with
-        non-relational database (MongoDB) to retrieve, edit or save data
-        accordingly when the user performed actions on client-side.
+        To make these actions possible, I needed to set up{" "}
+        <strong>Redux store</strong>, which let me take control of the state
+        management across the components that my application consists of.
+        Additionally, I needed to handle request to the backend server (built in
+        NodeJS) which then interacted with non-relational database (MongoDB) to
+        retrieve, edit or save data accordingly when the user performed actions
+        on client-side.
         {/* Challenge 2 */}
         <div className="flex flex-col md:flex-row md:justify-around py-4">
           <Image
@@ -267,9 +278,9 @@ const AtsPage = () => {
               writing my React components, so I can <strong>reuse</strong> them
               throughout my application and{" "}
               <strong>avoid code duplication</strong>. I am especially proud of
-              this part, as e.g. one of my React components was responsible for
-              rendering <strong>9 different subpages </strong>
-              depending on the data that was passed to it - this really made me
+              this part, as some of my React components were responsible for
+              rendering <strong>multiple different subpages </strong>
+              depending on the data passed to them - this really made me
               understand biggest strength of React.
             </p>
           </div>
@@ -283,16 +294,40 @@ const AtsPage = () => {
         everywhere, and they are not the easiest to style for mobile phone use.
         I decided to introduce additional switching of display mode in a few
         tabs to make the tables easier to display on the smaller, mobile screen.
-        <p>
-          As my styling tools, I chose the combination of Material UI and Styled
-          components. While Material UI gives some guidance in terms of theme,
-          styling and general design, Styled components make everything easily
-          adjustable on component by component basis.
-          <p>
-            All in all, I am happy with the final result and how the app looks
-            and works across all screen sizes. It can be comfortably used on
-            huge monitors and mobile phones alike.
-          </p>
+        <p className="py-4">
+          As my styling tools, I chose the combination of{" "}
+          <strong>Material UI and Styled Components</strong>. While Material UI
+          gives some guidance in terms of theme, styling and general design,
+          Styled components make everything easily adjustable on component by
+          component basis. All in all, I am happy with the final result and how
+          the app looks and works across all screen sizes. It can be comfortably
+          used on huge monitors and mobile phones alike.
+        </p>
+        <div className="flex justify-around">
+          <Image
+            src="/project1_desktop_2.png"
+            width={1000}
+            height={800}
+            alt="project screen"
+          />
+          <Image
+            src="/project1_mobile_4.png"
+            width={300}
+            height={300}
+            alt="mobile screen"
+          />
+        </div>
+      </div>
+
+      <div className="padding-container regular-18">
+        <h2 className="bold-32-tight">Summary</h2>
+        <p className="py-4">
+          The ATS app is now finished and deployed, so you can take it for a
+          test drive yourself! This is a project that taught me much more than I
+          initially anticipated, as I kept adding new features, rewriting code,
+          learning new tools and adjusting the design. Honestly, I enjoyed this
+          bumpy development road even, though some technical problems took me
+          days to come up with solutions. Hopefully you like the end result!
         </p>
       </div>
     </section>
