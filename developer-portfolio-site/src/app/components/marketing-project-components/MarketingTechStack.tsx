@@ -33,6 +33,7 @@ const MarketingTechStack = () => {
               width={100}
               height={30}
               alt="nextjs icon"
+              className="dark:invert"
             />
             <Image
               src="/typescript.svg"
@@ -58,7 +59,6 @@ const MarketingTechStack = () => {
               width={100}
               height={30}
               alt="express icon"
-              className="dark:invert"
             />
           </div>
           <div className="md:w-[50%]">
@@ -107,7 +107,6 @@ const MarketingTechStack = () => {
               height={30}
               alt="formik icon"
             />
-           
           </div>
         </div>
       </div>
