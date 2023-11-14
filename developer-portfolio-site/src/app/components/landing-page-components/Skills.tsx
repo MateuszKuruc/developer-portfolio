@@ -6,7 +6,7 @@ import {
   FRONTEND_SKILLS,
   BACKEND_SKILLS,
   OTHER_SKILLS,
-} from "../constants/textConstants";
+} from "../../constants/textConstants";
 import Link from "next/link";
 
 const Skills = () => {

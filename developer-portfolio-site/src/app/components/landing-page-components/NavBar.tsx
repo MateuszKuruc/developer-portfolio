@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { NAV_LINKS } from "../constants/textConstants";
+import { NAV_LINKS } from "../../constants/textConstants";
 import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdLightMode, MdDarkMode } from "react-icons/md";
@@ -110,11 +110,9 @@ const NavBar = () => {
                 className="nav-links-mobile"
                 key={link.key}
               >
-                <Link href={link.href}><p className="bold-24">
-                  
-                  {link.label}
-                  </p>
-                  </Link>
+                <Link href={link.href}>
+                  <p className="bold-24">{link.label}</p>
+                </Link>
               </li>
             ))}
           </ul>

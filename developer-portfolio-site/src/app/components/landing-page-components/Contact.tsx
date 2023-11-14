@@ -3,7 +3,10 @@ import Form from "./Form";
 
 const Contact = () => {
   return (
-    <section id="contact" className="content-container dark:bg-gray-950 rounded-lg mb-20 py-8 border-t-2 border-b-2">
+    <section
+      id="contact"
+      className="content-container dark:bg-gray-950 rounded-lg mb-20 py-8 border-t-2 border-b-2"
+    >
       <div className="flex flex-col padding-container md:flex-row items-center justify-around">
         <div className="pt-6 md:pt-0 max-w-[400px]">
           <h2 className="bold-32 text-orange-500">

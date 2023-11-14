@@ -1,8 +1,8 @@
 "use client";
 
 import { useFormik } from "formik";
-import { formSchema } from "../schemas/yupSchema";
-import { FormValues, FormActions } from "../../../types";
+import { formSchema } from "../../schemas/yupSchema";
+import { FormValues, FormActions } from "../../../../types";
 import { useState } from "react";
 import { BiErrorCircle } from "react-icons/bi";
 import { GiConfirmed } from "react-icons/gi";
