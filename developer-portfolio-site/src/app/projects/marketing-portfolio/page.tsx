@@ -1,3 +1,4 @@
+import MarketingChallenges from "@/app/components/marketing-project-components/MarketingChallenges";
 import MarketingHeader from "@/app/components/marketing-project-components/MarketingHeader";
 import MarketingKeyFeatures from "@/app/components/marketing-project-components/MarketingKeyFeatures";
 import MarketingTechStack from "@/app/components/marketing-project-components/MarketingTechStack";
@@ -8,6 +9,7 @@ const MarketingProject = () => {
       <MarketingHeader />
       <MarketingKeyFeatures />
       <MarketingTechStack />
+      <MarketingChallenges />
     </section>
   );
 };
