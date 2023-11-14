@@ -131,13 +131,13 @@ const MarketingChallenges = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-around items-center">
           <Image
-            src="/project1_desktop_2.png"
+            src="/project2_desktop_3.png"
             width={1000}
             height={800}
             alt="project screen"
           />
           <Image
-            src="/project1_mobile_4.png"
+            src="/performance.png"
             width={300}
             height={300}
             alt="mobile screen"
