@@ -6,7 +6,10 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <section className="content-container border-t-2 border-b-2 bg-white dark:bg-gray-950 my-20 rounded-lg">
+    <section
+      id="projects"
+      className="content-container border-t-2 border-b-2 bg-white dark:bg-gray-950 my-20 rounded-lg"
+    >
       <div className="flex flex-col md:flex-row justify-around md:items-center border-b-2 pb-12">
         <div className="max-w-[400px] md:max-w-[600px] relative">
           <Image
