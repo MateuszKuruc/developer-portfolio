@@ -20,7 +20,7 @@ const AtsHeader = () => {
           <div className="flex justify-between">
             <div>
               <h3 className="uppercase bold-20 pb-4">Stack</h3>
-              <ul className="gap-4 regular-18 grid grid-cols-2">
+              <ul className="gap-4 regular-18 grid grid-cols-2 dark:text-orange-500">
                 <li>React</li>
                 <li>Redux</li>
                 <li>NodeJS</li>
