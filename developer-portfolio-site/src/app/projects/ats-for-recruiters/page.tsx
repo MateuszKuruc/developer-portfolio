@@ -114,8 +114,15 @@ const AtsPage = () => {
               width={100}
               height={30}
               alt="express icon"
+              className="dark:invert"
             />
-            <Image src="/aws-icon.svg" width={100} height={30} alt="aws icon" />
+            <Image
+              src="/aws-icon.svg"
+              width={100}
+              height={30}
+              alt="aws icon"
+              className="dark:invert"
+            />
             <Image
               src="/mongodb.svg"
               width={100}
@@ -164,6 +171,7 @@ const AtsPage = () => {
               width={100}
               height={30}
               alt="styled components icon"
+              className="dark:invert"
             />
           </div>
         </div>
