@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { FaExternalLinkAlt, FaGithubSquare } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -58,9 +59,11 @@ const Projects = () => {
                 commodo.{" "}
               </li>
             </ul>
-            <p className="bold-20 text-orange-500 py-4 hover:text-orange-700 cursor-pointer">
-              Read more...
-            </p>
+            <Link href="/projects/ats-for-recruiters">
+              <p className="bold-20 text-orange-500 py-4 hover:text-orange-700 cursor-pointer">
+                Read more...
+              </p>
+            </Link>
             <div className="flex flex-col md:flex-row gap-4 items-center">
               <a target="_blank" href="placeholder">
                 <button className="btn-about">
@@ -132,9 +135,11 @@ const Projects = () => {
                 commodo.{" "}
               </li>
             </ul>
-            <p className="bold-20 text-orange-500 py-4 hover:text-orange-700 cursor-pointer">
-              Read more...
-            </p>
+            <Link href="/projects/marketing-portfolio">
+              <p className="bold-20 text-orange-500 py-4 hover:text-orange-700 cursor-pointer">
+                Read more...
+              </p>
+            </Link>
             <div className="flex flex-col md:flex-row gap-4 items-center">
               <a target="_blank" href="placeholder">
                 <button className="btn-about">
