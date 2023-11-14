@@ -5,24 +5,27 @@ const AtsChallenges = () => {
   return (
     <>
       <div className="padding-container regular-18">
-        <h2 className="bold-32-tight py-4 dark:text-orange-500">
+        <h2 className="bold-32-tight py-8 dark:text-orange-500 text-center md:text-left">
           Main Challenges
         </h2>
         <p>
           The ATS project is quite extensive so, as an unexperienced developer,
           I faced plenty of challenges which pushed me in the right direction
           when it comes to further learning. To build the project in the way I
-          imagined, I first needed to get solid grasp on React for state
-          management, learn enough about backend to implement token-based
-          authentication and handle requests, then add non-relational MongoDB
-          database to the mix and learn about schemas.
+          imagined, I first needed to get solid grasp on{" "}
+          <strong>React for state management</strong>, learn enough about
+          backend to implement
+          <strong> token-based authentication</strong> and handle requests, then
+          add non-relational <strong>MongoDB</strong> database to the mix and
+          learn about schemas.
         </p>
         <p className="py-4">
-          To sprinkle some extra flavour, I decided to implement AWS cloud for
-          file management, which was completely out of scope for me before the
-          project. To finish the app, I put my responsive design knowledge to
-          test, and it was especially tricky because mobile apps usually aren't
-          focused on displaying data, but I found some solutions to this.
+          To sprinkle some extra flavour, I decided to implement{" "}
+          <strong>AWS cloud</strong> for file management, which was completely
+          out of scope for me before the project. To finish the app, I put my{" "}
+          <strong>responsive design</strong> knowledge to test, and it was
+          especially tricky because mobile apps usually aren't focused on
+          displaying data, but I found some solutions to this.
         </p>
         {/* Challenge 1 */}
         <h3 className="bold-24 py-4 dark:text-orange-500">
@@ -48,9 +51,9 @@ const AtsChallenges = () => {
         <strong>Redux store</strong>, which let me take control of the state
         management across the components that my application consists of.
         Additionally, I needed to handle request to the backend server (built in
-        NodeJS) which then interacted with non-relational database (MongoDB) to
-        retrieve, edit or save data accordingly when the user performed actions
-        on client-side.
+        <strong> NodeJS</strong>) which then interacted with non-relational
+        database (<strong>MongoDB</strong>) to retrieve, edit or save data
+        accordingly when the user performed actions on client-side.
         {/* Challenge 2 */}
         <div className="flex flex-col md:flex-row md:justify-around py-4">
           <Image
@@ -60,8 +63,8 @@ const AtsChallenges = () => {
             height={300}
             className="self-center"
           />
-          <div className="w-[50%]">
-            <h3 className="bold-24 py-4 dark:text-orange-500">
+          <div className="md:w-[50%]">
+            <h3 className="bold-24 py-9 md:py-4 dark:text-orange-500">
               2. File upload, download and delete
             </h3>
             Possibly the toughest situation for me was introducing options for
@@ -88,7 +91,7 @@ const AtsChallenges = () => {
               candidate's profile.
             </p>
             {/* Challenge 3 */}
-            <h3 className="bold-24 py-4 dark:text-orange-500">
+            <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
               3. Project structure and components reusability
             </h3>
             <p>
@@ -113,7 +116,7 @@ const AtsChallenges = () => {
           </div>
         </div>
         {/* Challenge 4 */}
-        <h3 className="bold-24 py-4 dark:text-orange-500">
+        <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
           4. Responsive design and styling
         </h3>
         My goal was to strike a balance between a <em>nice looking app</em> and{" "}
@@ -131,7 +134,7 @@ const AtsChallenges = () => {
           the app looks and works across all screen sizes. It can be comfortably
           used on huge monitors and mobile phones alike.
         </p>
-        <div className="flex justify-around">
+        <div className="flex flex-col md:flex-row justify-around items-center">
           <Image
             src="/project1_desktop_2.png"
             width={1000}
