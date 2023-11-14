@@ -6,7 +6,7 @@ const AtsHeader = () => {
     <>
       <div className="padding-container regular-18 flex justify-around">
         <div className="w-[50%]">
-          <h2 className="bold-40">
+          <h2 className="bold-40 dark:text-orange-500">
             Applicant Tracking System for IT recruiters
           </h2>
           <p className="regular-18 py-8">

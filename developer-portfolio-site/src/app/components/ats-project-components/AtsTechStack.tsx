@@ -5,7 +5,7 @@ const AtsTechStack = () => {
   return (
     <>
       <div className="padding-container regular-18 border-b-2 border-t-2 py-8">
-        <h2 className="bold-32-tight">Tech stack choices</h2>
+        <h2 className="bold-32-tight dark:text-orange-500">Tech stack choices</h2>
 
         <div className="flex py-8">
           <div className="w-[50%]">

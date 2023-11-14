@@ -5,7 +5,7 @@ const AtsKeyFeatures = () => {
   return (
     <>
       <div className="padding-container regular-18">
-        <h2 className="bold-32-tight py-4">Key features</h2>
+        <h2 className="bold-32-tight py-4 dark:text-orange-500">Key features</h2>
         <p>
           My aim was to build a robust recruitment system, similar to the ones I
           encountered in my work as IT recruiter. I wanted the tool to simplify

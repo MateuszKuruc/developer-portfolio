@@ -5,7 +5,7 @@ const AtsChallenges = () => {
   return (
     <>
       <div className="padding-container regular-18">
-        <h2 className="bold-32-tight py-4">Main Challenges</h2>
+        <h2 className="bold-32-tight py-4 dark:text-orange-500">Main Challenges</h2>
         <p>
           The ATS project is quite extensive so, as an unexperienced developer,
           I faced plenty of challenges which pushed me in the right direction
@@ -23,7 +23,7 @@ const AtsChallenges = () => {
           focused on displaying data, but I found some solutions to this.
         </p>
         {/* Challenge 1 */}
-        <h3 className="bold-24 py-4">1. State management</h3>
+        <h3 className="bold-24 py-4 dark:text-orange-500">1. State management</h3>
         <p>
           Of course, I wanted to make all data in the app easily editable. This
           was a demanding task, as there are a few different app sections where
@@ -57,7 +57,7 @@ const AtsChallenges = () => {
             className="self-center"
           />
           <div className="w-[50%]">
-            <h3 className="bold-24 py-4">
+            <h3 className="bold-24 py-4 dark:text-orange-500">
               2. File upload, download and delete
             </h3>
             Possibly the toughest situation for me was introducing options for
@@ -84,7 +84,7 @@ const AtsChallenges = () => {
               candidate's profile.
             </p>
             {/* Challenge 3 */}
-            <h3 className="bold-24 py-4">
+            <h3 className="bold-24 py-4 dark:text-orange-500">
               3. Project structure and components reusability
             </h3>
             <p>
@@ -109,7 +109,7 @@ const AtsChallenges = () => {
           </div>
         </div>
         {/* Challenge 4 */}
-        <h3 className="bold-24 py-4">4. Responsive design and styling</h3>
+        <h3 className="bold-24 py-4 dark:text-orange-500">4. Responsive design and styling</h3>
         My goal was to strike a balance between a <em>
           nice looking app
         </em> and <em>functional, easy to use app</em>. This was especially

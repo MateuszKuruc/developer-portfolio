@@ -2,7 +2,7 @@ const AtsSummary = () => {
   return (
     <>
       <div className="padding-container regular-18">
-        <h2 className="bold-32-tight">Summary</h2>
+        <h2 className="bold-32-tight dark:text-orange-500">Summary</h2>
         <p className="py-4">
           The ATS app is now finished and deployed, so you can take it for a
           test drive yourself! This is a project that taught me much more than I
