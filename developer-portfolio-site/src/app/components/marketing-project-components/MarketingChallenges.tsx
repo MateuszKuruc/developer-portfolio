@@ -96,16 +96,19 @@ const MarketingChallenges = () => {
             <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
               3. Animations
             </h3>
-            <p>My focus was on providing</p>
+            <p>
+              Animations were key to creating a modern look and positive user
+              experience. I made sure to include a few interactive elements in
+              the application to present data in a compelling way.
+            </p>
             <p className="pt-4">
-              Moreover, I studied which design patterns I should follow when
-              writing my React components, so I can <strong>reuse</strong> them
-              throughout my application and{" "}
-              <strong>avoid code duplication</strong>. I am especially proud of
-              this part, as some of my React components were responsible for
-              rendering <strong>multiple different subpages </strong>
-              depending on the data passed to them - this really made me
-              understand biggest strength of React.
+              {/* <p> */}
+              <strong>Image carousel </strong>is used for showcasing the
+              client's logos, while <strong>Accordion component </strong>is a
+              slick way to <em>hide and show </em>case studies' details on
+              click. With <strong>Framer Motion</strong>'s help I have also set
+              up consistent page loading animations and text animations on
+              scroll.
             </p>
           </div>
         </div>
@@ -114,17 +117,17 @@ const MarketingChallenges = () => {
           4. Performance and accessibility
         </h3>
         <p>
-
-        My focus was on providing
+          My goal was to build a website that will perform well and
+          consistently. Even though the app is not large, I decided to
+          appropriately split code into components for both clarity and
+          performance.
         </p>
         <p className="py-4">
-          As my styling tools, I chose the combination of{" "}
-          <strong>Material UI and Styled Components</strong>. While Material UI
-          gives some guidance in terms of theme, styling and general design,
-          Styled components make everything easily adjustable on component by
-          component basis. All in all, I am happy with the final result and how
-          the app looks and works across all screen sizes. It can be comfortably
-          used on huge monitors and mobile phones alike.
+          This project was the first one where I consciously thought about{" "}
+          <strong>semantic HTML</strong> and <strong>Accessibility </strong>
+          topics. All the interactive elements have{" "}
+          <strong>aria labels </strong>or statuses, and the images have alt
+          property with apt content description.
         </p>
         <div className="flex flex-col md:flex-row justify-around items-center">
           <Image
