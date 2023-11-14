@@ -100,7 +100,8 @@ const Projects = () => {
           <h2 className="bold-40 text-center py-0 pb-4 md:py-4">
             Marketing Portfolio website
           </h2>
-          <p className="regular-18 border-t-2 border-b-2 py-4 w-[auto] md:w-[700px] text-center">
+          {/* <p className="regular-18 border-t-2 border-b-2 py-4 w-[auto] md:w-[700px] text-center"> */}
+          <p className="regular-18 border-t-2 border-b-2 py-4 max-w-[700px]">
             Next.js ◆ TypeScript ◆ Tailwind ◆ Formik ◆ Yup
           </p>
 
