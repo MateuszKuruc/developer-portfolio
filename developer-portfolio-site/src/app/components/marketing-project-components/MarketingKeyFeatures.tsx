@@ -8,11 +8,6 @@ const MarketingKeyFeatures = () => {
           Project goals
         </h2>
         <p>
-          {/* My aim was to build a robust recruitment system, similar to the ones I
-          encountered in my work as IT recruiter. I wanted the tool to simplify
-          the recruitment process on the recruiter side, conveniently divide
-          candidates into categories and ensure that each recruiter only has
-          only got access to their own candidates and statistics. */}
           My job was to create graphic design for the website, prepare color
           palette, build the whole application and deploy it.
         </p>
