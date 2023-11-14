@@ -33,7 +33,7 @@ const AtsHeader = () => {
             </div>
             <div className="py-6 md:py-0">
               <h3 className="uppercase bold-20">Live</h3>
-              <a target="_blank" href="placeholder">
+              <a target="_blank" href="https://ats-mateuszkuruc.onrender.com/">
                 <p className="bold-20 text-orange-500 hover:text-orange-700">
                   View site
                 </p>
