@@ -19,7 +19,7 @@ export const FRONTEND_SKILLS = {
     { src: "/redux.svg", name: "Redux", label: "Redux icon" },
   ],
   invert: [
-    { src: "/nextjs.svg", name: "NextJS", label: "NextJS icon" },
+    { src: "/nextjs.svg", name: "Next.js", label: "NextJS icon" },
     { src: "/responsive.svg", name: "Responsive design", label: "Mobile icon" },
     {
       src: "/styled-components.svg",

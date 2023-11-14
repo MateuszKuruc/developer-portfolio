@@ -1,7 +1,13 @@
-import React from "react";
+import MarketingHeader from "@/app/components/marketing-project-components/MarketingHeader";
+import MarketingKeyFeatures from "@/app/components/marketing-project-components/MarketingKeyFeatures";
 
 const MarketingProject = () => {
-  return <div>MarketingProject</div>;
+  return (
+    <section className="content-container py-12">
+      <MarketingHeader />
+      <MarketingKeyFeatures />
+    </section>
+  );
 };
 
 export default MarketingProject;
