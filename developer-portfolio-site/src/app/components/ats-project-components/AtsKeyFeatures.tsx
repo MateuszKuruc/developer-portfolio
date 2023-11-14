@@ -4,8 +4,8 @@ import Image from "next/image";
 const AtsKeyFeatures = () => {
   return (
     <>
-      <div className="padding-container regular-18">
-        <h2 className="bold-32-tight py-4 dark:text-orange-500">
+      <div className="padding-container regular-18 py-12">
+        <h2 className="bold-32-tight py-4 dark:text-orange-500 text-center md:text-left">
           Key features
         </h2>
         <p>
@@ -30,6 +30,7 @@ const AtsKeyFeatures = () => {
           width={1200}
           height={800}
           alt="project desktop screen"
+          className="py-4 md:p-0"
         />
       </div>
     </>
