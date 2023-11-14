@@ -5,10 +5,14 @@ const AtsTechStack = () => {
   return (
     <>
       <div className="padding-container regular-18 border-b-2 border-t-2 py-8">
-        <h2 className="bold-32-tight dark:text-orange-500">Tech stack choices</h2>
+        <h2 className="bold-32-tight dark:text-orange-500 text-center md:text-left">
+          Tech stack choices
+        </h2>
 
-        <div className="flex py-8">
-          <div className="w-[50%]">
+        {/* Section 1 */}
+
+        <div className="flex flex-col md:flex-row py-8">
+          <div className="md:w-[50%]">
             <p>
               The selection of tools was deliberate and thought out with the aim
               to write a modern app with the least amount of duplicate code when
@@ -24,14 +28,16 @@ const AtsTechStack = () => {
               <strong>React hooks and Redux store</strong>.
             </p>
           </div>
-          <div className="flex w-[50%] justify-around">
+          <div className="flex md:w-[50%] justify-around pt-4 md:pt-0">
             <Image src="/react.svg" width={100} height={30} alt="react icon" />
             <Image src="/redux.svg" width={100} height={30} alt="redux icon" />
           </div>
         </div>
 
-        <div className="flex py-8">
-          <div className="flex w-[50%] justify-around">
+        {/* Section 2 */}
+
+        <div className="flex flex-col-reverse md:flex-row py-8 items-center">
+          <div className="md:flex md:w-[50%] md:justify-around grid grid-cols-2 items-center gap-12 pt-8 md:pt-0">
             <Image
               src="/nodejs.svg"
               width={100}
@@ -59,7 +65,7 @@ const AtsTechStack = () => {
               alt="mongodb icon"
             />
           </div>
-          <div className="w-[50%]">
+          <div className="md:w-[50%]">
             <p>
               Backend side was set up with <strong>NodeJS</strong> runtime and{" "}
               <strong>Express</strong> library, which allowed me to stay within
@@ -78,8 +84,10 @@ const AtsTechStack = () => {
           </div>
         </div>
 
-        <div className="flex py-8">
-          <div className="w-[50%]">
+        {/* Section 3 */}
+
+        <div className="flex flex-col md:flex-row py-8">
+          <div className="md:w-[50%]">
             <p>
               The choice of <strong>Material UI</strong> was made in order to
               keep the coherent and harmonious design for the whole app, easily
@@ -93,7 +101,7 @@ const AtsTechStack = () => {
             </p>
           </div>
 
-          <div className="flex w-[50%] justify-around">
+          <div className="flex md:w-[50%] justify-around pt-4 md:pt-0">
             <Image src="/mui.svg" width={100} height={30} alt="mui icon" />
             <Image
               src="/styled-components.svg"
