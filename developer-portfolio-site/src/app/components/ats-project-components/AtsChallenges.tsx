@@ -5,7 +5,9 @@ const AtsChallenges = () => {
   return (
     <>
       <div className="padding-container regular-18">
-        <h2 className="bold-32-tight py-4 dark:text-orange-500">Main Challenges</h2>
+        <h2 className="bold-32-tight py-4 dark:text-orange-500">
+          Main Challenges
+        </h2>
         <p>
           The ATS project is quite extensive so, as an unexperienced developer,
           I faced plenty of challenges which pushed me in the right direction
@@ -23,7 +25,9 @@ const AtsChallenges = () => {
           focused on displaying data, but I found some solutions to this.
         </p>
         {/* Challenge 1 */}
-        <h3 className="bold-24 py-4 dark:text-orange-500">1. State management</h3>
+        <h3 className="bold-24 py-4 dark:text-orange-500">
+          1. State management
+        </h3>
         <p>
           Of course, I wanted to make all data in the app easily editable. This
           was a demanding task, as there are a few different app sections where
@@ -34,10 +38,10 @@ const AtsChallenges = () => {
         </p>
         <p className="py-4">All the fields need to present options to:</p>
         <ul className="list-disc p-4">
-          <li>edit existing data and save it</li>
-          <li>start editing the data, but cancel and restore previous data</li>
+          <li>Edit existing data and save it</li>
+          <li>Start editing the data, but cancel and restore previous data</li>
           <li>
-            upload or delete file on candidate's profile and refresh the state
+            Upload or delete file on candidate's profile and refresh the state
           </li>
         </ul>
         To make these actions possible, I needed to set up{" "}
@@ -109,14 +113,15 @@ const AtsChallenges = () => {
           </div>
         </div>
         {/* Challenge 4 */}
-        <h3 className="bold-24 py-4 dark:text-orange-500">4. Responsive design and styling</h3>
-        My goal was to strike a balance between a <em>
-          nice looking app
-        </em> and <em>functional, easy to use app</em>. This was especially
-        difficult because the ATS app uses tables, forms and text fields
-        everywhere, and they are not the easiest to style for mobile phone use.
-        I decided to introduce additional switching of display mode in a few
-        tabs to make the tables easier to display on the smaller, mobile screen.
+        <h3 className="bold-24 py-4 dark:text-orange-500">
+          4. Responsive design and styling
+        </h3>
+        My goal was to strike a balance between a <em>nice looking app</em> and{" "}
+        <em>functional, easy to use app</em>. This was especially difficult
+        because the ATS app uses tables, forms and text fields everywhere, and
+        they are not the easiest to style for mobile phone use. I decided to
+        introduce additional switching of display mode in a few tabs to make the
+        tables easier to display on the smaller, mobile screen.
         <p className="py-4">
           As my styling tools, I chose the combination of{" "}
           <strong>Material UI and Styled Components</strong>. While Material UI
