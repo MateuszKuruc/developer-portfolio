@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
@@ -14,8 +14,9 @@ const Reveal = ({ children }: RevealProps) => {
   useEffect(() => {
     if (isInView) {
       mainControls.start("visible");
+      slideControls.start("visible");
     }
-  }, [isInView, mainControls]);
+  }, [isInView]);
 
   return (
     <div ref={ref} className="relative overflow-hidden">
@@ -30,6 +31,16 @@ const Reveal = ({ children }: RevealProps) => {
       >
         {children}
       </motion.div>
+      <motion.div
+        variants={{
+          hidden: { left: 0 },
+          visible: { left: "100%" },
+        }}
+        initial="hidden"
+        animate={slideControls}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        className="absolute top-4 bottom-4 left-0 right-0 bg-orange-500 z-20"
+      />
     </div>
   );
 };
