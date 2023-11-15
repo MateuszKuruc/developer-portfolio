@@ -19,7 +19,7 @@ const Reveal = ({ children }: RevealProps) => {
   }, [isInView]);
 
   return (
-    <div ref={ref} className="relative overflow-hidden">
+    <div ref={ref} className="relative overflow-hidden w-fit">
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 75 },
@@ -27,7 +27,7 @@ const Reveal = ({ children }: RevealProps) => {
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 0.8, delay: 0.35 }}
+        transition={{ duration: 0.6, delay: 0.25 }}
       >
         {children}
       </motion.div>
@@ -38,7 +38,7 @@ const Reveal = ({ children }: RevealProps) => {
         }}
         initial="hidden"
         animate={slideControls}
-        transition={{ duration: 1, ease: "easeInOut" }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
         className="absolute top-4 bottom-4 left-0 right-0 bg-orange-500 z-20"
       />
     </div>

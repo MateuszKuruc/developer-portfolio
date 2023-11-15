@@ -1,14 +1,20 @@
 import Image from "next/image";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
+import Reveal from "../animation-components/Reveal";
 
 const About = () => {
   return (
     <section id="about" className="content-container ">
       <div className="padding-container flex flex-col xl:flex-row items-center justify-around py-10 sm:py-20 2xl:py-40 gap-10">
         <div className="3xl:max-w-[800px] sm:max-w-[600px]">
-          <h2 className="bold-40 leading-[120%] text-center md:text-left">
-            Mateusz Kuruc
-          </h2>
+          <Reveal>
+            <h2 className="bold-40 leading-[120%] text-center md:text-left">
+              Mateusz Kuruc
+            </h2>
+          </Reveal>
+
+<Reveal>
+
           <h2 className="bold-40 text-center md:text-left">
             Junior{" "}
             <span className="text-orange-500 inline-flex flex-col h-[calc(40px*1.2)] overflow-hidden drop-shadow-xl border-b-2 border-orange-500">
@@ -21,6 +27,7 @@ const About = () => {
             </span>{" "}
             Developer
           </h2>
+</Reveal>
           <p className="regular-18 leading-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
             pellentesque justo magna, non fermentum quam fermentum sit amet.

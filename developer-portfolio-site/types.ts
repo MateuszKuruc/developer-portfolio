@@ -10,4 +10,5 @@ export interface FormActions {
 
 export interface RevealProps {
   children: JSX.Element;
+  width?: "fit-content" | "100%";
 }
