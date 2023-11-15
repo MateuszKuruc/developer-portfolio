@@ -11,6 +11,7 @@ import { useTheme } from "next-themes";
 
 const NavBar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  const [activeLink, setActiveLink] = useState("about");
 
   const { theme, setTheme } = useTheme();
 
@@ -40,7 +41,15 @@ const NavBar = () => {
           <ul className="gap-4 hidden sm:flex">
             {NAV_LINKS.map((link) => (
               <li className="nav-links-desktop" key={link.key}>
-                <Link href={link.href}>{link.label}</Link>
+                <Link
+                  href={link.href}
+                  className={`${
+                    activeLink === link.key ? "bold-20 text-orange-500" : ""
+                  }`}
+                  onClick={() => setActiveLink(link.key)}
+                >
+                  {link.label}
+                </Link>
               </li>
             ))}
           </ul>
@@ -133,13 +142,6 @@ const NavBar = () => {
             />
           </a>
         </div>
-        {/* <Image
-          src="/logo-placeholder.png"
-          alt="logo"
-          width={200}
-          height={100}
-          className="mx-auto"
-        /> */}
       </div>
     </nav>
   );
