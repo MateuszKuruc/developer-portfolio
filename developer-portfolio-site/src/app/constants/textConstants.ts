@@ -55,6 +55,7 @@ standard: [
   { src: "/postman.svg", name: "Postman", label: "Postman icon" },
   { src: "/mongoose.svg", name: "Mongoose", label: "Mongoose icon" },
   { src: "/framer-motion.svg", name: "Framer Motion", label: "Framer Motion icon" },
+  { src: "/devtools.svg", name: "Chrome DevTools", label: "Framer Motion icon" },
 ] ,
 invert: [
   { src: "/github.svg", name: "Github", label: "Github icon" },

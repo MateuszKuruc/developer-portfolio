@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS } from "../../constants/textConstants";
 import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
