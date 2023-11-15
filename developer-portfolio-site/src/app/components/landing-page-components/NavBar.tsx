@@ -8,12 +8,19 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
+import { usePathname } from "next/navigation";
 
 const NavBar = () => {
+  const pathname = usePathname();
+
   const [openMenu, setOpenMenu] = useState(false);
   const [activeLink, setActiveLink] = useState("about");
 
   const { theme, setTheme } = useTheme();
+
+  const isHomePage = () => {
+    return pathname === "/";
+  };
 
   const setLightTheme = () => {
     setTheme("light");
@@ -25,7 +32,7 @@ const NavBar = () => {
 
   const handleScroll = () => {
     const scrollY = window.scrollY;
-    console.log(scrollY)
+    console.log(scrollY);
 
     if (scrollY < 1700) {
       setActiveLink("about");
@@ -38,7 +45,7 @@ const NavBar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-   
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -63,9 +70,12 @@ const NavBar = () => {
             {NAV_LINKS.map((link) => (
               <li className="nav-links-desktop" key={link.key}>
                 <Link
-                  href={link.href}
+                  // href={link.href}
+                  href={`${isHomePage() ? link.href : `/${link.href}`}`}
                   className={`${
-                    activeLink === link.key ? "bold-20 text-orange-500" : ""
+                    activeLink === link.key
+                      ? "bold-20 text-orange-500 hover:text-orange-700"
+                      : ""
                   }`}
                   onClick={() => setActiveLink(link.key)}
                 >
