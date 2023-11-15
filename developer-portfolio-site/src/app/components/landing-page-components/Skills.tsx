@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import React from "react";
 import { AiOutlineArrowDown } from "react-icons/ai";
@@ -18,10 +16,9 @@ const Skills = () => {
       <Link href="#skills">
         <div id="skills" className="flex justify-center gap-2 pb-20">
           <Reveal>
-
-          <p className="bold-24 text-orange-500 hover:text-orange-700">
-            See how I build my stuff
-          </p>
+            <p className="bold-24 text-orange-500 hover:text-orange-700">
+              See how I build my stuff
+            </p>
           </Reveal>
           <AiOutlineArrowDown size={30} className="animate-bounce" />
         </div>
@@ -31,10 +28,9 @@ const Skills = () => {
         className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-2 2xl:py-6"
       >
         <Reveal>
-
-        <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
-          Frontend
-        </h3>
+          <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
+            Frontend
+          </h3>
         </Reveal>
 
         {/* Mobile version */}

@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "./Form";
+import Reveal from "../animation-components/Reveal";
 
 const Contact = () => {
   return (
@@ -9,15 +10,18 @@ const Contact = () => {
     >
       <div className="flex flex-col padding-container md:flex-row items-center justify-around">
         <div className="pt-6 md:pt-0 max-w-[400px]">
-          <h2 className="bold-32 text-orange-500">
-            Want to get in touch? Awesome! Write an e-mail, use the contact form
-            or give me a call.
-          </h2>
+          <Reveal>
+            <h2 className="bold-32 text-orange-500">
+              Want to get in touch? Awesome! Write an e-mail, use the contact
+              form or give me a call.
+            </h2>
+          </Reveal>
         </div>
-
-        <div>
-          <Form />
-        </div>
+        <Reveal>
+          <div>
+            <Form />
+          </div>
+        </Reveal>
       </div>
     </section>
   );
