@@ -83,6 +83,9 @@ const NavBar = () => {
                 </Link>
               </li>
             ))}
+            <Link className="nav-links-desktop" target="_blank" href="/resume">
+              Resume
+            </Link>
           </ul>
         </div>
 
