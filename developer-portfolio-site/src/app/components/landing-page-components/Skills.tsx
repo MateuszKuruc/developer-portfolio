@@ -34,6 +34,8 @@ const Skills = () => {
         </Reveal>
 
         {/* Mobile version */}
+        <Reveal>
+
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
           {FRONTEND_SKILLS.standard.map((skill) => (
             <li
@@ -46,15 +48,15 @@ const Skills = () => {
                 width={40}
                 height={40}
                 className="rounded-lg"
-              />
+                />
 
               <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
           {FRONTEND_SKILLS.invert.map((skill) => (
             <li
-              key={skill.name}
-              className="flex flex-col lg:flex-row items-center justify-start gap-2"
+            key={skill.name}
+            className="flex flex-col lg:flex-row items-center justify-start gap-2"
             >
               <Image
                 src={skill.src}
@@ -62,12 +64,13 @@ const Skills = () => {
                 width={40}
                 height={40}
                 className="rounded-lg dark:invert"
-              />
+                />
 
               <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
+          </Reveal>
 
         {/* Desktop version */}
         <Reveal>
@@ -112,16 +115,21 @@ const Skills = () => {
         // className="padding-container border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-6"
         className="padding-container border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-2 2xl:py-6"
       >
+        <Reveal>
+
         <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Backend
         </h3>
+        </Reveal>
 
         {/* Mobile version */}
+        <Reveal>
+
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
           {BACKEND_SKILLS.standard.map((skill) => (
             <li
-              key={skill.name}
-              className="flex flex-col lg:flex-row items-center justify-end gap-2"
+            key={skill.name}
+            className="flex flex-col lg:flex-row items-center justify-end gap-2"
             >
               <Image src={skill.src} alt={skill.label} width={40} height={40} />
 
@@ -130,8 +138,8 @@ const Skills = () => {
           ))}
           {BACKEND_SKILLS.invert.map((skill) => (
             <li
-              key={skill.name}
-              className="flex flex-col lg:flex-row items-center justify-end gap-2"
+            key={skill.name}
+            className="flex flex-col lg:flex-row items-center justify-end gap-2"
             >
               <Image
                 src={skill.src}
@@ -139,12 +147,13 @@ const Skills = () => {
                 width={40}
                 height={40}
                 className="dark:invert"
-              />
+                />
 
               <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
+          </Reveal>
 
         {/* Desktop version */}
         <Reveal>
@@ -185,16 +194,21 @@ const Skills = () => {
       </div>
 
       <div className="padding-container text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-2 2xl:py-6">
+        <Reveal>
+
         <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Other tools
         </h3>
+        </Reveal>
 
         {/* Mobile version */}
+        <Reveal>
+
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
           {OTHER_SKILLS.standard.map((skill) => (
             <li
-              key={skill.name}
-              className="flex flex-col lg:flex-row items-center justify-start gap-2"
+            key={skill.name}
+            className="flex flex-col lg:flex-row items-center justify-start gap-2"
             >
               <Image
                 src={skill.src}
@@ -202,15 +216,15 @@ const Skills = () => {
                 width={40}
                 height={40}
                 className="rounded-lg"
-              />
+                />
 
               <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
           {OTHER_SKILLS.invert.map((skill) => (
             <li
-              key={skill.name}
-              className="flex flex-col lg:flex-row items-center justify-start gap-2"
+            key={skill.name}
+            className="flex flex-col lg:flex-row items-center justify-start gap-2"
             >
               <Image
                 src={skill.src}
@@ -218,12 +232,13 @@ const Skills = () => {
                 width={40}
                 height={40}
                 className="rounded-lg dark:invert"
-              />
+                />
 
               <p className="skills-16 text-center">{skill.name}</p>
             </li>
           ))}
         </ul>
+          </Reveal>
 
         {/* Desktop version */}
         <Reveal>
