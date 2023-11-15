@@ -30,122 +30,131 @@ const AtsChallenges = () => {
         </p>
         {/* Challenge 1 */}
         <Reveal>
-          <h3 className="bold-24 py-4 dark:text-orange-500">
-            1. State management
-          </h3>
-        </Reveal>
-        <p>
-          Of course, I wanted to make all data in the app easily editable. This
-          was a demanding task, as there are a few different app sections where
-          separate parts of candidates' profiles can be updated. For example,
-          when the candidate profile is initially created it only includes basic
-          details, but at a later stage the user can provide additional data
-          (e.g. extended feedback) or update the data that already exists.
-        </p>
-        <p className="py-4">All the fields need to present options to:</p>
-        <ul className="list-disc p-4">
-          <Reveal>
-            <li className="ml-6">Edit existing data and save it</li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">
-              Start editing the data, but cancel and restore previous data
-            </li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">
-              Upload or delete file on candidate's profile and refresh the state
-            </li>
-          </Reveal>
-        </ul>
-        To make these actions possible, I needed to set up{" "}
-        <strong>Redux store</strong>, which let me take control of the state
-        management across the components that my application consists of.
-        Additionally, I needed to handle request to the backend server (built in
-        <strong> NodeJS</strong>) which then interacted with non-relational
-        database (<strong>MongoDB</strong>) to retrieve, edit or save data
-        accordingly when the user performed actions on client-side.
-        {/* Challenge 2 */}
-        <div className="flex flex-col md:flex-row md:justify-around py-4">
-          <Image
-            src="/project1_mobile_3.png"
-            alt="mobile screen"
-            width={300}
-            height={300}
-            className="self-center"
-          />
-          <div className="md:w-[50%]">
-            <Reveal>
-              <h3 className="bold-24 py-9 md:py-4 dark:text-orange-500">
-                2. File upload, download and delete
-              </h3>
-            </Reveal>
-            Possibly the toughest situation for me was introducing options for
-            working on files in each candidate's profile. I decided to make use
-            of <strong>AWS</strong> for a few reasons:
+          <div>
+            <h3 className="bold-24 py-4 dark:text-orange-500">
+              1. State management
+            </h3>
+            <p>
+              Of course, I wanted to make all data in the app easily editable.
+              This was a demanding task, as there are a few different app
+              sections where separate parts of candidates' profiles can be
+              updated. For example, when the candidate profile is initially
+              created it only includes basic details, but at a later stage the
+              user can provide additional data (e.g. extended feedback) or
+              update the data that already exists.
+            </p>
+            <p className="py-4">All the fields need to present options to:</p>
             <ul className="list-disc p-4">
               <Reveal>
+                <li className="ml-6">Edit existing data and save it</li>
+              </Reveal>
+              <Reveal>
                 <li className="ml-6">
-                  I wanted to gain practical experience with cloud solutions
+                  Start editing the data, but cancel and restore previous data
                 </li>
               </Reveal>
               <Reveal>
                 <li className="ml-6">
-                  Knowledge about AWS is very in-demand in current market
-                </li>
-              </Reveal>
-              <Reveal>
-                <li className="ml-6">
-                  It is free if you do not exceed storage limits
+                  Upload or delete file on candidate's profile and refresh the
+                  state
                 </li>
               </Reveal>
             </ul>
-            <p>
-              Ultimately, I went with <strong>AWS S3</strong> and managed to
-              integrate functionalities for instant uploading, downloading and
-              deleting pdf and doc files for each profile. On backend side I
-              used <strong>Multer</strong> library to handle files sent from
-              client side and upload them to my <strong>AWS S3 storage</strong>.
-            </p>
-            <p className="pt-4">
-              On the frontend side, I restricted users to only upload pdf or doc
-              files, prepared requests for all actions (upload/download/delete)
-              and set up state management to instantly reflect changes to
-              candidate's profile.
-            </p>
-            {/* Challenge 3 */}
-            <Reveal>
-              <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
-                3. Project structure and components reusability
-              </h3>
-            </Reveal>
-            <p>
-              Since this is by far the biggest project I worked on, I had to
-              learn how to manage project folders, files and components so that
-              updates can be made intuitively and the{" "}
-              <strong>components are as reusable as possible</strong>. I tried
-              to incorporate best practises when it comes to folder structure on
-              both backend and frontend side and use universally accepted naming
-              conventions for clarity.
-            </p>
-            <p className="pt-4">
-              Moreover, I studied which design patterns I should follow when
-              writing my React components, so I can <strong>reuse</strong> them
-              throughout my application and{" "}
-              <strong>avoid code duplication</strong>. I am especially proud of
-              this part, as some of my React components were responsible for
-              rendering <strong>multiple different subpages </strong>
-              depending on the data passed to them - this really made me
-              understand biggest strength of React.
-            </p>
+            To make these actions possible, I needed to set up{" "}
+            <strong>Redux store</strong>, which let me take control of the state
+            management across the components that my application consists of.
+            Additionally, I needed to handle request to the backend server
+            (built in
+            <strong> NodeJS</strong>) which then interacted with non-relational
+            database (<strong>MongoDB</strong>) to retrieve, edit or save data
+            accordingly when the user performed actions on client-side.
           </div>
-        </div>
+        </Reveal>
+        {/* Challenge 2 */}
+        <Reveal>
+          <div className="flex flex-col md:flex-row md:justify-around py-4">
+            <Image
+              src="/project1_mobile_3.png"
+              alt="mobile screen"
+              width={300}
+              height={300}
+              className="self-center"
+            />
+            <div className="md:w-[50%]">
+              
+                <h3 className="bold-24 py-9 md:py-4 dark:text-orange-500">
+                  2. File upload, download and delete
+                </h3>
+              
+              Possibly the toughest situation for me was introducing options for
+              working on files in each candidate's profile. I decided to make
+              use of <strong>AWS</strong> for a few reasons:
+              <ul className="list-disc p-4">
+                <Reveal>
+                  <li className="ml-6">
+                    I wanted to gain practical experience with cloud solutions
+                  </li>
+                </Reveal>
+                <Reveal>
+                  <li className="ml-6">
+                    Knowledge about AWS is very in-demand in current market
+                  </li>
+                </Reveal>
+                <Reveal>
+                  <li className="ml-6">
+                    It is free if you do not exceed storage limits
+                  </li>
+                </Reveal>
+              </ul>
+              <p>
+                Ultimately, I went with <strong>AWS S3</strong> and managed to
+                integrate functionalities for instant uploading, downloading and
+                deleting pdf and doc files for each profile. On backend side I
+                used <strong>Multer</strong> library to handle files sent from
+                client side and upload them to my{" "}
+                <strong>AWS S3 storage</strong>.
+              </p>
+              <p className="pt-4">
+                On the frontend side, I restricted users to only upload pdf or
+                doc files, prepared requests for all actions
+                (upload/download/delete) and set up state management to
+                instantly reflect changes to candidate's profile.
+              </p>
+              {/* Challenge 3 */}
+              
+                <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
+                  3. Project structure and components reusability
+                </h3>
+              
+              <p>
+                Since this is by far the biggest project I worked on, I had to
+                learn how to manage project folders, files and components so
+                that updates can be made intuitively and the{" "}
+                <strong>components are as reusable as possible</strong>. I tried
+                to incorporate best practises when it comes to folder structure
+                on both backend and frontend side and use universally accepted
+                naming conventions for clarity.
+              </p>
+              <p className="pt-4">
+                Moreover, I studied which design patterns I should follow when
+                writing my React components, so I can <strong>reuse</strong>{" "}
+                them throughout my application and{" "}
+                <strong>avoid code duplication</strong>. I am especially proud
+                of this part, as some of my React components were responsible
+                for rendering <strong>multiple different subpages </strong>
+                depending on the data passed to them - this really made me
+                understand biggest strength of React.
+              </p>
+            </div>
+          </div>
+        </Reveal>
         {/* Challenge 4 */}
         <Reveal>
+          <div>
+
           <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
             4. Responsive design and styling
           </h3>
-        </Reveal>
         My goal was to strike a balance between a <em>nice looking app</em> and{" "}
         <em>functional, easy to use app</em>. This was especially difficult
         because the ATS app uses tables, forms and text fields everywhere, and
@@ -167,15 +176,17 @@ const AtsChallenges = () => {
             width={1000}
             height={800}
             alt="project screen"
-          />
+            />
           <Image
             src="/project1_mobile_4.png"
             width={300}
             height={300}
             alt="mobile screen"
-          />
+            />
         </div>
       </div>
+            </Reveal>
+            </div>
     </>
   );
 };
