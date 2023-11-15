@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
+import Reveal from "../animation-components/Reveal";
 
 const AtsChallenges = () => {
   return (
@@ -28,9 +29,11 @@ const AtsChallenges = () => {
           displaying data, but I found some solutions to this.
         </p>
         {/* Challenge 1 */}
-        <h3 className="bold-24 py-4 dark:text-orange-500">
-          1. State management
-        </h3>
+        <Reveal>
+          <h3 className="bold-24 py-4 dark:text-orange-500">
+            1. State management
+          </h3>
+        </Reveal>
         <p>
           Of course, I wanted to make all data in the app easily editable. This
           was a demanding task, as there are a few different app sections where
@@ -41,11 +44,19 @@ const AtsChallenges = () => {
         </p>
         <p className="py-4">All the fields need to present options to:</p>
         <ul className="list-disc p-4">
-          <li>Edit existing data and save it</li>
-          <li>Start editing the data, but cancel and restore previous data</li>
-          <li>
-            Upload or delete file on candidate's profile and refresh the state
-          </li>
+          <Reveal>
+            <li className="ml-6">Edit existing data and save it</li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">
+              Start editing the data, but cancel and restore previous data
+            </li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">
+              Upload or delete file on candidate's profile and refresh the state
+            </li>
+          </Reveal>
         </ul>
         To make these actions possible, I needed to set up{" "}
         <strong>Redux store</strong>, which let me take control of the state
@@ -64,18 +75,30 @@ const AtsChallenges = () => {
             className="self-center"
           />
           <div className="md:w-[50%]">
-            <h3 className="bold-24 py-9 md:py-4 dark:text-orange-500">
-              2. File upload, download and delete
-            </h3>
+            <Reveal>
+              <h3 className="bold-24 py-9 md:py-4 dark:text-orange-500">
+                2. File upload, download and delete
+              </h3>
+            </Reveal>
             Possibly the toughest situation for me was introducing options for
             working on files in each candidate's profile. I decided to make use
             of <strong>AWS</strong> for a few reasons:
             <ul className="list-disc p-4">
-              <li>
-                I wanted to gain practical experience with cloud solutions
-              </li>
-              <li>Knowledge about AWS is very in-demand in current market</li>
-              <li>It is free if you do not exceed storage limits</li>
+              <Reveal>
+                <li className="ml-6">
+                  I wanted to gain practical experience with cloud solutions
+                </li>
+              </Reveal>
+              <Reveal>
+                <li className="ml-6">
+                  Knowledge about AWS is very in-demand in current market
+                </li>
+              </Reveal>
+              <Reveal>
+                <li className="ml-6">
+                  It is free if you do not exceed storage limits
+                </li>
+              </Reveal>
             </ul>
             <p>
               Ultimately, I went with <strong>AWS S3</strong> and managed to
@@ -91,9 +114,11 @@ const AtsChallenges = () => {
               candidate's profile.
             </p>
             {/* Challenge 3 */}
-            <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
-              3. Project structure and components reusability
-            </h3>
+            <Reveal>
+              <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
+                3. Project structure and components reusability
+              </h3>
+            </Reveal>
             <p>
               Since this is by far the biggest project I worked on, I had to
               learn how to manage project folders, files and components so that
@@ -116,9 +141,11 @@ const AtsChallenges = () => {
           </div>
         </div>
         {/* Challenge 4 */}
-        <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
-          4. Responsive design and styling
-        </h3>
+        <Reveal>
+          <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
+            4. Responsive design and styling
+          </h3>
+        </Reveal>
         My goal was to strike a balance between a <em>nice looking app</em> and{" "}
         <em>functional, easy to use app</em>. This was especially difficult
         because the ATS app uses tables, forms and text fields everywhere, and
