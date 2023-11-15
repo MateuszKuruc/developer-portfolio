@@ -6,7 +6,7 @@ import { NAV_LINKS } from "../../constants/textConstants";
 import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdLightMode, MdDarkMode } from "react-icons/md";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
 const NavBar = () => {
@@ -22,6 +22,27 @@ const NavBar = () => {
   const setDarkTheme = () => {
     setTheme("dark");
   };
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    console.log(scrollY)
+
+    if (scrollY < 1700) {
+      setActiveLink("about");
+    } else if (scrollY < 3000) {
+      setActiveLink("projects");
+    } else if (scrollY > 3000) {
+      setActiveLink("contact");
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+   
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <nav className="w-full shadow-xl bg-neutral-200 dark:bg-gray-950 rounded-lg sticky top-0 opacity-95 border-b-3 border-black dark:border-orange-500 z-30">
