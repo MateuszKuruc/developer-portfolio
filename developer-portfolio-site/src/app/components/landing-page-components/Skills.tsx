@@ -14,7 +14,9 @@ const Skills = () => {
     <section className="content-container bg-white flex flex-col dark:bg-gray-950 my-20 pt-20 rounded-lg border-t-2 border-b-2">
       <Link href="#skills">
         <div id="skills" className="flex justify-center gap-2 pb-20">
-          <p className="bold-20">See how I build my stuff</p>
+          <p className="bold-24 text-orange-500 hover:text-orange-700">
+            See how I build my stuff
+          </p>
           <AiOutlineArrowDown size={30} className="animate-bounce" />
         </div>
       </Link>
