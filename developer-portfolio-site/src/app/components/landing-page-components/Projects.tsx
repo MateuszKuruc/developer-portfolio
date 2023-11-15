@@ -63,7 +63,7 @@ const Projects = () => {
               </li>
             </ul>
             <Link href="/projects/ats-for-recruiters">
-              <p className="bold-20 text-orange-500 py-4 hover:text-orange-700 cursor-pointer max-w-[150px]">
+              <p className="bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
                 Read more...
               </p>
             </Link>
@@ -139,7 +139,7 @@ const Projects = () => {
               </li>
             </ul>
             <Link href="/projects/marketing-portfolio">
-              <p className="bold-20 text-orange-500 py-4 hover:text-orange-700 cursor-pointer max-w-[150px]">
+              <p className="bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
                 Read more...
               </p>
             </Link>
