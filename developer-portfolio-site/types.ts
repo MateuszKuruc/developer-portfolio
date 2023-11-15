@@ -7,3 +7,7 @@ export interface FormValues {
 export interface FormActions {
   resetForm: () => void;
 }
+
+export interface RevealProps {
+  children: JSX.Element;
+}

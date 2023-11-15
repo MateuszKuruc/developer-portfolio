@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const variant = {
   hidden: { opacity: 0, y: 300 },
-  enter: { opacity: 1, y: 0 },
+  visible: { opacity: 1, y: 0 },
 };
 
 const transition = {
@@ -17,7 +17,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
     <motion.main
       variants={variant}
       initial="hidden"
-      animate="enter"
+      animate="visible"
       transition={transition}
     >
       {children}
