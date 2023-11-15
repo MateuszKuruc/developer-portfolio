@@ -35,7 +35,7 @@ const NavBar = () => {
     const scrollY = window.scrollY;
     console.log(scrollY);
 
-    if (scrollY < 1700) {
+    if (scrollY < 1500) {
       setActiveLink("about");
     } else if (scrollY < 3000) {
       setActiveLink("projects");
