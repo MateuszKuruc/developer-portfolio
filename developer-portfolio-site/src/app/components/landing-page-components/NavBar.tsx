@@ -71,17 +71,6 @@ const NavBar = () => {
             <ul className="gap-4 hidden sm:flex">
               {NAV_LINKS.map((link) => (
                 <li className="nav-links-desktop" key={link.key}>
-                  {/* <Link
-                    href={link.href}
-                    className={`${
-                      activeLink === link.key
-                        ? "bold-20 text-orange-500 hover:text-orange-700"
-                        : ""
-                    }`}
-                    onClick={() => setActiveLink(link.key)}
-                  >
-                    {link.label}
-                  </Link> */}
                   <ScrollLink
                     to={link.key}
                     href={link.href}
@@ -176,22 +165,10 @@ const NavBar = () => {
                 className="nav-links-mobile"
                 key={link.key}
               >
-                {/* <Link
-                  href={`${isHomePage() ? link.href : `/${link.href}`}`}
-                  className={`${
-                    activeLink === link.key && isHomePage()
-                      ? "bold-24 text-gray-900"
-                      : ""
-                  }`}
-                >
-                  <p className="bold-24">{link.label}</p>
-                </Link> */}
                 {isHomePage() ? (
                   <ScrollLink
                     to={link.key}
-                    // to={`${isHomePage() ? link.href : `/${link.href}`}`}
                     href={link.href}
-                    // href={`${isHomePage() ? link.href : `/${link.href}`}`}
                     spy={true}
                     smooth={true}
                     offset={-103}
