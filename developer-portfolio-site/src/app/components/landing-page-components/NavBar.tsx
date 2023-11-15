@@ -159,7 +159,12 @@ const NavBar = () => {
                 className="nav-links-mobile"
                 key={link.key}
               >
-                <Link href={`${isHomePage() ? link.href : `/${link.href}`}`}>
+                <Link
+                  href={`${isHomePage() ? link.href : `/${link.href}`}`}
+                  className={`${
+                    activeLink === link.key && isHomePage() ? "bold-24 text-gray-900" : ""
+                  }`}
+                >
                   <p className="bold-24">{link.label}</p>
                 </Link>
               </li>
