@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
+import Reveal from "../animation-components/Reveal";
 
 const MarketingChallenges = () => {
   return (
@@ -9,15 +10,6 @@ const MarketingChallenges = () => {
           Main Challenges
         </h2>
         <p>
-          {/* The ATS project is quite extensive so, as an unexperienced developer,
-          I faced plenty of challenges which pushed me in the right direction
-          when it comes to further learning. To build the project in the way I
-          imagined, I first needed to get solid grasp on{" "}
-          <strong>React for state management</strong>, learn enough about
-          backend to implement
-          <strong> token-based authentication</strong> and handle requests, then
-          add non-relational <strong>MongoDB</strong> database to the mix and
-          learn about schemas. */}
           I put additional pressure for myself by using tools that I only had
           basic experience with before this project. While I had previously used
           <strong> TypeScript </strong> in one project and I have been working
@@ -25,15 +17,10 @@ const MarketingChallenges = () => {
           <strong>Next.js and Tailwind CSS </strong>were the tools that I only
           knew from documentation and tutorials.
         </p>
-        {/* <p className="py-4">
-          To sprinkle some extra flavour, I decided to implement{" "}
-          <strong>AWS cloud</strong> for file management, which was completely
-          out of scope for me before the project. To finish the app, I put my{" "}
-          <strong>responsive design</strong> knowledge to test, and it was
-          especially tricky because mobile apps usually aren't focused on
-          displaying data, but I found some solutions to this.
-        </p> */}
+
         {/* Challenge 1 */}
+        <Reveal>
+
         <h3 className="bold-24 py-4 dark:text-orange-500">
           1. Responsive Design
         </h3>
@@ -55,7 +42,10 @@ const MarketingChallenges = () => {
           developer experience so much that it is now my favourite tool used for
           styling.
         </p>
+        </Reveal>
         {/* Challenge 2 */}
+        <Reveal>
+
         <div className="flex flex-col md:flex-row md:justify-around py-4">
           <Image
             src="/project1_mobile_3.png"
@@ -92,7 +82,10 @@ const MarketingChallenges = () => {
               <strong>Nodemailer </strong> to handle form content, style it and
               send it automatically to a predefined email.
             </p>
+            
             {/* Challenge 3 */}
+           
+
             <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
               3. Animations
             </h3>
@@ -112,7 +105,11 @@ const MarketingChallenges = () => {
             </p>
           </div>
         </div>
+            </Reveal>
         {/* Challenge 4 */}
+
+        <Reveal>
+<div>
         <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
           4. Performance and accessibility
         </h3>
@@ -135,14 +132,16 @@ const MarketingChallenges = () => {
             width={1000}
             height={800}
             alt="project screen"
-          />
+            />
           <Image
             src="/performance.png"
             width={300}
             height={300}
             alt="mobile screen"
-          />
+            />
+          </div>
         </div>
+            </Reveal>
       </div>
     </>
   );
