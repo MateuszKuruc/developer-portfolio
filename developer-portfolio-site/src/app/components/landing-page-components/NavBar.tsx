@@ -201,12 +201,9 @@ const NavBar = () => {
                         ? "bold-24 text-gray-900"
                         : ""
                     }`}
-                    
+                    onClick={() => setOpenMenu(false)}
                   >
-                    <p className="bold-24">
-
-                    {link.label}
-                    </p>
+                    <p className="bold-24">{link.label}</p>
                   </ScrollLink>
                 ) : (
                   <Link
@@ -216,6 +213,7 @@ const NavBar = () => {
                         ? "bold-24 text-gray-900"
                         : ""
                     }`}
+                    onClick={() => setOpenMenu(false)}
                   >
                     <p className="bold-24">{link.label}</p>
                   </Link>
