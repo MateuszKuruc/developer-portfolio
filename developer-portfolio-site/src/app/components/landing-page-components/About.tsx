@@ -51,7 +51,7 @@ const About = () => {
             alt="author photo"
             width={600}
             height={600}
-            className="rounded-xl"
+            className="rounded-xl shadow-image"
           />
         </div>
       </div>

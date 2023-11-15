@@ -16,6 +16,7 @@ const config: Config = {
       boxShadow: {
         button: "5px 5px 10px #030712",
         dark: "2px 2px 10px #9ca3af",
+        image: "10px 10px 20px black",
       },
       borderWidth: {
         "2.5": "2.5px",

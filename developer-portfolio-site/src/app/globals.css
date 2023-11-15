@@ -10,11 +10,6 @@
   box-sizing: border-box;
 }
 
-.colored-icon {
-  fill: #ffffff;
-  background-color: white;
-}
-
 .nav-links-desktop {
   @apply uppercase regular-20 text-gray-700 dark:text-gray-100 hover:border-b-2 hover:border-orange-500 hover:font-bold cursor-pointer;
 }
