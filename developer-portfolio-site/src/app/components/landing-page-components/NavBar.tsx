@@ -36,12 +36,29 @@ const NavBar = () => {
     const scrollY = window.scrollY;
     console.log(scrollY);
 
-    if (scrollY < 1500) {
-      setActiveLink("about");
-    } else if (scrollY < 3000) {
-      setActiveLink("projects");
-    } else if (scrollY > 3000) {
-      setActiveLink("contact");
+    let isMobile = null;
+    typeof window !== "undefined"
+      ? (isMobile = window.innerWidth <= 768)
+      : null;
+
+    if (isMobile) {
+      if (scrollY < 2200) {
+        setActiveLink("about");
+      } else if (scrollY < 5600) {
+        setActiveLink("projects");
+      } else if (scrollY > 5600) {
+        setActiveLink("contact");
+      }
+    }
+
+    if (!isMobile) {
+      if (scrollY < 1500) {
+        setActiveLink("about");
+      } else if (scrollY < 3000) {
+        setActiveLink("projects");
+      } else if (scrollY > 3000) {
+        setActiveLink("contact");
+      }
     }
   };
 
