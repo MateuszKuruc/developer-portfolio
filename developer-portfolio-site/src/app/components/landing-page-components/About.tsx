@@ -38,35 +38,33 @@ const About = () => {
               ac, mattis quis augue.
             </p>
           </Reveal>
-            <div className="flex flex-col md:flex-row gap-4 items-center justify-left pt-12">
-              <a target="_blank" href={process.env.GITHUB_LINK}>
-       
-                <button className="btn-about">
-                  <p className="bold-18">Github</p>
-                  <BsGithub size={30} />
-                </button>
-         
-              </a>
 
-              <a target="_blank" href={process.env.LINKEDIN_LINK}>
-                <button className="btn-about">
-                  <p className="bold-18">LinkedIn</p>
-                  <BsLinkedin size={30} />
-                </button>
-              </a>
-            </div>
+          <div className="flex flex-col md:flex-row gap-4 items-center justify-left pt-12">
+            <a target="_blank" href={process.env.GITHUB_LINK}>
+              <button className="btn-about">
+                <p className="bold-18">Github</p>
+                <BsGithub size={30} />
+              </button>
+            </a>
+
+            <a target="_blank" href={process.env.LINKEDIN_LINK}>
+              <button className="btn-about">
+                <p className="bold-18">LinkedIn</p>
+                <BsLinkedin size={30} />
+              </button>
+            </a>
+          </div>
         </div>
         <div className="shadow-image">
           <Reveal>
-
-          <Image
-            src="/mateusz_kuruc.jpeg"
-            alt="author photo"
-            width={600}
-            height={600}
-            className="rounded-xl shadow-image"
+            <Image
+              src="/mateusz_kuruc.jpeg"
+              alt="author photo"
+              width={600}
+              height={600}
+              className="rounded-xl shadow-image"
             />
-            </Reveal>
+          </Reveal>
         </div>
       </div>
     </section>

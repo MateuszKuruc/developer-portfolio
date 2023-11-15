@@ -63,6 +63,7 @@ const Projects = () => {
                   porttitor scelerisque.
                 </li>
               </Reveal>
+
               <Reveal>
                 <li className="ml-6">
                   Pellentesque habitant morbi tristique senectus et netus et
@@ -121,59 +122,52 @@ const Projects = () => {
 
         <div className="padding-container flex flex-col justify-center items-center">
           <Reveal>
-
-          <h2 className="bold-40 text-center py-0 pb-4 md:py-4">
-            Marketing Portfolio website
-          </h2>
+            <h2 className="bold-40 text-center py-0 pb-4 md:py-4">
+              Marketing Portfolio website
+            </h2>
           </Reveal>
           {/* <p className="regular-18 border-t-2 border-b-2 py-4 w-[auto] md:w-[700px] text-center"> */}
           <Reveal>
-
-          <p className="regular-18 border-t-2 border-b-2 py-4 max-w-[700px]">
-            Next.js ◆ TypeScript ◆ Tailwind ◆ Formik ◆ Yup
-          </p>
+            <p className="regular-18 border-t-2 border-b-2 py-4 max-w-[700px]">
+              Next.js ◆ TypeScript ◆ Tailwind ◆ Formik ◆ Yup
+            </p>
           </Reveal>
 
           <div className="max-w-[700px]">
             <Reveal>
-
-            <p className="regular-18 py-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              efficitur ex sit amet sollicitudin porta.
-            </p>
+              <p className="regular-18 py-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur efficitur ex sit amet sollicitudin porta.
+              </p>
             </Reveal>
             <ul className="list-disc regular-18 p-2 md:p-0">
               <Reveal>
-
-              <li className="ml-6">
-                Nulla quis ex sed dolor iaculis gravida. Curabitur quis turpis
-                diam. Etiam euismod, tellus ut pretium pharetra, sem odio
-                rhoncus ante, sit amet condimentum nunc elit id metus.
-              </li>
+                <li className="ml-6">
+                  Nulla quis ex sed dolor iaculis gravida. Curabitur quis turpis
+                  diam. Etiam euismod, tellus ut pretium pharetra, sem odio
+                  rhoncus ante, sit amet condimentum nunc elit id metus.
+                </li>
               </Reveal>
               <Reveal>
-
-              <li ml-6>
-                Donec non felis mi. Donec nec nulla vitae lacus efficitur
-                lobortis. Cras malesuada vehicula neque, in dictum nulla
-                porttitor scelerisque.
-              </li>
+                <li className="ml-6">
+                  Donec non felis mi. Donec nec nulla vitae lacus efficitur
+                  lobortis. Cras malesuada vehicula neque, in dictum nulla
+                  porttitor scelerisque.
+                </li>
               </Reveal>
               <Reveal>
-
-              <li className="ml-6">
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas. Maecenas vitae lectus quis
-                risus ultrices malesuada.
-              </li>
+                <li className="ml-6">
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas. Maecenas vitae lectus quis
+                  risus ultrices malesuada.
+                </li>
               </Reveal>
               <Reveal>
-
-              <li className="ml-6">
-                Quisque sollicitudin sit amet est et pellentesque. Etiam
-                lobortis massa vitae velit commodo, sit amet convallis massa
-                commodo.{" "}
-              </li>
+                <li className="ml-6">
+                  Quisque sollicitudin sit amet est et pellentesque. Etiam
+                  lobortis massa vitae velit commodo, sit amet convallis massa
+                  commodo.{" "}
+                </li>
               </Reveal>
             </ul>
             <Link href="/projects/marketing-portfolio">

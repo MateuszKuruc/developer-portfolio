@@ -39,7 +39,7 @@ const Reveal = ({ children }: RevealProps) => {
         initial="hidden"
         animate={slideControls}
         transition={{ duration: 0.5, ease: "easeInOut", delay: 0.15 }}
-        className="absolute top-0 bottom-0 left-0 right-0 bg-orange-500"
+        className="absolute top-0 bottom-0 left-0 right-0"
       />
     </div>
   );
