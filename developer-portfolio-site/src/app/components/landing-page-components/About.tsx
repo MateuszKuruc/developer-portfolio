@@ -56,7 +56,7 @@ const About = () => {
           </div>
         </div>
         <div className="shadow-image">
-          <Reveal>
+          {/* <Reveal> */}
             <Image
               src="/mateusz_kuruc.jpeg"
               alt="author photo"
@@ -64,7 +64,7 @@ const About = () => {
               height={600}
               className="rounded-xl shadow-image"
             />
-          </Reveal>
+          {/* </Reveal> */}
         </div>
       </div>
     </section>
