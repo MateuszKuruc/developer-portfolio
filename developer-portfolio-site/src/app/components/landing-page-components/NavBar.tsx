@@ -65,33 +65,35 @@ const NavBar = () => {
           />
         </Link>
 
-{isHomePage() && (
+        {isHomePage() && (
+          <div>
+            <ul className="gap-4 hidden sm:flex">
+              {NAV_LINKS.map((link) => (
+                <li className="nav-links-desktop" key={link.key}>
+                  <Link
+                    href={link.href}
+                    className={`${
+                      activeLink === link.key
+                        ? "bold-20 text-orange-500 hover:text-orange-700"
+                        : ""
+                    }`}
+                    onClick={() => setActiveLink(link.key)}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
 
-  <div>
-          <ul className="gap-4 hidden sm:flex">
-            {NAV_LINKS.map((link) => (
-              <li className="nav-links-desktop" key={link.key}>
-                <Link
-                  href={link.href}
-                  // href={`${isHomePage() ? link.href : `/${link.href}`}`}
-                  className={`${
-                    activeLink === link.key
-                    ? "bold-20 text-orange-500 hover:text-orange-700"
-                    : ""
-                  }`}
-                  onClick={() => setActiveLink(link.key)}
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-
-            <Link className="nav-links-desktop" target="_blank" href="/resume">
-              Resume
-            </Link>
-          </ul>
-        </div>
-            )}
+              <Link
+                className="nav-links-desktop"
+                target="_blank"
+                href="/resume"
+              >
+                Resume
+              </Link>
+            </ul>
+          </div>
+        )}
 
         <div className="hidden sm:flex">
           {theme === "dark" ? (
@@ -157,11 +159,18 @@ const NavBar = () => {
                 className="nav-links-mobile"
                 key={link.key}
               >
-                <Link href={link.href}>
+                <Link href={`${isHomePage() ? link.href : `/${link.href}`}`}>
                   <p className="bold-24">{link.label}</p>
                 </Link>
               </li>
             ))}
+            <Link
+              className="nav-links-mobile"
+              href="/resume"
+              onClick={() => setOpenMenu(false)}
+            >
+              <p className="bold-24">Resume</p>
+            </Link>
           </ul>
         </div>
         {/* Social media links */}
