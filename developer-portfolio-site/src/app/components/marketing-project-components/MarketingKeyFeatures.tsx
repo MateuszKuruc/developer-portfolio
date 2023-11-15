@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Reveal from "../animation-components/Reveal";
 
 const MarketingKeyFeatures = () => {
   return (
@@ -13,19 +14,39 @@ const MarketingKeyFeatures = () => {
         </p>
         <p className="bold-20 py-4">Main requirements:</p>
         <ul className="list-disc p-4">
-          <li>Website should be stable and fast</li>
-          <li>Navigation should be effortless and intuitive</li>
-          <li>Focus on mobile design</li>
-          <li>
-            Smooth animations included after each action, on page change and
-            scrolling
-          </li>
-          <li>Accessibility should be taken into consideration</li>
-          <li>Carousel and accordion items used to display key data</li>
-          <li>
-            Design should be stylish enough for the clients, but not
-            overwhelming
-          </li>
+          <Reveal>
+            <li className="ml-6">Website should be stable and fast</li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">
+              Navigation should be effortless and intuitive
+            </li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">Focus on mobile design</li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">
+              Smooth animations included after each action, on page change and
+              scrolling
+            </li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">
+              Accessibility should be taken into consideration
+            </li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">
+              Carousel and accordion items used to display key data
+            </li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">
+              Design should be stylish enough for the clients, but not
+              overwhelming
+            </li>
+          </Reveal>
         </ul>
         <Image
           src="/project1_desktop_3.png"
