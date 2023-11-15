@@ -94,7 +94,9 @@ const NavBar = () => {
                         : ""
                     }`}
                     onClick={() => setActiveLink(link.key)}
-                  >{link.label}</ScrollLink>
+                  >
+                    {link.label}
+                  </ScrollLink>
                 </li>
               ))}
 
@@ -173,7 +175,7 @@ const NavBar = () => {
                 className="nav-links-mobile"
                 key={link.key}
               >
-                <Link
+                {/* <Link
                   href={`${isHomePage() ? link.href : `/${link.href}`}`}
                   className={`${
                     activeLink === link.key && isHomePage()
@@ -182,7 +184,23 @@ const NavBar = () => {
                   }`}
                 >
                   <p className="bold-24">{link.label}</p>
-                </Link>
+                </Link> */}
+                <ScrollLink
+                  to={link.key}
+                  // href={link.href}
+                  href={`${isHomePage() ? link.href : `/${link.href}`}`}
+                  spy={true}
+                  smooth={true}
+                  offset={-103}
+                  duration={700}
+                  className={`${
+                    activeLink === link.key && isHomePage()
+                      ? "bold-24 text-gray-900"
+                      : ""
+                  }`}
+                >
+                  {link.label}
+                </ScrollLink>
               </li>
             ))}
             <Link
