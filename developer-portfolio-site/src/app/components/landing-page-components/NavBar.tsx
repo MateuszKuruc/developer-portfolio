@@ -9,6 +9,7 @@ import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
+import { Link as ScrollLink } from "react-scroll";
 
 const NavBar = () => {
   const pathname = usePathname();
@@ -70,7 +71,7 @@ const NavBar = () => {
             <ul className="gap-4 hidden sm:flex">
               {NAV_LINKS.map((link) => (
                 <li className="nav-links-desktop" key={link.key}>
-                  <Link
+                  {/* <Link
                     href={link.href}
                     className={`${
                       activeLink === link.key
@@ -80,7 +81,20 @@ const NavBar = () => {
                     onClick={() => setActiveLink(link.key)}
                   >
                     {link.label}
-                  </Link>
+                  </Link> */}
+                  <ScrollLink
+                    to={link.key}
+                    href={link.href}
+                    spy={true}
+                    smooth={true}
+                    duration={700}
+                    className={`${
+                      activeLink === link.key
+                        ? "bold-20 text-orange-500 hover:text-orange-700"
+                        : ""
+                    }`}
+                    onClick={() => setActiveLink(link.key)}
+                  >{link.label}</ScrollLink>
                 </li>
               ))}
 
@@ -162,7 +176,9 @@ const NavBar = () => {
                 <Link
                   href={`${isHomePage() ? link.href : `/${link.href}`}`}
                   className={`${
-                    activeLink === link.key && isHomePage() ? "bold-24 text-gray-900" : ""
+                    activeLink === link.key && isHomePage()
+                      ? "bold-24 text-gray-900"
+                      : ""
                   }`}
                 >
                   <p className="bold-24">{link.label}</p>
