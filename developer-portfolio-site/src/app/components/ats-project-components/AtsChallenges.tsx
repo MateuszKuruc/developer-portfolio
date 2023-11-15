@@ -81,11 +81,9 @@ const AtsChallenges = () => {
               className="self-center"
             />
             <div className="md:w-[50%]">
-              
-                <h3 className="bold-24 py-9 md:py-4 dark:text-orange-500">
-                  2. File upload, download and delete
-                </h3>
-              
+              <h3 className="bold-24 py-9 md:py-4 dark:text-orange-500">
+                2. File upload, download and delete
+              </h3>
               Possibly the toughest situation for me was introducing options for
               working on files in each candidate's profile. I decided to make
               use of <strong>AWS</strong> for a few reasons:
@@ -121,11 +119,9 @@ const AtsChallenges = () => {
                 instantly reflect changes to candidate's profile.
               </p>
               {/* Challenge 3 */}
-              
-                <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
-                  3. Project structure and components reusability
-                </h3>
-              
+              <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
+                3. Project structure and components reusability
+              </h3>
               <p>
                 Since this is by far the biggest project I worked on, I had to
                 learn how to manage project folders, files and components so
@@ -151,42 +147,43 @@ const AtsChallenges = () => {
         {/* Challenge 4 */}
         <Reveal>
           <div>
-
-          <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
-            4. Responsive design and styling
-          </h3>
-        My goal was to strike a balance between a <em>nice looking app</em> and{" "}
-        <em>functional, easy to use app</em>. This was especially difficult
-        because the ATS app uses tables, forms and text fields everywhere, and
-        they are not the easiest to style for mobile phone use. I decided to
-        introduce additional switching of display mode in a few tabs to make the
-        tables easier to display on the smaller, mobile screen.
-        <p className="py-4">
-          As my styling tools, I chose the combination of{" "}
-          <strong>Material UI and Styled Components</strong>. While Material UI
-          gives some guidance in terms of theme, styling and general design,
-          Styled components make everything easily adjustable on component by
-          component basis. All in all, I am happy with the final result and how
-          the app looks and works across all screen sizes. It can be comfortably
-          used on huge monitors and mobile phones alike.
-        </p>
-        <div className="flex flex-col md:flex-row justify-around items-center">
-          <Image
-            src="/project1_desktop_2.png"
-            width={1000}
-            height={800}
-            alt="project screen"
-            />
-          <Image
-            src="/project1_mobile_4.png"
-            width={300}
-            height={300}
-            alt="mobile screen"
-            />
-        </div>
-      </div>
-            </Reveal>
+            <h3 className="bold-24 py-8 md:py-4 dark:text-orange-500">
+              4. Responsive design and styling
+            </h3>
+            My goal was to strike a balance between a <em>nice looking app</em>{" "}
+            and <em>functional, easy to use app</em>. This was especially
+            difficult because the ATS app uses tables, forms and text fields
+            everywhere, and they are not the easiest to style for mobile phone
+            use. I decided to introduce additional switching of display mode in
+            a few tabs to make the tables easier to display on the smaller,
+            mobile screen.
+            <p className="py-4">
+              As my styling tools, I chose the combination of{" "}
+              <strong>Material UI and Styled Components</strong>. While Material
+              UI gives some guidance in terms of theme, styling and general
+              design, Styled components make everything easily adjustable on
+              component by component basis. All in all, I am happy with the
+              final result and how the app looks and works across all screen
+              sizes. It can be comfortably used on huge monitors and mobile
+              phones alike.
+            </p>
+            <div className="flex flex-col md:flex-row justify-around items-center">
+              <Image
+                src="/project1_desktop_2.png"
+                width={1000}
+                height={800}
+                alt="project screen"
+              />
+              <Image
+                src="/project1_mobile_4.png"
+                width={300}
+                height={300}
+                alt="mobile screen"
+              />
             </div>
+          </div>
+        </Reveal>
+      </div>
     </>
   );
 };

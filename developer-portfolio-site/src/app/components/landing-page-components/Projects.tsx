@@ -13,23 +13,22 @@ const Projects = () => {
     >
       <div className="flex flex-col md:flex-row justify-around md:items-center border-b-2 pb-12">
         <Reveal>
-
-        <div className="max-w-[400px] md:max-w-[600px] relative">
-          <Image
-            src="/project1_desktop_1.png"
-            alt="ATS project desktop screen"
-            width={600}
-            height={600}
+          <div className="max-w-[400px] md:max-w-[600px] relative">
+            <Image
+              src="/project1_desktop_1.png"
+              alt="ATS project desktop screen"
+              width={600}
+              height={600}
             />
-          <Image
-            src="/project1_mobile_1.png"
-            alt="ATS project mobile screen"
-            width={150}
-            height={150}
-            className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
+            <Image
+              src="/project1_mobile_1.png"
+              alt="ATS project mobile screen"
+              width={150}
+              height={150}
+              className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
             />
-        </div>
-            </Reveal>
+          </div>
+        </Reveal>
         <div className="padding-container flex flex-col justify-center items-center">
           <Reveal>
             <h2 className="bold-40 text-center py-0 pb-4 md:py-4">
@@ -82,14 +81,13 @@ const Projects = () => {
                 </li>
               </Reveal>
             </ul>
-<Reveal>
-
-            <Link href="/projects/ats-for-recruiters">
-              <p className="bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
-                Read more...
-              </p>
-            </Link>
-</Reveal>
+            <Reveal>
+              <Link href="/projects/ats-for-recruiters">
+                <p className="bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
+                  Read more...
+                </p>
+              </Link>
+            </Reveal>
             <div className="flex flex-col md:flex-row gap-4 items-center">
               <a target="_blank" href="https://ats-mateuszkuruc.onrender.com/">
                 <button className="btn-about">
@@ -108,25 +106,24 @@ const Projects = () => {
         </div>
       </div>
 
-
       <div className="flex flex-col md:flex-row justify-around pb-8 md:pb-12 md:items-center">
-<Reveal>
-        <div className="max-w-[400px] md:max-w-[600px] relative">
-          <Image
-            src="/project2_desktop_1.png"
-            alt="marketing portfolio desktop screen"
-            width={600}
-            height={600}
+        <Reveal>
+          <div className="max-w-[400px] md:max-w-[600px] relative">
+            <Image
+              src="/project2_desktop_1.png"
+              alt="marketing portfolio desktop screen"
+              width={600}
+              height={600}
             />
-          <Image
-            src="/project2_mobile_1.png"
-            alt="marketing portfolio mobile screen"
-            width={150}
-            height={150}
-            className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
+            <Image
+              src="/project2_mobile_1.png"
+              alt="marketing portfolio mobile screen"
+              width={150}
+              height={150}
+              className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
             />
-        </div>
-            </Reveal>
+          </div>
+        </Reveal>
 
         <div className="padding-container flex flex-col justify-center items-center">
           <Reveal>
@@ -134,7 +131,7 @@ const Projects = () => {
               Marketing Portfolio website
             </h2>
           </Reveal>
-          {/* <p className="regular-18 border-t-2 border-b-2 py-4 w-[auto] md:w-[700px] text-center"> */}
+
           <Reveal>
             <p className="regular-18 border-t-2 border-b-2 py-4 max-w-[700px]">
               Next.js ◆ TypeScript ◆ Tailwind ◆ Formik ◆ Yup
@@ -179,12 +176,11 @@ const Projects = () => {
               </Reveal>
             </ul>
             <Reveal>
-
-            <Link href="/projects/marketing-portfolio">
-              <p className="bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
-                Read more...
-              </p>
-            </Link>
+              <Link href="/projects/marketing-portfolio">
+                <p className="bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
+                  Read more...
+                </p>
+              </Link>
             </Reveal>
             <div className="flex flex-col md:flex-row gap-4 items-center">
               <a target="_blank" href="https://www.reklamyfacebook.pl/">
