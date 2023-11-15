@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Reveal from "../animation-components/Reveal";
 
 const AtsKeyFeatures = () => {
   return (
@@ -16,14 +17,28 @@ const AtsKeyFeatures = () => {
           only got access to their own candidates and statistics.
         </p>
         <p className="bold-20 py-4">Key features include:</p>
+
         <ul className="list-disc p-4">
-          <li>Login with token-based authentication</li>
-          <li>Adding, updating and deleting candidate profiles</li>
-          <li>Uploading, downloading and deleting files</li>
-          <li>
-            Displaying sorted data related to candidate profiles and statistics
-          </li>
-          <li>Responsive design</li>
+          <Reveal>
+            <li className="ml-6">Login with token-based authentication</li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">
+              Adding, updating and deleting candidate profiles
+            </li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">Uploading, downloading and deleting files</li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">
+              Displaying sorted data related to candidate profiles and
+              statistics
+            </li>
+          </Reveal>
+          <Reveal>
+            <li className="ml-6">Responsive design</li>
+          </Reveal>
         </ul>
         <Image
           src="/project1_desktop_3.png"
