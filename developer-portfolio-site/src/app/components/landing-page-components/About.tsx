@@ -13,53 +13,60 @@ const About = () => {
             </h2>
           </Reveal>
 
-<Reveal>
+          <Reveal>
+            <h2 className="bold-40 text-center md:text-left">
+              Junior{" "}
+              <span className="text-orange-500 inline-flex flex-col h-[calc(40px*1.2)] overflow-hidden drop-shadow-xl border-b-2 border-orange-500">
+                <ul className=" animate-text-slide-3 text-center leading-[120%]">
+                  <li>Frontend</li>
+                  <li>JavaScript</li>
+                  <li>Fullstack</li>
+                  <li aria-hidden="true">Frontend</li>
+                </ul>
+              </span>{" "}
+              Developer
+            </h2>
+          </Reveal>
 
-          <h2 className="bold-40 text-center md:text-left">
-            Junior{" "}
-            <span className="text-orange-500 inline-flex flex-col h-[calc(40px*1.2)] overflow-hidden drop-shadow-xl border-b-2 border-orange-500">
-              <ul className=" animate-text-slide-3 text-center leading-[120%]">
-                <li>Frontend</li>
-                <li>JavaScript</li>
-                <li>Fullstack</li>
-                <li aria-hidden="true">Frontend</li>
-              </ul>
-            </span>{" "}
-            Developer
-          </h2>
-</Reveal>
-          <p className="regular-18 leading-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-            pellentesque justo magna, non fermentum quam fermentum sit amet.
-            Fusce sit amet scelerisque lorem. Nullam vel euismod mi, vitae
-            ultricies turpis. Integer vitae tortor felis. Aliquam nec velit vel
-            ante maximus rhoncus. Fusce orci sem, hendrerit nec aliquam ac,
-            mattis quis augue.
-          </p>
-          <div className="flex flex-col md:flex-row gap-4 items-center justify-left pt-12">
-            <a target="_blank" href={process.env.GITHUB_LINK}>
-              <button className="btn-about">
-                <p className="bold-18">Github</p>
-                <BsGithub size={30} />
-              </button>
-            </a>
+          <Reveal>
+            <p className="regular-18 leading-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              pellentesque justo magna, non fermentum quam fermentum sit amet.
+              Fusce sit amet scelerisque lorem. Nullam vel euismod mi, vitae
+              ultricies turpis. Integer vitae tortor felis. Aliquam nec velit
+              vel ante maximus rhoncus. Fusce orci sem, hendrerit nec aliquam
+              ac, mattis quis augue.
+            </p>
+          </Reveal>
+            <div className="flex flex-col md:flex-row gap-4 items-center justify-left pt-12">
+              <a target="_blank" href={process.env.GITHUB_LINK}>
+       
+                <button className="btn-about">
+                  <p className="bold-18">Github</p>
+                  <BsGithub size={30} />
+                </button>
+         
+              </a>
 
-            <a target="_blank" href={process.env.LINKEDIN_LINK}>
-              <button className="btn-about">
-                <p className="bold-18">LinkedIn</p>
-                <BsLinkedin size={30} />
-              </button>
-            </a>
-          </div>
+              <a target="_blank" href={process.env.LINKEDIN_LINK}>
+                <button className="btn-about">
+                  <p className="bold-18">LinkedIn</p>
+                  <BsLinkedin size={30} />
+                </button>
+              </a>
+            </div>
         </div>
-        <div>
+        <div className="shadow-image">
+          <Reveal>
+
           <Image
             src="/mateusz_kuruc.jpeg"
             alt="author photo"
             width={600}
             height={600}
             className="rounded-xl shadow-image"
-          />
+            />
+            </Reveal>
         </div>
       </div>
     </section>

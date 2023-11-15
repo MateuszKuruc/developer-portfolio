@@ -27,12 +27,12 @@ const Skills = () => {
         // id="skills"
         className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-2 2xl:py-6"
       >
-        {/* <Reveal> */}
+        <Reveal>
 
         <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Frontend
         </h3>
-        {/* </Reveal> */}
+        </Reveal>
 
         {/* Mobile version */}
         <ul className="gap-8 grid grid-cols-4 sm:hidden">
