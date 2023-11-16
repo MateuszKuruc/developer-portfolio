@@ -74,7 +74,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className="w-full shadow-xl h-[100px] bg-orange-100 dark:bg-gray-950 rounded-lg sticky top-0 opacity-95 border-b-3 border-black dark:border-orange-500 z-30">
+    <nav className="w-full shadow-xl h-[100px] bg-orange-100 dark:bg-gray-950 rounded-lg sticky top-0 opacity-95 border-b-3 border-orange-700 dark:border-orange-500 z-30">
       {/* Desktop Menu */}
       <div className="flex items-center justify-between h-full px-12 w-full">
         <Link href="/">
@@ -97,9 +97,7 @@ const NavBar = () => {
                     offset={-103}
                     duration={700}
                     className={`${
-                      activeLink === link.key
-                        ? "active-link"
-                        : ""
+                      activeLink === link.key ? "active-link" : ""
                     }`}
                     onClick={() => setActiveLink(link.key)}
                   >

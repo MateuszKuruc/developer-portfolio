@@ -2,7 +2,7 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <section className="border-t-2 bg-orange-100 dark:bg-gray-950 border-orange-500">
+    <section className="border-t-3 bg-orange-100 dark:bg-gray-950 border-orange-700 dark:border-orange-500">
       <div className="gap-4 md:gap-0 p-8 flex flex-col md:flex-row items-center justify-around">
         <div>
           <p className="bold-24 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
