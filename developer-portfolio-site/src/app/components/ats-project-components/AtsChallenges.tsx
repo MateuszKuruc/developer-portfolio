@@ -167,7 +167,7 @@ const AtsChallenges = () => {
               sizes. It can be comfortably used on huge monitors and mobile
               phones alike.
             </p>
-            <div className="flex flex-col md:flex-row justify-around items-center">
+            <div className="flex flex-col 2xl:flex-row justify-around items-center">
               <Image
                 src="/project1_desktop_2.png"
                 width={1000}
