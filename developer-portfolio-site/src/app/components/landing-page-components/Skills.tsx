@@ -13,16 +13,21 @@ import Link from "next/link";
 const Skills = () => {
   return (
     <section className="content-container bg-white flex flex-col dark:bg-gray-950 my-20 pt-20 rounded-lg border-t-2 border-b-2">
-      <Link href="#skills">
-        <div id="skills" className="flex justify-center gap-2 pb-20">
-          <Reveal>
-            <p className="bold-24 text-orange-500 hover:text-orange-700">
-              See how I build my stuff
-            </p>
-          </Reveal>
-          <AiOutlineArrowDown size={30} className="animate-bounce" />
-        </div>
-      </Link>
+      <div className="self-center">
+        <Reveal>
+          <Link href="#skills">
+            <div
+              id="skills"
+              className="p-4 flex justify-center items-center gap-4 pb-20"
+            >
+              <p className="hover:scale-105 ease-out duration-300 bold-24 text-orange-500 hover:text-orange-700">
+                See how I build my stuff
+              </p>
+              <AiOutlineArrowDown size={30} className="animate-bounce" />
+            </div>
+          </Link>
+        </Reveal>
+      </div>
       <div className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-2 2xl:py-6">
         <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Frontend
