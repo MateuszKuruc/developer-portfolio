@@ -4,6 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import Link from "next/link";
 import Reveal from "../animation-components/Reveal";
+import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const Projects = () => {
   return (
@@ -194,6 +195,13 @@ const Projects = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="pb-12 pl-12 flex gap-8 items-end max-w-[400px] cursor-pointer">
+        <h2 className="hover:scale-105 ease-in-out duration-300 bold-32-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
+          View more projects
+        </h2>
+        <AiOutlineArrowLeft size={30} className="animate-bounce" />
       </div>
     </section>
   );
