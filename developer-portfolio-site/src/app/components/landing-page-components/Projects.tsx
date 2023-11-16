@@ -12,23 +12,21 @@ const Projects = () => {
       className="content-container border-t-2 border-b-2 bg-white dark:bg-gray-950 my-20 rounded-lg"
     >
       <div className="flex flex-col md:flex-row justify-around md:items-center border-b-2 pb-12">
-        <Reveal>
-          <div className="max-w-[400px] md:max-w-[600px] relative">
-            <Image
-              src="/project1_desktop_1.png"
-              alt="ATS project desktop screen"
-              width={600}
-              height={600}
-            />
-            <Image
-              src="/project1_mobile_1.png"
-              alt="ATS project mobile screen"
-              width={150}
-              height={150}
-              className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
-            />
-          </div>
-        </Reveal>
+        <div className="max-w-[400px] md:max-w-[600px] relative">
+          <Image
+            src="/project1_desktop_1.png"
+            alt="ATS project desktop screen"
+            width={600}
+            height={600}
+          />
+          <Image
+            src="/project1_mobile_1.png"
+            alt="ATS project mobile screen"
+            width={150}
+            height={150}
+            className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
+          />
+        </div>
         <div className="padding-container flex flex-col justify-center items-center">
           <Reveal>
             <h2 className="bold-40 text-center py-0 pb-4 md:py-4">
@@ -107,23 +105,21 @@ const Projects = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-around pb-8 md:pb-12 md:items-center">
-        <Reveal>
-          <div className="max-w-[400px] md:max-w-[600px] relative">
-            <Image
-              src="/project2_desktop_1.png"
-              alt="marketing portfolio desktop screen"
-              width={600}
-              height={600}
-            />
-            <Image
-              src="/project2_mobile_1.png"
-              alt="marketing portfolio mobile screen"
-              width={150}
-              height={150}
-              className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
-            />
-          </div>
-        </Reveal>
+        <div className="max-w-[400px] md:max-w-[600px] relative">
+          <Image
+            src="/project2_desktop_1.png"
+            alt="marketing portfolio desktop screen"
+            width={600}
+            height={600}
+          />
+          <Image
+            src="/project2_mobile_1.png"
+            alt="marketing portfolio mobile screen"
+            width={150}
+            height={150}
+            className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
+          />
+        </div>
 
         <div className="padding-container flex flex-col justify-center items-center">
           <Reveal>
