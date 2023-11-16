@@ -16,7 +16,10 @@ const Playground = () => {
 
         <div className="grid grid-cols-3 padding-container">
           {SPAGHETTI_PROJECTS.map((project) => (
-            <div key={project.name} className="p-10 bg-white m-10 border-4 rounded-lg">
+            <div
+              key={project.name}
+              className="p-8 bg-white mx-10 my-4 border-4 rounded-lg"
+            >
               <Image
                 src={project.src}
                 width={500}
@@ -32,31 +35,6 @@ const Playground = () => {
             </div>
           ))}
         </div>
-
-        {/* <div className="grid grid-cols-3">
-          <div className="flex flex-col items-center bg-orange-500">
-            <Image
-              src="/project1_desktop_1.png"
-              alt="test"
-              width={600}
-              height={600}
-            ></Image>
-            <h3>Weather app</h3>
-            <p>HTML * CSS * JavaScript</p>
-            <p>
-              description of the insanely difficult and complex project
-              including sdsadasda sadsadsadasf dfdfdsfs
-            </p>
-          </div>
-          <div>To-do list</div>
-          <div>Admin dashboard</div>
-          <div>Restaurant page</div>
-          <div>Library</div>
-          <div>Tic-tac-toe</div>
-          <div>Rock-paper-scissors</div>
-          <div>Calculator</div>
-          <div>Blog app</div>
-        </div> */}
 
         {/* projects: patientor? phonebook? blog app? weather app? todo-list? restaurant page? calculator? library? tic tac toe? admin-dashboard? rock-paper-scissors?*/}
       </div>
