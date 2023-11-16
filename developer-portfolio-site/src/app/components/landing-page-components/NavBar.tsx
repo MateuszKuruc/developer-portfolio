@@ -98,7 +98,7 @@ const NavBar = () => {
                     duration={700}
                     className={`${
                       activeLink === link.key
-                        ? "bold-20 text-orange-700 hover:text-orange-950"
+                        ? "active-link"
                         : ""
                     }`}
                     onClick={() => setActiveLink(link.key)}

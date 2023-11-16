@@ -18,6 +18,10 @@
   @apply bold-20 text-white hover:underline hover:text-gray-800 hover:font-bold cursor-pointer pl-4 rounded-lg hover:bg-orange-600;
 }
 
+.active-link {
+  @apply bold-20 text-orange-700 dark:text-orange-500 hover:text-orange-950 dark:hover:text-orange-700;
+}
+
 .btn-submit {
   @apply border-black rounded-lg w-[200px] self-center border-2 dark:border-white dark:text-black bg-orange-500 py-3 hover:bg-orange-600 cursor-pointer hover:scale-105;
 }
@@ -31,11 +35,11 @@
 }
 
 .contact-details {
-  @apply text-orange-700 bold-18;
+  @apply text-orange-700 dark:text-orange-500 bold-18;
 }
 
 .contact-email {
-  @apply hover:text-orange-950 ease-in-out duration-300 cursor-pointer;
+  @apply hover:text-orange-950 dark:hover:text-orange-700 ease-in-out duration-300 cursor-pointer;
 }
 
 .content-container {
