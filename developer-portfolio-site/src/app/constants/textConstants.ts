@@ -72,8 +72,8 @@ export const OTHER_SKILLS = {
 export const SPAGHETTI_PROJECTS = [
   {
     src: "/project1_desktop_1.png",
-    name: "Weather App",
-    stack: "HTML, CSS, JavaScript",
+    name: "Bloglist app",
+    stack: "React, NodeJS",
     description:
       "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
     alt: "test",

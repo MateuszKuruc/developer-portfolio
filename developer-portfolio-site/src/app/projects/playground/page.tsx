@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { SPAGHETTI_PROJECTS } from "@/app/constants/textConstants";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
 
 const Playground = () => {
   return (
@@ -28,7 +30,7 @@ const Playground = () => {
           {SPAGHETTI_PROJECTS.map((project) => (
             <div
               key={project.name}
-              className="p-8 bg-white mx-10 my-4 border-4 rounded-lg"
+              className="p-8 bg-orange-100 mx-10 my-4 border-4 rounded-lg border-orange-500 shadow-image"
             >
               <Image
                 src={project.src}
@@ -37,10 +39,24 @@ const Playground = () => {
                 alt={project.alt}
                 // className="border-2"
               />
-              <div className="flex flex-col items-center justify-center max-w-[500px] border-2 rounded-lg p-4 bg-orange-500">
-                <h3 className="bold-24">{project.name}</h3>
+              <div className="flex flex-col items-center justify-center max-w-[400px] border-0 rounded-lg p-4 ">
+                <h3 className="bold-24 text-orange-700">{project.name}</h3>
                 <p className="regular-18">{project.stack}</p>
                 <p className="regular-20">{project.description}</p>
+                <div className="flex flex-col md:flex-row gap-4 items-center">
+                  <a target="_blank" href="https://www.reklamyfacebook.pl/">
+                    <button className="btn-about">
+                      <p className="bold-18">Live</p>
+                      <FaExternalLinkAlt size={30} />
+                    </button>
+                  </a>
+                  <a target="_blank" href={process.env.GITHUB_LINK}>
+                    <button className="btn-about">
+                      <p className="bold-18">Code</p>
+                      <BsGithub size={30} />
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           ))}
