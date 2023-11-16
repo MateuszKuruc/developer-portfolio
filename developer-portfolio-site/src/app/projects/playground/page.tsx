@@ -26,11 +26,11 @@ const Playground = () => {
           quis imperdiet erat dictum vel.
         </p>
 
-        <div className="grid grid-cols-3 padding-container">
+        <div className="grid grid-cols-2 2xl:grid-cols-3">
           {SPAGHETTI_PROJECTS.map((project) => (
             <div
               key={project.name}
-              className="p-8 bg-orange-100 mx-10 my-4 border-4 rounded-lg border-orange-500 shadow-image"
+              className="p-8 bg-orange-100 mx-4 my-4 border-4 rounded-lg border-orange-500 shadow-image"
             >
               <Image
                 src={project.src}
@@ -39,19 +39,23 @@ const Playground = () => {
                 alt={project.alt}
                 // className="border-2"
               />
-              <div className="flex flex-col items-center justify-center max-w-[400px] border-0 rounded-lg p-4 ">
+              <div className="flex flex-col items-center justify-center rounded-lg gap-4">
                 <h3 className="bold-24 text-orange-700">{project.name}</h3>
-                <p className="regular-18">{project.stack}</p>
+
+                <p className="regular-18 border-b-2 border-t-2 border-orange-700">
+                  {project.stack}
+                </p>
+
                 <p className="regular-20">{project.description}</p>
                 <div className="flex flex-col md:flex-row gap-4 items-center">
                   <a target="_blank" href="https://www.reklamyfacebook.pl/">
-                    <button className="btn-about">
+                    <button className="btn-about max-w-[200px]">
                       <p className="bold-18">Live</p>
                       <FaExternalLinkAlt size={30} />
                     </button>
                   </a>
                   <a target="_blank" href={process.env.GITHUB_LINK}>
-                    <button className="btn-about">
+                    <button className="btn-about max-w-[200px]">
                       <p className="bold-18">Code</p>
                       <BsGithub size={30} />
                     </button>

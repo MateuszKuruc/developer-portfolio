@@ -32,19 +32,19 @@ const AtsHeader = () => {
                   <li>Express</li>
                   <li>AWS</li>
                   <li>MongoDB</li>
-                  <li>Material UI</li>
                   <li>Styled components</li>
+                  <li>Material UI</li>
                 </ul>
               </div>
             </Reveal>
             <Reveal>
-              <div className="py-6 md:py-0">
+              <div className="py-6 md:py-0 md:p-2">
                 <h3 className="uppercase bold-20">Live</h3>
                 <a
                   target="_blank"
                   href="https://ats-mateuszkuruc.onrender.com/"
                 >
-                  <p className="bold-20 text-orange-500 hover:text-orange-700">
+                  <p className="bold-20 text-orange-500 hover:text-orange-700 hover:scale-105 ease-in-out duration-300">
                     View site
                   </p>
                 </a>

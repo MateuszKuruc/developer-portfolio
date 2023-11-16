@@ -72,74 +72,92 @@ export const OTHER_SKILLS = {
 export const SPAGHETTI_PROJECTS = [
   {
     src: "/project1_desktop_1.png",
+    name: "Bloglist",
+    stack: "React ◆ Redux ◆ NodeJS ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+    live: "https://bloglist-frontend-d1wc.onrender.com",
+    code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "To-do list",
+    stack: "HTML ◆ CSS ◆ JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+    live: "https://mateuszkuruc.github.io/odin-todo-list/",
+    code: "https://github.com/MateuszKuruc/odin-todo-list",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Weather app",
+    stack: "HTML ◆ CSS ◆ JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+    live: "https://mateuszkuruc.github.io/odin-weather-app/",
+    code: "https://github.com/MateuszKuruc/odin-weather-app",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Restaurant page",
+    stack: "HTML ◆ CSS ◆ JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+    live: "https://mateuszkuruc.github.io/odin-restaurant-page/",
+    code: "https://github.com/MateuszKuruc/odin-restaurant-page",
+  },
+  {
+    src: "/project1_desktop_1.png",
     name: "Bloglist app",
-    stack: "React, NodeJS",
+    stack: "React ◆ Redux ◆ NodeJS ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
       "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
     alt: "test",
+    live: "https://bloglist-frontend-d1wc.onrender.com",
+    code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
   },
   {
     src: "/project1_desktop_1.png",
-    name: "Weather App",
-    stack: "HTML, CSS, JavaScript",
+    name: "Bloglist app",
+    stack: "React ◆ Redux ◆ NodeJS ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
       "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
     alt: "test",
+    live: "https://bloglist-frontend-d1wc.onrender.com",
+    code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
   },
   {
     src: "/project1_desktop_1.png",
-    name: "Weather App",
-    stack: "HTML, CSS, JavaScript",
+    name: "Bloglist app",
+    stack: "React ◆ Redux ◆ NodeJS ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
       "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
     alt: "test",
+    live: "https://bloglist-frontend-d1wc.onrender.com",
+    code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
   },
   {
     src: "/project1_desktop_1.png",
-    name: "Weather App",
-    stack: "HTML, CSS, JavaScript",
+    name: "Bloglist app",
+    stack: "React ◆ Redux ◆ NodeJS ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
       "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
     alt: "test",
+    live: "https://bloglist-frontend-d1wc.onrender.com",
+    code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
   },
   {
     src: "/project1_desktop_1.png",
-    name: "Weather App",
-    stack: "HTML, CSS, JavaScript",
+    name: "Bloglist app",
+    stack: "React ◆ Redux ◆ NodeJS ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
       "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
     alt: "test",
-  },
-  {
-    src: "/project1_desktop_1.png",
-    name: "Weather App",
-    stack: "HTML, CSS, JavaScript",
-    description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
-    alt: "test",
-  },
-  {
-    src: "/project1_desktop_1.png",
-    name: "Weather App",
-    stack: "HTML, CSS, JavaScript",
-    description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
-    alt: "test",
-  },
-  {
-    src: "/project1_desktop_1.png",
-    name: "Weather App",
-    stack: "HTML, CSS, JavaScript",
-    description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
-    alt: "test",
-  },
-  {
-    src: "/project1_desktop_1.png",
-    name: "Weather App",
-    stack: "HTML, CSS, JavaScript",
-    description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
-    alt: "test",
+    live: "https://bloglist-frontend-d1wc.onrender.com",
+    code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
   },
 ];
