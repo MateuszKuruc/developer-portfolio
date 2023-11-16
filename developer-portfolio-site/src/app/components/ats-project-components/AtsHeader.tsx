@@ -54,6 +54,7 @@ const AtsHeader = () => {
         </div>
         <div className="md:w-[50%] flex justify-center">
           <Image
+            // src="/project1_mobile_2.png"
             src="/project1_mobile_2.png"
             alt="ats app desktop screen"
             width={300}

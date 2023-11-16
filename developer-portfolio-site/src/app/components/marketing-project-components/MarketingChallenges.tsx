@@ -21,28 +21,27 @@ const MarketingChallenges = () => {
         {/* Challenge 1 */}
         <Reveal>
           <div>
-
-          <h3 className="bold-24 py-4 dark:text-orange-500">
-            1. Responsive Design
-          </h3>
-          <p>
-            While I have been following responsive design principles before,
-            this time I really needed to do my best and think through all the
-            use cases. The website needed to be{" "}
-            <strong>fully intuitive and convenient</strong> even when loaded on
-            small screen, as most of the client traffic comes from mobile
-            devices. This is especially important when creating appplication for
-            marketing field, where eye-catching design and{" "}
-            <strong>smooth experience </strong>play major role. I have adjusted
-            all the app sections for mobile screens by playing around with font
-            and image sizes and components layout.
-          </p>
-          <p className="pt-4">
-            Additional difficulty was using <strong>Tailwind CSS </strong>for
-            the first time, but I got used to it very quickly and enjoyed the
-            developer experience so much that it is now my favourite tool used
-            for styling.
-          </p>
+            <h3 className="bold-24 py-4 dark:text-orange-500">
+              1. Responsive Design
+            </h3>
+            <p>
+              While I have been following responsive design principles before,
+              this time I really needed to do my best and think through all the
+              use cases. The website needed to be{" "}
+              <strong>fully intuitive and convenient</strong> even when loaded
+              on small screen, as most of the client traffic comes from mobile
+              devices. This is especially important when creating appplication
+              for marketing field, where eye-catching design and{" "}
+              <strong>smooth experience </strong>play major role. I have
+              adjusted all the app sections for mobile screens by playing around
+              with font and image sizes and components layout.
+            </p>
+            <p className="pt-4">
+              Additional difficulty was using <strong>Tailwind CSS </strong>for
+              the first time, but I got used to it very quickly and enjoyed the
+              developer experience so much that it is now my favourite tool used
+              for styling.
+            </p>
           </div>
         </Reveal>
         {/* Challenge 2 */}
@@ -124,9 +123,9 @@ const MarketingChallenges = () => {
               <strong>aria labels </strong>or statuses, and the images have alt
               property with apt content description.
             </p>
-            <div className="flex flex-col md:flex-row justify-around items-center">
+            <div className="flex flex-col 2xl:flex-row justify-around items-center">
               <Image
-                src="/project2_desktop_3.png"
+                src="/project1_desktop_3.png"
                 width={1000}
                 height={800}
                 alt="project screen"
