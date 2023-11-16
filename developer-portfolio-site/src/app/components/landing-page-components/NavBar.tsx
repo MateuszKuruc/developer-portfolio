@@ -19,6 +19,10 @@ const NavBar = () => {
 
   const { theme, setTheme } = useTheme();
 
+  useEffect(() => {
+    console.log("active link", activeLink);
+  });
+
   const isHomePage = () => {
     return pathname === "/";
   };
@@ -40,7 +44,7 @@ const NavBar = () => {
       ? (isMobile = window.innerWidth <= 768)
       : null;
 
-    if (isMobile) {
+    if (isMobile && isHomePage()) {
       if (scrollY < 2200) {
         setActiveLink("about");
       } else if (scrollY < 5600) {
@@ -50,7 +54,7 @@ const NavBar = () => {
       }
     }
 
-    if (!isMobile) {
+    if (!isMobile && isHomePage()) {
       if (scrollY < 1500) {
         setActiveLink("about");
       } else if (scrollY < 3000) {
@@ -80,40 +84,53 @@ const NavBar = () => {
           />
         </Link>
 
-        {isHomePage() && (
-          <div>
-            <ul className="gap-4 hidden sm:flex">
-              {NAV_LINKS.map((link) => (
-                <li className="nav-links-desktop" key={link.key}>
-                  <ScrollLink
-                    to={link.key}
-                    href={link.href}
-                    spy={true}
-                    smooth={true}
-                    offset={-103}
-                    duration={700}
-                    className={`${
-                      activeLink === link.key
-                        ? "bold-20 text-orange-500 hover:text-orange-700"
-                        : ""
-                    }`}
-                    onClick={() => setActiveLink(link.key)}
-                  >
-                    {link.label}
-                  </ScrollLink>
-                </li>
-              ))}
+        {/* {isHomePage() && ( */}
+        <div>
+          <ul className="gap-4 hidden sm:flex">
+            {NAV_LINKS.map((link) => (
+              <li className="nav-links-desktop" key={link.key}>
+                <ScrollLink
+                  to={link.key}
+                  href={link.href}
+                  spy={true}
+                  smooth={true}
+                  offset={-103}
+                  duration={700}
+                  className={`${
+                    activeLink === link.key
+                      ? "bold-20 text-orange-500 hover:text-orange-700"
+                      : ""
+                  }`}
+                  onClick={() => setActiveLink(link.key)}
+                >
+                  {link.label}
+                </ScrollLink>
+              </li>
+            ))}
+<div className="nav-links-desktop">
 
-              <Link
-                className="nav-links-desktop"
-                target="_blank"
+            <Link
+              // className="nav-links-desktop"
+              className={` ${
+                activeLink === "resume"
+                ? "bold-20 text-orange-500 hover:text-orange-700"
+                : ""
+              }`}
+              // className={` ${
+                //  !isHomePage()
+                //     ? "bold-20 text-orange-500 hover:text-orange-700"
+                //     : ""
+                // }`}
+                // target="_blank"
                 href="/resume"
-              >
-                Resume
-              </Link>
-            </ul>
-          </div>
-        )}
+                onClick={() => setActiveLink("resume")}
+                >
+              Resume
+            </Link>
+              </div>
+          </ul>
+        </div>
+        {/* )} */}
 
         <div className="hidden sm:flex">
           {theme === "dark" ? (
