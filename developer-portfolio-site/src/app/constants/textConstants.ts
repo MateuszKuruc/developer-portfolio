@@ -43,24 +43,103 @@ export const BACKEND_SKILLS = {
 };
 
 export const OTHER_SKILLS = {
+  standard: [
+    { src: "/graphql.svg", name: "GraphQL", label: "Graphql icon" },
+    { src: "/jira.svg", name: "Jira", label: "Jira icon" },
+    { src: "/git.svg", name: "Git", label: "Git icon" },
+    { src: "/jest.svg", name: "jest", label: "jest icon" },
+    { src: "/cypress.svg", name: "Cypress", label: "Cypress icon" },
+    { src: "/formik.svg", name: "Formik", label: "Formik icon" },
+    { src: "/postman.svg", name: "Postman", label: "Postman icon" },
+    { src: "/mongoose.svg", name: "Mongoose", label: "Mongoose icon" },
+    {
+      src: "/framer-motion.svg",
+      name: "Framer Motion",
+      label: "Framer Motion icon",
+    },
+    {
+      src: "/devtools.svg",
+      name: "Chrome DevTools",
+      label: "Framer Motion icon",
+    },
+  ],
+  invert: [
+    { src: "/github.svg", name: "Github", label: "Github icon" },
+    { src: "/apollo.svg", name: "Apollo", label: "Mongoose icon" },
+  ],
+};
 
-standard: [
-
-  { src: "/graphql.svg", name: "GraphQL", label: "Graphql icon" },
-  { src: "/jira.svg", name: "Jira", label: "Jira icon" },
-  { src: "/git.svg", name: "Git", label: "Git icon" },
-  { src: "/jest.svg", name: "jest", label: "jest icon" },
-  { src: "/cypress.svg", name: "Cypress", label: "Cypress icon" },
-  { src: "/formik.svg", name: "Formik", label: "Formik icon" },
-  { src: "/postman.svg", name: "Postman", label: "Postman icon" },
-  { src: "/mongoose.svg", name: "Mongoose", label: "Mongoose icon" },
-  { src: "/framer-motion.svg", name: "Framer Motion", label: "Framer Motion icon" },
-  { src: "/devtools.svg", name: "Chrome DevTools", label: "Framer Motion icon" },
-] ,
-invert: [
-  { src: "/github.svg", name: "Github", label: "Github icon" },
-  { src: "/apollo.svg", name: "Apollo", label: "Mongoose icon" },
-
-] 
-
-}
+export const SPAGHETTI_PROJECTS = [
+  {
+    src: "/project1_desktop_1.png",
+    name: "Weather App",
+    stack: "HTML, CSS, JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Weather App",
+    stack: "HTML, CSS, JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Weather App",
+    stack: "HTML, CSS, JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Weather App",
+    stack: "HTML, CSS, JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Weather App",
+    stack: "HTML, CSS, JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Weather App",
+    stack: "HTML, CSS, JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Weather App",
+    stack: "HTML, CSS, JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Weather App",
+    stack: "HTML, CSS, JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Weather App",
+    stack: "HTML, CSS, JavaScript",
+    description:
+      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+    alt: "test",
+  },
+];
