@@ -4,14 +4,24 @@ import { SPAGHETTI_PROJECTS } from "@/app/constants/textConstants";
 
 const Playground = () => {
   return (
-    <section>
-      <h2 className="bold-40">Playground</h2>
-      <div className="flex flex-col items-center">
+    <section className="content-container">
+      <div className="flex items-center justify-around py-12">
+        <h2 className="bold-40 ">Playground</h2>
+        <Image
+          src="/githubInfo.png"
+          width={800}
+          height={600}
+          alt="github"
+        ></Image>
+      </div>
+      <div className="flex flex-col items-center gap-8">
         <h3 className="bold-32-tight">Spaghetti code section</h3>
-        <p>
-          These are some smaller projects that I worked on when getting to know
-          JavaScript. I did not update them, so they represent my level of
-          knowledge at the beginning of the coding journey.
+        <p className="max-w-[800px] regular-20">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          congue pharetra ex id accumsan. Curabitur vel magna in nulla tempor
+          pharetra. Nam cursus, quam nec volutpat congue, velit tortor pharetra
+          quam, eu porttitor orci urna sit amet orci. Fusce auctor neque lectus,
+          quis imperdiet erat dictum vel.
         </p>
 
         <div className="grid grid-cols-3 padding-container">
