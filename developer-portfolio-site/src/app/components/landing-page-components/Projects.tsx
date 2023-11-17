@@ -44,39 +44,34 @@ const Projects = () => {
           <div className="max-w-[700px]">
             <Reveal>
               <p className="regular-18 py-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur efficitur ex sit amet sollicitudin porta.
+                This is a fullstack app I wrote for recruiters to help with
+                candidate pipeline management.
               </p>
             </Reveal>
 
             <ul className="list-disc regular-18 p-2 md:p-0">
               <Reveal>
                 <li className="ml-6">
-                  Nulla quis ex sed dolor iaculis gravida. Curabitur quis turpis
-                  diam. Etiam euismod, tellus ut pretium pharetra, sem odio
-                  rhoncus ante, sit amet condimentum nunc elit id metus.
+                  Creating, updating and deleting candidate profiles
                 </li>
               </Reveal>
               <Reveal>
-                <li className="ml-6">
-                  Donec non felis mi. Donec nec nulla vitae lacus efficitur
-                  lobortis. Cras malesuada vehicula neque, in dictum nulla
-                  porttitor scelerisque.
-                </li>
+                <li className="ml-6">Token-based authentication</li>
               </Reveal>
 
               <Reveal>
                 <li className="ml-6">
-                  Pellentesque habitant morbi tristique senectus et netus et
-                  malesuada fames ac turpis egestas. Maecenas vitae lectus quis
-                  risus ultrices malesuada.
+                  Uploading, downloading and deleting files on candidate profile
                 </li>
               </Reveal>
               <Reveal>
                 <li className="ml-6">
-                  Quisque sollicitudin sit amet est et pellentesque. Etiam
-                  lobortis massa vitae velit commodo, sit amet convallis massa
-                  commodo.{" "}
+                  Displaying, sorting and filtering candidates data 
+                </li>
+              </Reveal>
+              <Reveal>
+                <li className="ml-6">
+                  Responsive design
                 </li>
               </Reveal>
             </ul>
