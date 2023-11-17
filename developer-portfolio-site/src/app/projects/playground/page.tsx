@@ -49,13 +49,13 @@ const Playground = () => {
                 <p className="regular-20">{project.description}</p>
 
                 <div className="flex flex-col md:flex-row gap-4 items-center">
-                  <a target="_blank" href="https://www.reklamyfacebook.pl/">
+                  <a target="_blank" href={project.live}>
                     <button className="btn-about max-w-[200px]">
                       <p className="bold-18">Live</p>
                       <FaExternalLinkAlt size={30} />
                     </button>
                   </a>
-                  <a target="_blank" href={process.env.GITHUB_LINK}>
+                  <a target="_blank" href={project.code}>
                     <button className="btn-about max-w-[200px]">
                       <p className="bold-18">Code</p>
                       <BsGithub size={30} />
