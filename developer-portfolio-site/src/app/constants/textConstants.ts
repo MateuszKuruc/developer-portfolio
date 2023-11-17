@@ -81,7 +81,7 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
   },
   {
-    src: "/project1_desktop_1.png",
+    src: "/project1_desktop_2.png",
     name: "To-do list",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
@@ -91,7 +91,7 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/odin-todo-list",
   },
   {
-    src: "/project1_desktop_1.png",
+    src: "/project1_desktop_3.png",
     name: "Weather app",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
