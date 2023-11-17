@@ -82,7 +82,7 @@ const Projects = () => {
             </ul>
             <Reveal>
               <Link href="/projects/ats-for-recruiters">
-                <p className="hover:scale-105 ease-out duration-300 bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
+                <p className="p-2 hover:scale-105 ease-out duration-300 bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
                   Read more...
                 </p>
               </Link>
@@ -174,7 +174,7 @@ const Projects = () => {
             </ul>
             <Reveal>
               <Link href="/projects/marketing-portfolio">
-                <p className="hover:scale-105 ease-out duration-300 bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
+                <p className="p-2 hover:scale-105 ease-out duration-300 bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
                   Read more...
                 </p>
               </Link>
