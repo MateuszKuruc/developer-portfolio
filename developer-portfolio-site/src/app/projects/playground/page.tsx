@@ -14,7 +14,8 @@ const Playground = () => {
           width={800}
           height={600}
           alt="github"
-        ></Image>
+          className="rounded-lg border-4 border-orange-700 dark:border-orange-500"
+          />
       </div>
       <div className="flex flex-col items-center gap-8">
         {/* <h3 className="bold-32-tight">Spaghetti code section</h3> */}
@@ -33,7 +34,7 @@ const Playground = () => {
           {SPAGHETTI_PROJECTS.map((project) => (
             <div
               key={project.name}
-              className="p-8 flex flex-col justify-between bg-orange-100 mx-4 my-4 border-4 rounded-lg border-orange-700 dark:border-orange-500 shadow-image"
+              className="p-8 flex flex-col justify-between bg-orange-100 dark:bg-gray-950 mx-4 my-4 border-4 rounded-lg border-orange-700 dark:border-orange-500 shadow-image"
             >
               <Image
                 src={project.src}

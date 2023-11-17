@@ -75,7 +75,7 @@ export const SPAGHETTI_PROJECTS = [
     name: "Bloglist",
     stack: "React ◆ Redux ◆ NodeJS ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+      "Application with token authorization, where users add info on blogs (author, title, link) and can vote for blogs they like. The app also allows users to leave a comment or see how many blogs were added by other users.",
     alt: "test",
     live: "https://bloglist-frontend-d1wc.onrender.com",
     code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
@@ -130,16 +130,16 @@ export const SPAGHETTI_PROJECTS = [
     live: "https://mateuszkuruc.github.io/odin-library/",
     code: "https://github.com/MateuszKuruc/odin-library",
   },
-  {
-    src: "/project1_desktop_1.png",
-    name: "Tic-tac-toe",
-    stack: "HTML ◆ CSS ◆ JavaScript",
-    description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
-    alt: "test",
-    live: "https://mateuszkuruc.github.io/odin-tic-tac-toe/",
-    code: "https://github.com/MateuszKuruc/odin-calculator",
-  },
+  // {
+  //   src: "/project1_desktop_1.png",
+  //   name: "Tic-tac-toe",
+  //   stack: "HTML ◆ CSS ◆ JavaScript",
+  //   description:
+  //     "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+  //   alt: "test",
+  //   live: "https://mateuszkuruc.github.io/odin-tic-tac-toe/",
+  //   code: "https://github.com/MateuszKuruc/odin-calculator",
+  // },
   {
     src: "/project1_desktop_1.png",
     name: "Admin dashboard",
