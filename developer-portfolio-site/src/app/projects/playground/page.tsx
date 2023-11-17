@@ -17,7 +17,10 @@ const Playground = () => {
         ></Image>
       </div>
       <div className="flex flex-col items-center gap-8">
-        <h3 className="bold-32-tight">Spaghetti code section</h3>
+        {/* <h3 className="bold-32-tight">Spaghetti code section</h3> */}
+        <h3 className="bold-32-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700">
+          Spaghetti code section
+        </h3>
         <p className="max-w-[800px] regular-20">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
           congue pharetra ex id accumsan. Curabitur vel magna in nulla tempor
@@ -30,7 +33,7 @@ const Playground = () => {
           {SPAGHETTI_PROJECTS.map((project) => (
             <div
               key={project.name}
-              className="p-8 bg-orange-100 mx-4 my-4 border-4 rounded-lg border-orange-500 shadow-image"
+              className="p-8 bg-orange-100 mx-4 my-4 border-4 rounded-lg border-orange-700 dark:border-orange-500 shadow-image"
             >
               <Image
                 src={project.src}
