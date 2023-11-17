@@ -42,11 +42,12 @@ const Playground = () => {
               <div className="flex flex-col items-center justify-center rounded-lg gap-4">
                 <h3 className="bold-24 text-orange-700">{project.name}</h3>
 
-                <p className="regular-18 border-b-2 border-t-2 border-orange-700">
+                <p className="regular-18 border-b-2 border-t-2 border-orange-700 h-[60px] flex items-center">
                   {project.stack}
                 </p>
 
                 <p className="regular-20">{project.description}</p>
+
                 <div className="flex flex-col md:flex-row gap-4 items-center">
                   <a target="_blank" href="https://www.reklamyfacebook.pl/">
                     <button className="btn-about max-w-[200px]">
