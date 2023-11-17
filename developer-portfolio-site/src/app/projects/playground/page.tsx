@@ -33,7 +33,7 @@ const Playground = () => {
           {SPAGHETTI_PROJECTS.map((project) => (
             <div
               key={project.name}
-              className="p-8 bg-orange-100 mx-4 my-4 border-4 rounded-lg border-orange-700 dark:border-orange-500 shadow-image"
+              className="p-8 flex flex-col justify-between bg-orange-100 mx-4 my-4 border-4 rounded-lg border-orange-700 dark:border-orange-500 shadow-image"
             >
               <Image
                 src={project.src}

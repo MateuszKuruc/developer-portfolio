@@ -14,7 +14,7 @@ const Resume = () => {
         </p>
         <a href="/Kino.pdf" download="Kino.pdf">
           <div className="flex items-end gap-4 justify-center">
-            <h3 className="bold-24 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700">
+            <h3 className="bold-24 hover:scale-105 ease-in-out duration-300 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700">
               Download resume
             </h3>
             <AiOutlineArrowLeft size={30} className="animate-bounce" />
