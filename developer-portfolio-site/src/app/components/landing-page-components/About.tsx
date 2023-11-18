@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import Reveal from "../animation-components/Reveal";
@@ -26,14 +27,35 @@ const About = () => {
                 Developer
               </h2>
 
-              <p className="regular-18 leading-8">
+              {/* <p className="regular-18 leading-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 pellentesque justo magna, non fermentum quam fermentum sit amet.
                 Fusce sit amet scelerisque lorem. Nullam vel euismod mi, vitae
                 ultricies turpis. Integer vitae tortor felis. Aliquam nec velit
                 vel ante maximus rhoncus. Fusce orci sem, hendrerit nec aliquam
                 ac, mattis quis augue.
-              </p>
+              </p> */}
+              <div className="regular-18 leading-8">
+                {/* Hi there!<br></br> */}
+                <p className="pt-4">
+                  I'm Mateusz - a former English teacher passionate about
+                  continuous learning. A few years ago I transitioned into
+                  international corporate world to work in people-oriented
+                  roles. Ever since starting as IT recruiter, my aim was to stay
+                  in the industry and grow with it. Now I am writing my own
+                  fullstack apps and don't want to stop there!
+                </p>
+                <p className="pt-4">
+                  I live in Katowice and am currently looking for a company that
+                  will let me use JavaScript to contribute to the business growth!
+                </p>
+                {/* I have background in English teaching and am passionate about continuous learning  */}
+                {/* Self-driven learner with background in English teaching and */}
+                {/* Got my head stuck in tech ever since seeing experiencing
+                it from the IT recruiter position. A year later, I write
+                my own fullstack apps and don't want to stop there! */}
+                {/* I got interested in programming when I started as IT recruiter and now I write my own apps */}
+              </div>
             </div>
           </Reveal>
 
