@@ -7,7 +7,7 @@ import { BsGithub } from "react-icons/bs";
 
 const Playground = () => {
   return (
-    <section className="content-container">
+    <section className="content-container py-12">
       <div className="flex items-center justify-around py-12">
         <h2 className="bold-40 ">Playground</h2>
         <Image
