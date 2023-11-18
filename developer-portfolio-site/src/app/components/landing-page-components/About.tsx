@@ -30,10 +30,10 @@ const About = () => {
               <div className="regular-18 leading-8">
                 <p className="pt-4">
                   I'm Mateusz - a former English teacher passionate about
-                  continuous learning. A few years ago I transitioned into
+                  continuous learning. A few years ago, I transitioned into the
                   international corporate world to work in people-oriented
-                  roles. Ever since starting as IT recruiter, my aim was to stay
-                  in the industry and grow with it. Now I am writing my own
+                  roles. Ever since starting as IT recruiter, my aim has been to stay
+                  in the industry and grow with it. Now, I am writing my own
                   fullstack apps and <strong>don't want to stop there!</strong>
                 </p>
                 <p className="pt-4">
