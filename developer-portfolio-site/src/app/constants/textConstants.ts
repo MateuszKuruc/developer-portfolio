@@ -73,19 +73,29 @@ export const SPAGHETTI_PROJECTS = [
   {
     src: "/project1_desktop_1.png",
     name: "Bloglist",
-    stack: "React ◆ Redux ◆ NodeJS ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
+    stack: "React ◆ Redux ◆ Node.js ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
-      "Application with token authorization, where users add info on blogs (author, title, link) and can vote for blogs they like. The app also allows users to leave a comment or see how many blogs were added by other users.",
+      "Fullstack application with token authorization, where users add info on blogs (author, title and link) and can vote for blogs they like. The app also allows users to leave a comment or see how many blogs were added by other users.",
     alt: "test",
     live: "https://bloglist-frontend-d1wc.onrender.com",
     code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
+  },
+  {
+    src: "/project1_desktop_1.png",
+    name: "Phonebook",
+    stack: "React ◆ Node.js ◆ Express ◆ MongoDB",
+    description:
+      "Very simple fullstack app allowing us to add and delete contacts (name and phone number). In this project I was playing around with responsive filtering and basic validation for contact form. I also learned how to deploy such apps to the internet so they are widely available.",
+    alt: "test",
+    live: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS/tree/main/backend-phonebook",
+    code: "https://fullstack-phonebook-7wl2.onrender.com",
   },
   {
     src: "/project1_desktop_2.png",
     name: "To-do list",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+      "Your classic to-do list app that each new developer writes at some point. At the time it has taken me long hours to figure out how to handle logic for adding and editing single task, incorporate date-fns library and dynamic sorting of tasks. It has been a kind of breakthrough for me in the programming journey. ",
     alt: "test",
     live: "https://mateuszkuruc.github.io/odin-todo-list/",
     code: "https://github.com/MateuszKuruc/odin-todo-list",
@@ -95,7 +105,7 @@ export const SPAGHETTI_PROJECTS = [
     name: "Weather app",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+      "Another classic - weather app which was a great opportunity for me to use external API for the first time. It taught me a lot about data handling and the ways of formatting and using it to display it to the user in the way I want.",
     alt: "test",
     live: "https://mateuszkuruc.github.io/odin-weather-app/",
     code: "https://github.com/MateuszKuruc/odin-weather-app",
@@ -130,16 +140,6 @@ export const SPAGHETTI_PROJECTS = [
     live: "https://mateuszkuruc.github.io/odin-library/",
     code: "https://github.com/MateuszKuruc/odin-library",
   },
-  // {
-  //   src: "/project1_desktop_1.png",
-  //   name: "Tic-tac-toe",
-  //   stack: "HTML ◆ CSS ◆ JavaScript",
-  //   description:
-  //     "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
-  //   alt: "test",
-  //   live: "https://mateuszkuruc.github.io/odin-tic-tac-toe/",
-  //   code: "https://github.com/MateuszKuruc/odin-calculator",
-  // },
   {
     src: "/project1_desktop_1.png",
     name: "Admin dashboard",

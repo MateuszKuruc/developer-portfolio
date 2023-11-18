@@ -19,17 +19,10 @@ const Playground = () => {
         />
       </div>
       <div className="flex flex-col items-center gap-8">
-        {/* <h3 className="bold-32-tight">Spaghetti code section</h3> */}
         <h3 className="bold-32-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700">
           Spaghetti code section
         </h3>
-        {/* <p className="max-w-[800px] regular-20">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          congue pharetra ex id accumsan. Curabitur vel magna in nulla tempor
-          pharetra. Nam cursus, quam nec volutpat congue, velit tortor pharetra
-          quam, eu porttitor orci urna sit amet orci. Fusce auctor neque lectus,
-          quis imperdiet erat dictum vel.
-        </p> */}
+
         <div className="max-w-[800px] regular-20">
           <p>
             These are some of my old projects documenting my road to learning
