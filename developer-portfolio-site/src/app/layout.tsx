@@ -7,8 +7,12 @@ import Footer from "./components/landing-page-components/Footer";
 import Providers from "./Providers";
 
 export const metadata: Metadata = {
-  title: "Mateusz Kuruc - portfolio",
-  description: "Portfolio site by Mateusz Kuruc",
+  title: "Mateusz Kuruc - JavaScript Developer",
+  description: "Mateusz Kuruc - JavaScript Developer",
+  icons: {
+    icon: ["/favicon.ico"],
+    apple: ["/apple-touch-icon.png"],
+  },
 };
 
 export default function RootLayout({
