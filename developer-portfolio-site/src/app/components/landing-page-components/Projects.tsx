@@ -51,9 +51,7 @@ const Projects = () => {
 
             <ul className="list-disc regular-18 p-2 md:p-0">
               <Reveal>
-                <li className="ml-6">
-                  Creating, updating and deleting candidate profiles
-                </li>
+                <li className="ml-6">CRUD operations on candidate profiles</li>
               </Reveal>
               <Reveal>
                 <li className="ml-6">Token-based authentication</li>
@@ -61,12 +59,13 @@ const Projects = () => {
 
               <Reveal>
                 <li className="ml-6">
-                  Uploading, downloading and deleting files on candidate profile
+                  File management (upload, download, delete) for candidate
+                  profiles
                 </li>
               </Reveal>
               <Reveal>
                 <li className="ml-6">
-                  Displaying, sorting and filtering candidates data
+                  Candidates data display with sorting and filtering
                 </li>
               </Reveal>
               <Reveal>
