@@ -39,9 +39,9 @@ const Playground = () => {
                 target="_blank"
                 href="https://github.com/MateuszKuruc/fullStackOpen"
               >
-                <h3 className="bold-20 text-orange-500 hover:scale-105 hover:text-orange-700 ease-in-out duration-300">
+                <span className="bold-20 text-orange-500 hover:scale-105 hover:text-orange-700 ease-in-out duration-300">
                   this folder
-                </h3>
+                </span>
               </a>
             </span>{" "}
             with a few hundred hours' worth of coding.
