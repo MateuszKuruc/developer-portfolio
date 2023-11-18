@@ -105,17 +105,27 @@ export const SPAGHETTI_PROJECTS = [
     name: "Weather app",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
-      "Another classic - weather app which was a great opportunity for me to use external API for the first time. It taught me a lot about data handling and the ways of formatting and using it to display it to the user in the way I want.",
+      "Another classic - weather app which was a great opportunity for me to use external API for the first time. It taught me a lot about data handling and the ways of formatting and using it to display it to the user in the way I want. Additionally, I learned some basics about designing toggling for websites.",
     alt: "test",
     live: "https://mateuszkuruc.github.io/odin-weather-app/",
     code: "https://github.com/MateuszKuruc/odin-weather-app",
   },
   {
     src: "/project1_desktop_1.png",
+    name: "Admin dashboard",
+    stack: "HTML ◆ CSS ◆ JavaScript",
+    description:
+      "This is a project that was amazing training for building a bit more complex website layout. I went for a sidebar menu and a simple display of my other projects in the main app's container. The focus was on UI, so most of the buttons and texts are just mock or placeholders with little logic.",
+    alt: "test",
+    live: "https://mateuszkuruc.github.io/odin-admin-dashboard/",
+    code: "https://github.com/MateuszKuruc/odin-admin-dashboard",
+  },
+  {
+    src: "/project1_desktop_1.png",
     name: "Restaurant page",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+      "This simplified landing page for a lovely confectionery is not only my tribute to sweets (which I love with all my heart), but my first attempt at responsive design. I learned how to provide good experience to user on all screen sizes, which was a real milestone for me.",
     alt: "test",
     live: "https://mateuszkuruc.github.io/odin-restaurant-page/",
     code: "https://github.com/MateuszKuruc/odin-restaurant-page",
@@ -139,16 +149,6 @@ export const SPAGHETTI_PROJECTS = [
     alt: "test",
     live: "https://mateuszkuruc.github.io/odin-library/",
     code: "https://github.com/MateuszKuruc/odin-library",
-  },
-  {
-    src: "/project1_desktop_1.png",
-    name: "Admin dashboard",
-    stack: "HTML ◆ CSS ◆ JavaScript",
-    description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
-    alt: "test",
-    live: "https://mateuszkuruc.github.io/odin-admin-dashboard/",
-    code: "https://github.com/MateuszKuruc/odin-admin-dashboard",
   },
   {
     src: "/project1_desktop_1.png",
