@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
 import { SPAGHETTI_PROJECTS } from "@/app/constants/textConstants";
@@ -15,20 +16,44 @@ const Playground = () => {
           height={600}
           alt="github"
           className="rounded-lg border-4 border-orange-700 dark:border-orange-500"
-          />
+        />
       </div>
       <div className="flex flex-col items-center gap-8">
         {/* <h3 className="bold-32-tight">Spaghetti code section</h3> */}
         <h3 className="bold-32-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700">
           Spaghetti code section
         </h3>
-        <p className="max-w-[800px] regular-20">
+        {/* <p className="max-w-[800px] regular-20">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
           congue pharetra ex id accumsan. Curabitur vel magna in nulla tempor
           pharetra. Nam cursus, quam nec volutpat congue, velit tortor pharetra
           quam, eu porttitor orci urna sit amet orci. Fusce auctor neque lectus,
           quis imperdiet erat dictum vel.
-        </p>
+        </p> */}
+        <div className="max-w-[800px] regular-20">
+          <p>
+            These are some of my old projects documenting my road to learning
+            programming. I have made <strong>many more</strong> - especially
+            with React, Redux, Node, Express and MongoDB - but most of them are
+            not fit for deployment, as I have been focusing on learning the
+            tools and logic, ignoring UI.
+          </p>
+          <p className="pt-4">
+            If you would like to check the code of the projects that weren't
+            uploaded, you should check{" "}
+            <span className="inline-block">
+              <a
+                target="_blank"
+                href="https://github.com/MateuszKuruc/fullStackOpen"
+              >
+                <h3 className="bold-20 text-orange-500 hover:scale-105 hover:text-orange-700 ease-in-out duration-300">
+                  this folder
+                </h3>
+              </a>
+            </span>{" "}
+            with a few hundred hours' worth of coding.
+          </p>
+        </div>
 
         <div className="grid grid-cols-2 2xl:grid-cols-3">
           {SPAGHETTI_PROJECTS.map((project) => (
