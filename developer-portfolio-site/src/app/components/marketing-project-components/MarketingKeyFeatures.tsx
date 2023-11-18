@@ -10,7 +10,9 @@ const MarketingKeyFeatures = () => {
         </h2>
         <p>
           My job was to create graphic design for the website, prepare color
-          palette, build the whole application and deploy it.
+          palette, build the whole application and deploy it. I took this
+          project as opportunity to learn Next.js and brush up on my TypeScript
+          skills.
         </p>
         <p className="bold-20 py-4">Main requirements:</p>
         <ul className="list-disc p-4">

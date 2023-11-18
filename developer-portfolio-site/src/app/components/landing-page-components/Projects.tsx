@@ -66,13 +66,11 @@ const Projects = () => {
               </Reveal>
               <Reveal>
                 <li className="ml-6">
-                  Displaying, sorting and filtering candidates data 
+                  Displaying, sorting and filtering candidates data
                 </li>
               </Reveal>
               <Reveal>
-                <li className="ml-6">
-                  Responsive design
-                </li>
+                <li className="ml-6">Responsive design</li>
               </Reveal>
             </ul>
             <Reveal>
@@ -133,37 +131,33 @@ const Projects = () => {
           <div className="max-w-[700px]">
             <Reveal>
               <p className="regular-18 py-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur efficitur ex sit amet sollicitudin porta.
+                This is a modern portfolio website for online marketing
+                specialist. Developed with focus on performance, responsive
+                design and clean, futuristic design.
               </p>
             </Reveal>
             <ul className="list-disc regular-18 p-2 md:p-0">
               <Reveal>
+                <li className="ml-6">Automated contact form handling</li>
+              </Reveal>
+              <Reveal>
                 <li className="ml-6">
-                  Nulla quis ex sed dolor iaculis gravida. Curabitur quis turpis
-                  diam. Etiam euismod, tellus ut pretium pharetra, sem odio
-                  rhoncus ante, sit amet condimentum nunc elit id metus.
+                  Performance-driven, optimized for speed and efficiency
                 </li>
               </Reveal>
               <Reveal>
                 <li className="ml-6">
-                  Donec non felis mi. Donec nec nulla vitae lacus efficitur
-                  lobortis. Cras malesuada vehicula neque, in dictum nulla
-                  porttitor scelerisque.
+                  Focus on intuitive and user-friendly interface
                 </li>
               </Reveal>
               <Reveal>
                 <li className="ml-6">
-                  Pellentesque habitant morbi tristique senectus et netus et
-                  malesuada fames ac turpis egestas. Maecenas vitae lectus quis
-                  risus ultrices malesuada.
+                  Excellent performance on mobile devices
                 </li>
               </Reveal>
               <Reveal>
                 <li className="ml-6">
-                  Quisque sollicitudin sit amet est et pellentesque. Etiam
-                  lobortis massa vitae velit commodo, sit amet convallis massa
-                  commodo.{" "}
+                  Smooth animations to enhance user experience
                 </li>
               </Reveal>
             </ul>
