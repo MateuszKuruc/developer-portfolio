@@ -31,7 +31,7 @@ export const FRONTEND_SKILLS = {
 
 export const BACKEND_SKILLS = {
   standard: [
-    { src: "/nodejs.svg", name: "NodeJS", label: "NodeJS icon" },
+    { src: "/nodejs.svg", name: "Node.js", label: "NodeJS icon" },
     { src: "/mongodb.svg", name: "MongoDB", label: "MongoDB icon" },
   ],
   invert: [
