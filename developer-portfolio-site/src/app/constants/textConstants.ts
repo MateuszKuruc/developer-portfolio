@@ -75,7 +75,7 @@ export const SPAGHETTI_PROJECTS = [
     name: "Bloglist",
     stack: "React ◆ Redux ◆ Node.js ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
-      "Fullstack application with token authorization, where users add info on blogs (author, title and link) and can vote for blogs they like. The app also allows users to leave a comment or see how many blogs were added by other users.",
+      "Fullstack application with token authentication for login, where users add info on blogs (author, title and link) and can vote for blogs they like. The app also allows users to leave a comment or see how many blogs were added by other users. My first encounter with Material UI as well.",
     alt: "test",
     live: "https://bloglist-frontend-d1wc.onrender.com",
     code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
@@ -95,7 +95,7 @@ export const SPAGHETTI_PROJECTS = [
     name: "To-do list",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
-      "Your classic to-do list app that each new developer writes at some point. At the time it has taken me long hours to figure out how to handle logic for adding and editing single task, incorporate date-fns library and dynamic sorting of tasks. It has been a kind of breakthrough for me in the programming journey. ",
+      "Your classic to-do list app that each new developer writes at some point. At the time it has taken me long hours to figure out how to handle logic for adding editing and deleting tasks, incorporate a library (date-fns in this case) dynamic sorting of tasks and local storage.",
     alt: "test",
     live: "https://mateuszkuruc.github.io/odin-todo-list/",
     code: "https://github.com/MateuszKuruc/odin-todo-list",
@@ -135,7 +135,7 @@ export const SPAGHETTI_PROJECTS = [
     name: "Calculator",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+      "One of the first projects on my JavaScript learning journey. It gave me some foundations when it comes to conditional and switch statements in programming. This project was a solid training in terms of DOM manipulation, too. As a bonus, I added keyboard support for the app.",
     alt: "test",
     live: "https://mateuszkuruc.github.io/odin-calculator/",
     code: "https://github.com/MateuszKuruc/odin-calculator",
@@ -145,7 +145,7 @@ export const SPAGHETTI_PROJECTS = [
     name: "Library",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+      "Library app allows users to add the books to their shelve. It was a chance to learn about object constructors in JavaScript. It might have also been my first attempt at form validation, as each book needs to include author name, book title and number of pages.",
     alt: "test",
     live: "https://mateuszkuruc.github.io/odin-library/",
     code: "https://github.com/MateuszKuruc/odin-library",
@@ -155,7 +155,7 @@ export const SPAGHETTI_PROJECTS = [
     name: "Etch a sketch",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
-      "example project, simple sentences, a bit about functionalities and difficulties. Not overly important. Add one more sentence and it really should be enough for this kind of work.",
+      "Etch a sketch is simply an app for making doodles in the web browser. Choose and change grid size, erase your lines or remove grid to have a plain canvas if that is your preference. I struggled really hard with nested loops and leveraging CSS Flex in this project but it paid off in future projects!",
     alt: "test",
     live: "https://mateuszkuruc.github.io/odin-etch-a-sketch/",
     code: "https://github.com/MateuszKuruc/odin-etch-a-sketch",
