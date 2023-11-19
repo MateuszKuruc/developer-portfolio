@@ -25,7 +25,7 @@ const Projects = () => {
             alt="ATS app mobile screen"
             width={150}
             height={150}
-            className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
+            className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] lg:w-[150px]"
           />
         </div>
         <div className="padding-container flex flex-col justify-center items-center">
@@ -110,7 +110,7 @@ const Projects = () => {
             alt="marketing portfolio mobile screen"
             width={150}
             height={150}
-            className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
+            className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] lg:w-[150px]"
           />
         </div>
 

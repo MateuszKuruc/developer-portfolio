@@ -71,7 +71,7 @@ export const OTHER_SKILLS = {
 
 export const SPAGHETTI_PROJECTS = [
   {
-    src: "/project1_desktop_1.png",
+    src: "/ats_desktop_1.png",
     name: "Bloglist",
     stack: "React ◆ Redux ◆ Node.js ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
@@ -81,7 +81,7 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
   },
   {
-    src: "/project1_desktop_1.png",
+    src: "/ats_desktop_2.png",
     name: "Phonebook",
     stack: "React ◆ Node.js ◆ Express ◆ MongoDB",
     description:
@@ -91,7 +91,7 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS/tree/main/backend-phonebook",
   },
   {
-    src: "/project1_desktop_1.png",
+    src: "/ats_desktop_3.png",
     name: "To-do list",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
