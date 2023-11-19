@@ -12,7 +12,7 @@ const Playground = () => {
         <h2 className="bold-40 ">Playground</h2>
         <Image
           src="/githubInfo.png"
-          width={800}
+          width={1200}
           height={600}
           alt="github"
           className="rounded-lg border- border-orange-700 dark:border-orange-500"
@@ -48,7 +48,7 @@ const Playground = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 2xl:grid-cols-3">
+        <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
           {SPAGHETTI_PROJECTS.map((project) => (
             <div
               key={project.name}
@@ -64,7 +64,7 @@ const Playground = () => {
               <div className="flex flex-col items-center justify-center rounded-lg gap-4">
                 <h3 className="bold-24 text-orange-700">{project.name}</h3>
 
-                <p className="regular-18 border-b-2 border-t-2 border-orange-700 h-[60px] flex items-center">
+                <p className="regular-18 border-b-2 border-t-2 border-orange-700 md:h-[60px] flex items-center">
                   {project.stack}
                 </p>
 
