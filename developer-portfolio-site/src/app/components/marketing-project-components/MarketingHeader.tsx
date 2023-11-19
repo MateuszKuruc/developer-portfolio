@@ -45,10 +45,10 @@ const MarketingHeader = () => {
           </div>
           <div className="md:w-[50%] flex justify-center">
             <Image
-              src="/project1_mobile_2.png"
-              alt="ats app desktop screen"
+              src="/marketing_mobile_2.png"
+              alt="page mobile menu and carousel item"
               width={300}
-              height={300}
+              height={598}
             />
           </div>
         </div>

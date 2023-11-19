@@ -100,13 +100,13 @@ const Projects = () => {
       <div className="flex flex-col md:flex-row justify-around pb-8 md:pb-12 md:items-center">
         <div className="max-w-[400px] md:max-w-[600px] relative">
           <Image
-            src="/project2_desktop_1.png"
+            src="/marketing_desktop_1.png"
             alt="marketing portfolio desktop screen"
             width={600}
             height={600}
           />
           <Image
-            src="/project2_mobile_1.png"
+            src="/marketing_mobile_1.png"
             alt="marketing portfolio mobile screen"
             width={150}
             height={299}

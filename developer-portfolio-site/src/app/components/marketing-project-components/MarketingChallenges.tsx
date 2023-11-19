@@ -48,10 +48,10 @@ const MarketingChallenges = () => {
         <Reveal>
           <div className="flex flex-col md:flex-row md:justify-around py-4">
             <Image
-              src="/project1_mobile_3.png"
-              alt="mobile screen"
+              src="/marketing_mobile_3.png"
+              alt="contact form validation mobile screen"
               width={300}
-              height={300}
+              height={598}
               className="self-center"
             />
             <div className="md:w-[50%]">
@@ -125,16 +125,16 @@ const MarketingChallenges = () => {
             </p>
             <div className="flex flex-col 2xl:flex-row justify-around items-center">
               <Image
-                src="/project1_desktop_3.png"
+                src="/marketing_desktop_3.png"
                 width={1000}
-                height={800}
-                alt="project screen"
+                height={636}
+                alt="page contact form desktop screen"
               />
               <Image
-                src="/performance.png"
+                src="/marketing_performance.png"
                 width={300}
-                height={300}
-                alt="mobile screen"
+                height={598}
+                alt="page performance results"
               />
             </div>
           </div>

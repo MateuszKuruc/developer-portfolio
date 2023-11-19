@@ -51,10 +51,10 @@ const MarketingKeyFeatures = () => {
           </Reveal>
         </ul>
         <Image
-          src="/project1_desktop_3.png"
+          src="/marketing_desktop_2.png"
           width={1200}
-          height={800}
-          alt="project desktop screen"
+          height={763}
+          alt="about me section on desktop"
           className="py-4 md:p-0"
         />
       </div>

@@ -13,7 +13,7 @@ const Playground = () => {
         <Image
           src="/githubInfo.png"
           width={1200}
-          height={600}
+          height={293}
           alt="github"
           className="rounded-lg border- border-orange-700 dark:border-orange-500"
         />
