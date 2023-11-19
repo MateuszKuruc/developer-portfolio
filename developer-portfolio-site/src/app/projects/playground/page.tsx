@@ -52,7 +52,7 @@ const Playground = () => {
           {SPAGHETTI_PROJECTS.map((project) => (
             <div
               key={project.name}
-              className=" flex flex-col justify-between items-center bg-orange-100 dark:bg-gray-950 mx-4 my-4 border-2 rounded-lg border-orange-700 dark:border-orange-500 shadow-image"
+              className="flex flex-col justify-between items-center bg-orange-100 dark:bg-gray-950 mx-4 my-4 border-2 rounded-lg border-orange-700 dark:border-orange-500 shadow-image"
             >
               <Image
                 src={project.src}
