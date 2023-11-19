@@ -52,23 +52,22 @@ const Playground = () => {
           {SPAGHETTI_PROJECTS.map((project) => (
             <div
               key={project.name}
-              className="p-8 flex flex-col justify-between bg-orange-100 dark:bg-gray-950 mx-4 my-4 border-4 rounded-lg border-orange-700 dark:border-orange-500 shadow-image"
+              className=" flex flex-col justify-between items-center bg-orange-100 dark:bg-gray-950 mx-4 my-4 border-2 rounded-lg border-orange-700 dark:border-orange-500 shadow-image"
             >
               <Image
                 src={project.src}
                 width={500}
                 height={500}
                 alt={project.alt}
-                // className="border-2"
               />
-              <div className="flex flex-col items-center justify-center rounded-lg gap-4">
+              <div className="flex flex-col items-center justify-center rounded-lg gap-4 px-8 pb-8">
                 <h3 className="bold-24 text-orange-700">{project.name}</h3>
 
                 <p className="regular-18 border-b-2 border-t-2 border-orange-700 md:h-[60px] flex items-center">
                   {project.stack}
                 </p>
 
-                <p className="regular-20">{project.description}</p>
+                <p className="regular-20 py-4">{project.description}</p>
 
                 <div className="flex flex-col md:flex-row gap-4 items-center">
                   <a target="_blank" href={project.live}>
