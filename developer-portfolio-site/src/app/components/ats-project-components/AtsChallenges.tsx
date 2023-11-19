@@ -75,7 +75,7 @@ const AtsChallenges = () => {
           <div className="flex flex-col md:flex-row md:justify-around py-4">
             <Image
               src="/ats_mobile_3.png"
-              alt="mobile screen"
+              alt="ats app delete file mobile screen"
               width={300}
               height={598}
               className="self-center"
@@ -172,13 +172,13 @@ const AtsChallenges = () => {
                 src="/ats_desktop_3.png"
                 width={1000}
                 height={636}
-                alt="project screen"
+                alt="ats app desktop javascript statistics"
               />
               <Image
                 src="/ats_mobile_4.png"
                 width={300}
                 height={598}
-                alt="mobile screen"
+                alt="ats app mobile javascript statistics"
               />
             </div>
           </div>

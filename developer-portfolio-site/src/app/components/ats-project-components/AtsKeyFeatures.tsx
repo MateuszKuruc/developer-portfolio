@@ -44,7 +44,7 @@ const AtsKeyFeatures = () => {
           src="/ats_desktop_2.png"
           width={1200}
           height={763}
-          alt="project desktop screen"
+          alt="ats desktop candidate details page"
           className="py-4 md:p-0"
         />
       </div>

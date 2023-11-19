@@ -71,7 +71,7 @@ export const OTHER_SKILLS = {
 
 export const SPAGHETTI_PROJECTS = [
   {
-    src: "/ats_desktop_1.png",
+    src: "/bloglist_1.png",
     name: "Bloglist",
     stack: "React ◆ Redux ◆ Node.js ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
@@ -81,17 +81,17 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
   },
   {
-    src: "/ats_desktop_2.png",
+    src: "/phonebook_1.png",
     name: "Phonebook",
     stack: "React ◆ Node.js ◆ Express ◆ MongoDB",
     description:
       "Very simple fullstack app allowing us to add and delete contacts (name and phone number). In this project I was playing around with responsive filtering and basic validation for contact form. I also learned how to deploy such apps to the internet so they are widely available.",
     alt: "test",
-    live: "https://fullstack-phonebook-7wl2.onrender.com",
+    live: "https://phonebook-frontend-sfiq.onrender.com",
     code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS/tree/main/backend-phonebook",
   },
   {
-    src: "/ats_desktop_3.png",
+    src: "/todo_1.png",
     name: "To-do list",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
@@ -101,7 +101,7 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/odin-todo-list",
   },
   {
-    src: "/project1_desktop_1.png",
+    src: "/weather_1.png",
     name: "Weather app",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
@@ -111,7 +111,7 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/odin-weather-app",
   },
   {
-    src: "/project1_desktop_1.png",
+    src: "/dashboard_1.png",
     name: "Admin dashboard",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
@@ -121,7 +121,7 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/odin-admin-dashboard",
   },
   {
-    src: "/project1_desktop_1.png",
+    src: "/restaurant_1.png",
     name: "Restaurant page",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
@@ -131,7 +131,7 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/odin-restaurant-page",
   },
   {
-    src: "/project1_desktop_1.png",
+    src: "/calculator_1.png",
     name: "Calculator",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
@@ -141,7 +141,7 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/odin-calculator",
   },
   {
-    src: "/project1_desktop_1.png",
+    src: "/library_1.png",
     name: "Library",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
@@ -151,7 +151,7 @@ export const SPAGHETTI_PROJECTS = [
     code: "https://github.com/MateuszKuruc/odin-library",
   },
   {
-    src: "/project1_desktop_1.png",
+    src: "/sketch_1.png",
     name: "Etch a sketch",
     stack: "HTML ◆ CSS ◆ JavaScript",
     description:
