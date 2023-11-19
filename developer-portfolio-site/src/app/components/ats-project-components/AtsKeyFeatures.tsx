@@ -41,7 +41,7 @@ const AtsKeyFeatures = () => {
           </Reveal>
         </ul>
         <Image
-          src="/project1_desktop_3.png"
+          src="/ats_desktop_2.png"
           width={1200}
           height={800}
           alt="project desktop screen"

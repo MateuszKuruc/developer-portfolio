@@ -74,7 +74,7 @@ const AtsChallenges = () => {
         <Reveal>
           <div className="flex flex-col md:flex-row md:justify-around py-4">
             <Image
-              src="/project1_mobile_3.png"
+              src="/ats_mobile_3.png"
               alt="mobile screen"
               width={300}
               height={300}
@@ -169,13 +169,13 @@ const AtsChallenges = () => {
             </p>
             <div className="flex flex-col 2xl:flex-row justify-around items-center">
               <Image
-                src="/project1_desktop_2.png"
+                src="/ats_desktop_3.png"
                 width={1000}
                 height={800}
                 alt="project screen"
               />
               <Image
-                src="/project1_mobile_4.png"
+                src="/ats_mobile_4.png"
                 width={300}
                 height={300}
                 alt="mobile screen"
