@@ -77,7 +77,7 @@ const AtsChallenges = () => {
               src="/ats_mobile_3.png"
               alt="mobile screen"
               width={300}
-              height={300}
+              height={598}
               className="self-center"
             />
             <div className="md:w-[50%]">
@@ -171,13 +171,13 @@ const AtsChallenges = () => {
               <Image
                 src="/ats_desktop_3.png"
                 width={1000}
-                height={800}
+                height={636}
                 alt="project screen"
               />
               <Image
                 src="/ats_mobile_4.png"
                 width={300}
-                height={300}
+                height={598}
                 alt="mobile screen"
               />
             </div>

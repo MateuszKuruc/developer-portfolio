@@ -57,7 +57,7 @@ const AtsHeader = () => {
             src="/ats_mobile_2.png"
             alt="ats app desktop screen"
             width={300}
-            height={300}
+            height={598}
           />
         </div>
       </div>
