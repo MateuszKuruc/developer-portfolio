@@ -89,8 +89,6 @@ const Playground = () => {
             </div>
           ))}
         </div>
-
-        {/* projects: patientor? phonebook? blog app? weather app? todo-list? restaurant page? calculator? library? tic tac toe? admin-dashboard? rock-paper-scissors?*/}
       </div>
     </section>
   );

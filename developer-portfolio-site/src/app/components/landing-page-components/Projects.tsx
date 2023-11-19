@@ -15,14 +15,14 @@ const Projects = () => {
       <div className="flex flex-col md:flex-row justify-around md:items-center border-b-2 pb-12">
         <div className="max-w-[400px] md:max-w-[600px] relative">
           <Image
-            src="/project1_desktop_1.png"
-            alt="ATS project desktop screen"
+            src="/ats_desktop_1.png"
+            alt="ATS app desktop screen"
             width={600}
             height={600}
           />
           <Image
-            src="/project1_mobile_1.png"
-            alt="ATS project mobile screen"
+            src="/ats_mobile_1.png"
+            alt="ATS app mobile screen"
             width={150}
             height={150}
             className="absolute top-1/3 md:left-3/4 left-3/4 w-[100px] md:w-[150px]"
