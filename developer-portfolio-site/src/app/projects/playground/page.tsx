@@ -8,14 +8,14 @@ import { BsGithub } from "react-icons/bs";
 const Playground = () => {
   return (
     <section className="content-container py-12">
-      <div className="flex items-center justify-around py-12">
+      <div className="flex flex-col items-center justify-around py-12 gap-8">
         <h2 className="bold-40 ">Playground</h2>
         <Image
           src="/githubInfo.png"
           width={800}
           height={600}
           alt="github"
-          className="rounded-lg border-4 border-orange-700 dark:border-orange-500"
+          className="rounded-lg border- border-orange-700 dark:border-orange-500"
         />
       </div>
       <div className="flex flex-col items-center gap-8">
@@ -23,7 +23,7 @@ const Playground = () => {
           Spaghetti code section
         </h3>
 
-        <div className="max-w-[800px] regular-20">
+        <div className="padding-container max-w-[1000px] regular-20">
           <p>
             These are some of my old projects documenting my road to learning
             programming. I have made <strong>many more</strong> - especially
