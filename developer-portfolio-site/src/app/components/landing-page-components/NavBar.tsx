@@ -19,10 +19,6 @@ const NavBar = () => {
 
   const { theme, setTheme } = useTheme();
 
-  useEffect(() => {
-    console.log("active link", activeLink);
-  });
-
   const isHomePage = () => {
     return pathname === "/";
   };
@@ -37,7 +33,6 @@ const NavBar = () => {
 
   const handleScroll = () => {
     const scrollY = window.scrollY;
-    console.log(scrollY);
 
     let isMobile = null;
     typeof window !== "undefined"
