@@ -61,9 +61,11 @@ const Playground = () => {
                 alt={project.alt}
               />
               <div className="flex flex-col items-center justify-center rounded-lg gap-4 px-8 pb-8">
-                <h3 className="bold-24 text-orange-700">{project.name}</h3>
+                <h3 className="bold-24 text-orange-700 dark:text-orange-500">
+                  {project.name}
+                </h3>
 
-                <p className="regular-18 border-b-2 border-t-2 border-orange-700 md:h-[60px] flex items-center">
+                <p className="regular-18 border-b-2 border-t-2 border-orange-700 dark:border-orange-500 md:h-[60px] flex items-center">
                   {project.stack}
                 </p>
 
