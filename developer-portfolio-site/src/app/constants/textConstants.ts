@@ -87,8 +87,8 @@ export const SPAGHETTI_PROJECTS = [
     description:
       "Very simple fullstack app allowing us to add and delete contacts (name and phone number). In this project I was playing around with responsive filtering and basic validation for contact form. I also learned how to deploy such apps to the internet so they are widely available.",
     alt: "test",
-    live: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS/tree/main/backend-phonebook",
-    code: "https://fullstack-phonebook-7wl2.onrender.com",
+    live: "https://fullstack-phonebook-7wl2.onrender.com",
+    code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS/tree/main/backend-phonebook",
   },
   {
     src: "/project1_desktop_2.png",
