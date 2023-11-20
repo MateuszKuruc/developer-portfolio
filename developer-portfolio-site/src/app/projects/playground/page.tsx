@@ -72,7 +72,7 @@ const Playground = () => {
                   {project.stack}
                 </p>
 
-                <p className="regular-20 py-4">{project.description}</p>
+                <p className="regular-20 py-4 h-[220px]">{project.description}</p>
 
                 <div className="flex flex-col md:flex-row gap-4 items-center">
                   <a
