@@ -19,7 +19,7 @@ const MarketingSummary = () => {
             <p className="pt-4">
               This project pushed my understanding of modern web development to
               a new level. These days I am even more aware of notions like
-              <strong>accessibility, performance </strong>or{" "}
+              <strong> accessibility, performance </strong>or{" "}
               <strong>responsive design</strong>.
             </p>
           </div>

@@ -32,9 +32,10 @@ const About = () => {
                   I'm Mateusz - a former English teacher passionate about
                   continuous learning. A few years ago, I transitioned into the
                   international corporate world to work in people-oriented
-                  roles. Ever since starting as IT recruiter, my aim has been to stay
-                  in the industry and grow with it. Now, I am writing my own
-                  fullstack apps and <strong>don't want to stop there!</strong>
+                  roles. Ever since starting as IT recruiter, my aim has been to
+                  stay in the industry and grow with it. Now, I am writing my
+                  own fullstack apps and{" "}
+                  <strong>don't want to stop there!</strong>
                 </p>
                 <p className="pt-4">
                   I live in Katowice and am currently looking for a company that
@@ -67,6 +68,7 @@ const About = () => {
             alt="author photo"
             width={600}
             height={600}
+            priority={true}
             className="rounded-xl shadow-image dark:shadow-imageDark"
           />
         </div>
