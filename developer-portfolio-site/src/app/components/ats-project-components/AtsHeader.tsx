@@ -58,6 +58,7 @@ const AtsHeader = () => {
             alt="ats app mobile feedback screen"
             width={300}
             height={598}
+            priority={true}
           />
         </div>
       </div>

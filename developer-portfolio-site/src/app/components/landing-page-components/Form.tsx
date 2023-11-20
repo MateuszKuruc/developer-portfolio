@@ -74,6 +74,7 @@ const Form = () => {
       {successMessage && (
         <div
           role="status"
+          aria-live="polite"
           className="bg-green-700 gap-4 border-2 border-black dark:border-white flex px-4 py-3 rounded-2xl items-center justify-center"
         >
           <p className="regular-16 text-white">
@@ -86,6 +87,7 @@ const Form = () => {
       {errorMessage && (
         <div
           role="status"
+          aria-live="polite"
           className="bg-red-700 gap-4 px-4 py-3 rounded-2xl border-2 flex border-black dark:border-white items-center justify-center"
         >
           <p className="regular-16 text-white">
@@ -155,6 +157,7 @@ const Form = () => {
           isSubmitting ? "btn-disabled" : "btn-submit"
         } bold-20 uppercase shadow-button dark:shadow-dark ease-in-out duration-300`}
         aria-label="send contact form"
+        aria-busy={isSubmitting}
       >
         <p className="bold-20">Send</p>
       </button>

@@ -49,6 +49,7 @@ const MarketingHeader = () => {
               alt="page mobile menu and carousel item"
               width={300}
               height={598}
+              priority={true}
             />
           </div>
         </div>

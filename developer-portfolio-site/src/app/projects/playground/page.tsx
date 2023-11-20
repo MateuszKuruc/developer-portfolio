@@ -14,8 +14,9 @@ const Playground = () => {
           src="/githubInfo.png"
           width={1200}
           height={293}
-          alt="github"
+          alt="Github profile statistics Mateusz Kuruc"
           className="rounded-lg border- border-orange-700 dark:border-orange-500"
+          priority={true}
         />
       </div>
       <div className="flex flex-col items-center gap-8">
@@ -38,6 +39,7 @@ const Playground = () => {
               <a
                 target="_blank"
                 href="https://github.com/MateuszKuruc/fullStackOpen"
+                rel="noopener noreferrer"
               >
                 <span className="bold-20 text-orange-500 hover:scale-105 hover:text-orange-700 ease-in-out duration-300">
                   this folder
@@ -72,13 +74,21 @@ const Playground = () => {
                 <p className="regular-20 py-4">{project.description}</p>
 
                 <div className="flex flex-col md:flex-row gap-4 items-center">
-                  <a target="_blank" href={project.live}>
+                  <a
+                    target="_blank"
+                    href={project.live}
+                    rel="noopener noreferrer"
+                  >
                     <button className="btn-about max-w-[200px]">
                       <p className="bold-18">Live</p>
                       <FaExternalLinkAlt size={30} />
                     </button>
                   </a>
-                  <a target="_blank" href={project.code}>
+                  <a
+                    target="_blank"
+                    href={project.code}
+                    rel="noopener noreferrer"
+                  >
                     <button className="btn-about max-w-[200px]">
                       <p className="bold-18">Code</p>
                       <BsGithub size={30} />

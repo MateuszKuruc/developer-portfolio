@@ -212,6 +212,7 @@ const NavBar = () => {
               className="nav-links-mobile"
               href="/resume"
               onClick={() => setOpenMenu(false)}
+              rel="noopener noreferrer"
             >
               <p className="bold-24">Resume</p>
             </Link>
@@ -220,13 +221,21 @@ const NavBar = () => {
         {/* Social media links */}
 
         <div className="flex flex-row justify-around items-center mt-10">
-          <a target="_blank" href="https://github.com/MateuszKuruc">
+          <a
+            target="_blank"
+            href="https://github.com/MateuszKuruc"
+            rel="noopener noreferrer"
+          >
             <BsGithub
               size={30}
               className="text-white hover:text-black cursor-pointer ease-in-out duration-300"
             />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/mateuszkuruc/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/mateuszkuruc/"
+            rel="noopener noreferrer"
+          >
             <BsLinkedin
               size={30}
               className="text-white hover:text-black cursor-pointer ease-in-out duration-300"
