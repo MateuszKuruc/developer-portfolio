@@ -48,14 +48,20 @@ const About = () => {
 
           <div className="flex flex-col md:flex-row gap-4 items-center justify-left pt-12">
             <a target="_blank" href={process.env.GITHUB_LINK}>
-              <button className="btn-about">
+              <button
+                className="btn-about"
+                aria-label="Github profile Mateusz Kuruc"
+              >
                 <p className="bold-18">Github</p>
                 <BsGithub size={30} />
               </button>
             </a>
 
             <a target="_blank" href={process.env.LINKEDIN_LINK}>
-              <button className="btn-about">
+              <button
+                className="btn-about"
+                aria-label="Linkedin profile Mateusz Kuruc"
+              >
                 <p className="bold-18">LinkedIn</p>
                 <BsLinkedin size={30} />
               </button>
