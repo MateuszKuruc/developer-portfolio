@@ -85,7 +85,10 @@ const Projects = () => {
                 href="https://ats-mateuszkuruc.onrender.com/"
                 rel="noopener noreferrer"
               >
-                <button className="btn-about">
+                <button
+                  className="btn-about"
+                  aria-label="go to page with ats project"
+                >
                   <p className="bold-18">Live</p>
                   <FaExternalLinkAlt size={30} />
                 </button>
@@ -95,7 +98,10 @@ const Projects = () => {
                 href={process.env.GITHUB_LINK}
                 rel="noopener noreferrer"
               >
-                <button className="btn-about">
+                <button
+                  className="btn-about"
+                  aria-label="github page with code for ats project"
+                >
                   <p className="bold-18">Code</p>
                   <BsGithub size={30} />
                 </button>
@@ -181,7 +187,10 @@ const Projects = () => {
                 href="https://www.reklamyfacebook.pl/"
                 rel="noopener noreferrer"
               >
-                <button className="btn-about">
+                <button
+                  className="btn-about"
+                  aria-label="go to page with marketing portfolio project"
+                >
                   <p className="bold-18">Live</p>
                   <FaExternalLinkAlt size={30} />
                 </button>
@@ -191,7 +200,10 @@ const Projects = () => {
                 href={process.env.GITHUB_LINK}
                 rel="noopener noreferrer"
               >
-                <button className="btn-about">
+                <button
+                  className="btn-about"
+                  aria-label="github page with code for marketing portfolio project"
+                >
                   <p className="bold-18">Code</p>
                   <BsGithub size={30} />
                 </button>
@@ -201,7 +213,10 @@ const Projects = () => {
         </div>
       </div>
       <Reveal>
-        <Link href="/projects/playground">
+        <Link
+          href="/projects/playground"
+          aria-label="subpage with more projects by Mateusz Kuruc"
+        >
           <div className="pt-12 md:pt-0 pb-12 pl-12 flex gap-8 items-end max-w-[400px] cursor-pointer">
             <h2 className="hover:scale-105 ease-in-out duration-300 bold-32-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
               View more projects
