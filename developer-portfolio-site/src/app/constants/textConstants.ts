@@ -1,9 +1,7 @@
 export const NAV_LINKS = [
-  //   { href: "/", key: "home", label: "Home" },
   { href: "#about", key: "about", label: "About" },
   { href: "#projects", key: "projects", label: "Projects" },
   { href: "#contact", key: "contact", label: "Contact" },
-  // { href: "/resume", key: "resume", label: "Resume" },
 ];
 
 export const FRONTEND_SKILLS = {
@@ -12,11 +10,11 @@ export const FRONTEND_SKILLS = {
     { src: "/css.svg", name: "CSS", label: "CSS icon" },
     { src: "/javascript.svg", name: "JavaScript", label: "JavaScript icon" },
     { src: "/react.svg", name: "React", label: "React icon" },
+    { src: "/redux.svg", name: "Redux", label: "Redux icon" },
+    { src: "/typescript.svg", name: "TypeScript", label: "Typescript icon" },
+    { src: "/tailwind.svg", name: "Tailwind CSS", label: "Tailwind icon" },
     { src: "/mui.svg", name: "Material UI", label: "Material UI icon" },
     { src: "/sass.svg", name: "SASS", label: "SASS icon" },
-    { src: "/tailwind.svg", name: "Tailwind CSS", label: "Tailwind icon" },
-    { src: "/typescript.svg", name: "TypeScript", label: "Typescript icon" },
-    { src: "/redux.svg", name: "Redux", label: "Redux icon" },
   ],
   invert: [
     { src: "/nextjs.svg", name: "Next.js", label: "NextJS icon" },
