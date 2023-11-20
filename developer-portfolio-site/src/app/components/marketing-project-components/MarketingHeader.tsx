@@ -38,7 +38,7 @@ const MarketingHeader = () => {
                     target="_blank"
                     href="https://www.reklamyfacebook.pl/"
                     rel="noopener noreferrer"
-                    aria-label="marketing portfolio page"
+                    // aria-label="marketing portfolio page"
                   >
                     <p className="bold-20 text-orange-500 hover:text-orange-700">
                       View site

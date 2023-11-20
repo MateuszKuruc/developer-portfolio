@@ -44,7 +44,7 @@ const AtsHeader = () => {
                   target="_blank"
                   href="https://ats-mateuszkuruc.onrender.com/"
                   rel="noopener noreferrer"
-                  aria-label="ats project page"
+                  // aria-label="ats project page"
                 >
                   <p className="bold-20 text-orange-500 hover:text-orange-700 hover:scale-105 ease-in-out duration-300">
                     View site

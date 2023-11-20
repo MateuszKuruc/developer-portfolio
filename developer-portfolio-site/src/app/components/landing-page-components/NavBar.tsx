@@ -72,7 +72,7 @@ const NavBar = () => {
     <nav className="w-full shadow-xl h-[100px] bg-orange-100 dark:bg-gray-950 rounded-lg sticky top-0 opacity-95 border-b-3 border-orange-700 dark:border-orange-500 z-30">
       {/* Desktop Menu */}
       <div className="flex items-center justify-between h-full px-12 w-full">
-        <Link href="/">
+        <Link href="/" aria-label="go to home page">
           <IoHome
             size={30}
             className="cursor-pointer hover:text-orange-500 ease-in-out duration-300"

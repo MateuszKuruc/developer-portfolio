@@ -156,7 +156,7 @@ const Form = () => {
         className={`${
           isSubmitting ? "btn-disabled" : "btn-submit"
         } bold-20 uppercase shadow-button dark:shadow-dark ease-in-out duration-300`}
-        aria-label="send contact form"
+        // aria-label="send contact form"
         aria-busy={isSubmitting}
       >
         <p className="bold-20">Send</p>

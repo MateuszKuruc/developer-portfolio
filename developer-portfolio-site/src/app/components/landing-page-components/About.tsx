@@ -54,7 +54,7 @@ const About = () => {
             >
               <button
                 className="btn-about"
-                aria-label="Github profile Mateusz Kuruc"
+                // aria-label="Github profile Mateusz Kuruc"
               >
                 <p className="bold-18">Github</p>
                 <BsGithub size={30} />
@@ -68,7 +68,7 @@ const About = () => {
             >
               <button
                 className="btn-about"
-                aria-label="Linkedin profile Mateusz Kuruc"
+                // aria-label="Linkedin profile Mateusz Kuruc"
               >
                 <p className="bold-18">LinkedIn</p>
                 <BsLinkedin size={30} />

@@ -87,7 +87,7 @@ const Projects = () => {
               >
                 <button
                   className="btn-about"
-                  aria-label="go to page with ats project"
+                  // aria-label="go to page with ats project"
                 >
                   <p className="bold-18">Live</p>
                   <FaExternalLinkAlt size={30} />
@@ -100,7 +100,7 @@ const Projects = () => {
               >
                 <button
                   className="btn-about"
-                  aria-label="github page with code for ats project"
+                  // aria-label="github page with code for ats project"
                 >
                   <p className="bold-18">Code</p>
                   <BsGithub size={30} />
@@ -189,7 +189,7 @@ const Projects = () => {
               >
                 <button
                   className="btn-about"
-                  aria-label="go to page with marketing portfolio project"
+                  // aria-label="go to page with marketing portfolio project"
                 >
                   <p className="bold-18">Live</p>
                   <FaExternalLinkAlt size={30} />
@@ -202,7 +202,7 @@ const Projects = () => {
               >
                 <button
                   className="btn-about"
-                  aria-label="github page with code for marketing portfolio project"
+                  // aria-label="github page with code for marketing portfolio project"
                 >
                   <p className="bold-18">Code</p>
                   <BsGithub size={30} />
