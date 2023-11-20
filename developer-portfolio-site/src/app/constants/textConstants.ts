@@ -76,7 +76,7 @@ export const SPAGHETTI_PROJECTS = [
     stack: "React ◆ Redux ◆ Node.js ◆ Express ◆ MongoDB ◆ Material UI ◆ Jest",
     description:
       "Fullstack application with token authentication for login, where users add info on blogs (author, title and link) and can vote for blogs they like. The app also allows users to leave a comment or see how many blogs were added by other users. My first encounter with Material UI as well.",
-    alt: "test",
+    alt: "",
     live: "https://bloglist-frontend-d1wc.onrender.com",
     code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
   },

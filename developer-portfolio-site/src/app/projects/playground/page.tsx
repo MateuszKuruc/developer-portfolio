@@ -40,6 +40,7 @@ const Playground = () => {
                 target="_blank"
                 href="https://github.com/MateuszKuruc/fullStackOpen"
                 rel="noopener noreferrer"
+                aria-label="github page with code for more projects"
               >
                 <span className="bold-20 text-orange-500 hover:scale-105 hover:text-orange-700 ease-in-out duration-300">
                   this folder

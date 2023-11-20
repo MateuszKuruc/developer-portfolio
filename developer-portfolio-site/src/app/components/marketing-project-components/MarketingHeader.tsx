@@ -34,7 +34,12 @@ const MarketingHeader = () => {
               <Reveal>
                 <div className="py-6 md:py-0">
                   <h3 className="uppercase bold-20">Live</h3>
-                  <a target="_blank" href="https://www.reklamyfacebook.pl/">
+                  <a
+                    target="_blank"
+                    href="https://www.reklamyfacebook.pl/"
+                    rel="noopener noreferrer"
+                    aria-label="marketing portfolio page"
+                  >
                     <p className="bold-20 text-orange-500 hover:text-orange-700">
                       View site
                     </p>
