@@ -28,7 +28,7 @@ const Skills = () => {
           </Link>
         </Reveal>
       </div>
-      <div className="padding-container border-t-2 border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-2 2xl:py-6">
+      <div className="padding-container border-t-2 border-b-2 text-center flex flex-col 2xl:flex-row sm:items-center sm:justify-around py-2 2xl:py-6">
         <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Frontend
         </h3>
@@ -73,7 +73,7 @@ const Skills = () => {
 
         {/* Desktop version */}
         <Reveal>
-          <ul className="hidden sm:grid sm:grid-cols-6 gap-2 2xl:gap-8 lg:w-[1200px] self-center">
+          <ul className="hidden sm:grid sm:grid-cols-6 gap-2 2xl:gap-8 sm:w-[700px] md:w-[800px] lg:w-[1200px] self-center">
             {FRONTEND_SKILLS.standard.map((skill) => (
               <li
                 key={skill.name}
@@ -110,7 +110,7 @@ const Skills = () => {
         </Reveal>
       </div>
 
-      <div className="padding-container border-b-2 text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-2 2xl:py-6">
+      <div className="padding-container border-b-2 text-center flex flex-col 2xl:flex-row sm:items-center sm:justify-around py-2 2xl:py-6">
         <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Backend
         </h3>
@@ -154,7 +154,7 @@ const Skills = () => {
 
         {/* Desktop version */}
         <Reveal>
-          <ul className="hidden sm:grid sm:grid-cols-6 gap-2 2xl:gap-8 lg:w-[1200px] self-center">
+          <ul className="hidden sm:grid sm:grid-cols-6 gap-2 2xl:gap-8 sm:w-[700px] md:w-[800px] lg:w-[1200px] self-center">
             {BACKEND_SKILLS.standard.map((skill) => (
               <li
                 key={skill.name}
@@ -190,7 +190,7 @@ const Skills = () => {
         </Reveal>
       </div>
 
-      <div className="padding-container text-center flex flex-col lg:flex-row sm:items-center sm:justify-around py-2 2xl:py-6">
+      <div className="padding-container text-center flex flex-col 2xl:flex-row sm:items-center sm:justify-around py-2 2xl:py-6">
         <h3 className="sm:w-[150px] bold-32-tight pb-6 mr-6 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700 drop-shadow-lg">
           Other tools
         </h3>
@@ -235,7 +235,7 @@ const Skills = () => {
 
         {/* Desktop version */}
         <Reveal>
-          <ul className="hidden sm:grid sm:grid-cols-6 gap-2 2xl:gap-8 lg:w-[1200px] self-center">
+          <ul className="hidden sm:grid sm:grid-cols-6 gap-2 2xl:gap-8 sm:w-[700px] md:w-[800px] lg:w-[1200px] self-center">
             {OTHER_SKILLS.standard.map((skill) => (
               <li
                 key={skill.name}
