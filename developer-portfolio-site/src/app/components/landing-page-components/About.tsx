@@ -47,7 +47,11 @@ const About = () => {
           </Reveal>
 
           <div className="flex flex-col md:flex-row gap-4 items-center justify-left pt-12">
-            <a target="_blank" href={process.env.GITHUB_LINK}>
+            <a
+              target="_blank"
+              href={process.env.GITHUB_LINK}
+              rel="noopener noreferrer"
+            >
               <button
                 className="btn-about"
                 aria-label="Github profile Mateusz Kuruc"
@@ -57,7 +61,11 @@ const About = () => {
               </button>
             </a>
 
-            <a target="_blank" href={process.env.LINKEDIN_LINK}>
+            <a
+              target="_blank"
+              href={process.env.LINKEDIN_LINK}
+              rel="noopener noreferrer"
+            >
               <button
                 className="btn-about"
                 aria-label="Linkedin profile Mateusz Kuruc"

@@ -16,7 +16,10 @@ const Footer = () => {
             <p className="regular-18">
               Email:{" "}
               <span className="contact-details contact-email">
-                <a href={`mailto:${process.env.CONTACT_EMAIL}`}>
+                <a
+                  href={`mailto:${process.env.CONTACT_EMAIL}`}
+                  aria-label="Contact via email"
+                >
                   {process.env.CONTACT_EMAIL}
                 </a>
               </span>
@@ -33,13 +36,23 @@ const Footer = () => {
           <h4 className="bold-18 pb-2">My profiles</h4>
 
           <div className="flex gap-4 justify-center">
-            <a target="_blank" href={process.env.LINKEDIN_LINK}>
+            <a
+              target="_blank"
+              href={process.env.LINKEDIN_LINK}
+              rel="noopener noreferrer"
+              aria-label="Linkedin profile Mateusz Kuruc"
+            >
               <BsLinkedin
                 size={30}
                 className="hover:text-orange-500 ease-in-out duration-300"
               />
             </a>
-            <a target="_blank" href={process.env.GITHUB_LINK}>
+            <a
+              target="_blank"
+              href={process.env.GITHUB_LINK}
+              rel="noopener noreferrer"
+              aria-label="Github profile Mateusz Kuruc"
+            >
               <BsGithub
                 size={30}
                 className="hover:text-orange-500 ease-in-out duration-300"
