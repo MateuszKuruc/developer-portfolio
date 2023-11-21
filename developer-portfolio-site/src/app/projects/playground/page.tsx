@@ -33,17 +33,16 @@ const Playground = () => {
             tools and logic, ignoring UI.
           </p>
           <p className="pt-4">
-            If you would like to check the code of the projects that weren't
+            If you would like to see the code of the projects that weren't
             uploaded, you should check{" "}
             <span className="inline-block">
               <a
                 target="_blank"
                 href="https://github.com/MateuszKuruc/fullStackOpen"
                 rel="noopener noreferrer"
-                aria-label="github page with code for more projects"
               >
-                <span className="bold-20 text-orange-500 hover:scale-105 hover:text-orange-700 ease-in-out duration-300">
-                  this folder
+                <span className="bold-20 text-orange-600 dark:text-orange-500 hover:scale-105 hover:text-orange-700 ease-in-out duration-300">
+                  this Github folder
                 </span>
               </a>
             </span>{" "}
@@ -72,7 +71,9 @@ const Playground = () => {
                   {project.stack}
                 </p>
 
-                <p className="regular-20 py-4 h-[220px]">{project.description}</p>
+                <p className="regular-20 py-4 h-[220px]">
+                  {project.description}
+                </p>
 
                 <div className="flex flex-col md:flex-row gap-4 items-center">
                   <a
