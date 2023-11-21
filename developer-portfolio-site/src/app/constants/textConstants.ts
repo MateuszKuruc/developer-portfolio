@@ -76,7 +76,7 @@ export const SPAGHETTI_PROJECTS = [
       "Fullstack application with token authentication for login, where users add info on blogs (author, title and link) and can vote for blogs they like. The app also allows users to leave a comment or see how many blogs were added by other users. My first encounter with Material UI as well.",
     alt: "bloglist project desktop screen",
     live: "https://bloglist-frontend-d1wc.onrender.com",
-    code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS",
+    code: "https://github.com/MateuszKuruc/fullStackOpen-nodeJS/tree/main/bloglist-frontend",
   },
   {
     src: "/phonebook_1.png",
