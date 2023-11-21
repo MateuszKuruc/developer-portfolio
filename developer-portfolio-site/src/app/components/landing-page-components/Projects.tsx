@@ -116,7 +116,7 @@ const Projects = () => {
               </a>
               <a
                 target="_blank"
-                href={process.env.GITHUB_LINK}
+                href="https://github.com/MateuszKuruc/ATS-recruitment-app"
                 rel="noopener noreferrer"
               >
                 <button className="btn-about">
@@ -234,7 +234,7 @@ const Projects = () => {
               </a>
               <a
                 target="_blank"
-                href={process.env.GITHUB_LINK}
+                href="https://github.com/MateuszKuruc/marketing-portfolio"
                 rel="noopener noreferrer"
               >
                 <button className="btn-about">
