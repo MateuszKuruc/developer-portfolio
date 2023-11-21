@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h4 className="bold-18 pb-2">My profiles</h4>
+          <p className="bold-18 pb-2">My profiles</p>
 
           <div className="flex gap-4 justify-center">
             <a
