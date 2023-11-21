@@ -44,21 +44,33 @@ const AtsChallenges = () => {
               update the data that already exists.
             </p>
             <p className="py-4">All the fields need to present options to:</p>
-            <ul className="list-disc p-4">
-              <Reveal>
-                <li className="ml-6">Edit existing data and save it</li>
-              </Reveal>
-              <Reveal>
-                <li className="ml-6">
-                  Start editing the data, but cancel and restore previous data
-                </li>
-              </Reveal>
-              <Reveal>
-                <li className="ml-6">
-                  Upload or delete file on candidate's profile and refresh the
-                  state
-                </li>
-              </Reveal>
+            <ul className="list-none p-4">
+              <li>
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span>Edit existing
+                    data and save it
+                  </p>
+                </Reveal>
+              </li>
+
+              <li>
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span>Start editing
+                    the data, but cancel and restore previous data
+                  </p>
+                </Reveal>
+              </li>
+
+              <li>
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span>Upload or
+                    delete file on candidate's profile and refresh the state
+                  </p>
+                </Reveal>
+              </li>
             </ul>
             To make these actions possible, I needed to set up{" "}
             <strong>Redux store</strong>, which let me take control of the state
@@ -87,22 +99,33 @@ const AtsChallenges = () => {
               Possibly the toughest situation for me was introducing options for
               working on files in each candidate's profile. I decided to make
               use of <strong>AWS</strong> for a few reasons:
-              <ul className="list-disc p-4">
-                <Reveal>
-                  <li className="ml-6">
-                    I wanted to gain practical experience with cloud solutions
-                  </li>
-                </Reveal>
-                <Reveal>
-                  <li className="ml-6">
-                    Knowledge about AWS is very in-demand in current market
-                  </li>
-                </Reveal>
-                <Reveal>
-                  <li className="ml-6">
-                    It is free if you do not exceed storage limits
-                  </li>
-                </Reveal>
+              <ul className="list-none p-4">
+                <li>
+                  <Reveal>
+                    <p>
+                      <span className="bold-18 mr-2">&#x2022;</span>I wanted to
+                      gain practical experience with cloud solutions
+                    </p>
+                  </Reveal>
+                </li>
+
+                <li>
+                  <Reveal>
+                    <p>
+                      <span className="bold-18 mr-2">&#x2022;</span>Knowledge
+                      about AWS is very in-demand in current market
+                    </p>
+                  </Reveal>
+                </li>
+
+                <li>
+                  <Reveal>
+                    <p>
+                      <span className="bold-18 mr-2">&#x2022;</span>It is free
+                      if you do not exceed storage limits
+                    </p>
+                  </Reveal>
+                </li>
               </ul>
               <p>
                 Ultimately, I went with <strong>AWS S3</strong> and managed to
