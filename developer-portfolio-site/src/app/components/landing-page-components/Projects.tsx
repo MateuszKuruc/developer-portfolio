@@ -50,7 +50,7 @@ const Projects = () => {
             </Reveal>
 
             <ul className="list-none regular-18 p-2 md:p-0">
-              <li className="ml-0">
+              <li>
                 <Reveal>
                   <p>
                     <span className="bold-18 mr-2">&#x2022;</span> CRUD
@@ -58,7 +58,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
-              <li className="ml-0">
+              <li>
                 <Reveal>
                   <p>
                     <span className="bold-18 mr-2">&#x2022;</span> Token-based
@@ -66,7 +66,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
-              <li className="ml-0">
+              <li>
                 <Reveal>
                   <p>
                     <span className="bold-18 mr-2">&#x2022;</span> File
@@ -74,7 +74,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
-              <li className="ml-0">
+              <li>
                 <Reveal>
                   <p>
                     <span className="bold-18 mr-2">&#x2022;</span> Candidates
@@ -82,7 +82,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
-              <li className="ml-0">
+              <li>
                 <Reveal>
                   <p>
                     <span className="bold-18 mr-2">&#x2022;</span> Responsive
@@ -164,7 +164,7 @@ const Projects = () => {
               </p>
             </Reveal>
             <ul className="list-none regular-18 p-2 md:p-0">
-              <li className="ml-0">
+              <li>
                 <Reveal>
                   <p>
                     <span className="bold-18 mr-2">&#x2022;</span> Automated
@@ -172,7 +172,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
-              <li className="ml-0">
+              <li>
                 <Reveal>
                   <p>
                     <span className="bold-18 mr-2">&#x2022;</span>{" "}
@@ -180,7 +180,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
-              <li className="ml-0">
+              <li>
                 <Reveal>
                   <p>
                     <span className="bold-18 mr-2">&#x2022;</span> Focus on
@@ -188,7 +188,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
-              <li className="ml-0">
+              <li>
                 <Reveal>
                   <p>
                     <span className="bold-18 mr-2">&#x2022;</span> Excellent
@@ -196,7 +196,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
-              <li className="ml-0">
+              <li>
                 <Reveal>
                   <p>
                     <span className="bold-18 mr-2">&#x2022;</span> Smooth
