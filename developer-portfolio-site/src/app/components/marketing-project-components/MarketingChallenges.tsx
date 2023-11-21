@@ -60,14 +60,33 @@ const MarketingChallenges = () => {
               </h3>
               Contact form is the central piece of marketing sites and needs to
               be designed flawlessly to:
-              <ul className="list-disc p-4">
+              <ul className="list-none p-4">
                 <li>
-                  Validate the text fields even before the user is sending form
+                  <Reveal>
+                    <p>
+                      <span className="bold-18 mr-2">&#x2022;</span>Validate the
+                      text fields even before the user is sending form
+                    </p>
+                  </Reveal>
                 </li>
-                <li>Show visual indication of errors</li>
+
                 <li>
-                  Work quickly and show confirmation of message sent or
-                  notification about error if it happens
+                  <Reveal>
+                    <p>
+                      <span className="bold-18 mr-2">&#x2022;</span>Show visual
+                      indication of errors
+                    </p>
+                  </Reveal>
+                </li>
+
+                <li>
+                  <Reveal>
+                    <p>
+                      <span className="bold-18 mr-2">&#x2022;</span>Work quickly
+                      and show confirmation of message sent or notification
+                      about error if it happens
+                    </p>
+                  </Reveal>
                 </li>
               </ul>
               <p>
