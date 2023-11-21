@@ -11,14 +11,14 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <h4 className="bold-18">Contact</h4>
+          <p className="bold-18">Contact</p>
           <div className="flex md:block flex-col items-center">
             <p className="regular-18">
               Email:{" "}
               <span className="contact-details contact-email">
                 <a
                   href={`mailto:${process.env.CONTACT_EMAIL}`}
-                  aria-label="Contact via email"
+                  // aria-label="Contact via email"
                 >
                   {process.env.CONTACT_EMAIL}
                 </a>

@@ -225,6 +225,7 @@ const NavBar = () => {
             target="_blank"
             href="https://github.com/MateuszKuruc"
             rel="noopener noreferrer"
+            aria-label="Visit my Github profile"
           >
             <BsGithub
               size={30}
@@ -235,6 +236,7 @@ const NavBar = () => {
             target="_blank"
             href="https://www.linkedin.com/in/mateuszkuruc/"
             rel="noopener noreferrer"
+            aria-label="Visit my LinkedIn profile"
           >
             <BsLinkedin
               size={30}

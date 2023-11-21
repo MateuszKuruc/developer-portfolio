@@ -49,7 +49,48 @@ const Projects = () => {
               </p>
             </Reveal>
 
-            <ul className="list-disc regular-18 p-2 md:p-0">
+            <ul className="list-none regular-18 p-2 md:p-0">
+              <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span> CRUD operations on candidate profiles
+                  </p>
+                </Reveal>
+              </li>
+              <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span> Token-based authentication
+                  </p>
+                </Reveal>
+              </li>
+                <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span> File management (upload, download, delete) for candidate
+                  profiles
+                  </p>
+                </Reveal>
+              </li>
+              <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span> Candidates data display with sorting and filtering
+                  </p>
+                </Reveal>
+              </li>
+                <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span>  Responsive design
+                  </p>
+                </Reveal>
+              </li>
+
+</ul>
+
+
+            {/* <ul className="list-disc regular-18 p-2 md:p-0">
               <Reveal>
                 <li className="ml-6">CRUD operations on candidate profiles</li>
               </Reveal>
@@ -71,7 +112,7 @@ const Projects = () => {
               <Reveal>
                 <li className="ml-6">Responsive design</li>
               </Reveal>
-            </ul>
+            </ul> */}
             <Reveal>
               <Link href="/projects/ats-for-recruiters">
                 <p className="p-2 hover:scale-105 ease-out duration-300 bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
@@ -149,10 +190,47 @@ const Projects = () => {
                 design and clean, futuristic design.
               </p>
             </Reveal>
-            <ul className="list-disc regular-18 p-2 md:p-0">
-              <Reveal>
-                <li className="ml-6">Automated contact form handling</li>
-              </Reveal>
+            <ul className="list-none regular-18 p-2 md:p-0">
+              <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span> Automated contact form handling
+                  </p>
+                </Reveal>
+              </li>
+              <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span> Performance-driven, optimized for speed and efficiency
+                  </p>
+                </Reveal>
+              </li>
+                <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span> Focus on intuitive and user-friendly interface
+                  </p>
+                </Reveal>
+              </li>
+              <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span> Excellent performance on mobile devices
+                  </p>
+                </Reveal>
+              </li>
+                <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span>  Smooth animations to enhance user experience
+                  </p>
+                </Reveal>
+              </li>
+
+</ul>
+              {/* old 
+              
+              
               <Reveal>
                 <li className="ml-6">
                   Performance-driven, optimized for speed and efficiency
@@ -174,6 +252,7 @@ const Projects = () => {
                 </li>
               </Reveal>
             </ul>
+            */}
             <Reveal>
               <Link href="/projects/marketing-portfolio">
                 <p className="p-2 hover:scale-105 ease-out duration-300 bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">

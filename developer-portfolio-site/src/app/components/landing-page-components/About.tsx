@@ -51,6 +51,7 @@ const About = () => {
               target="_blank"
               href={process.env.GITHUB_LINK}
               rel="noopener noreferrer"
+              aria-label="Visit my Github profile"
             >
               <button
                 className="btn-about"
@@ -65,6 +66,7 @@ const About = () => {
               target="_blank"
               href={process.env.LINKEDIN_LINK}
               rel="noopener noreferrer"
+              aria-label="Visit my LinkedIn profile"
             >
               <button
                 className="btn-about"
