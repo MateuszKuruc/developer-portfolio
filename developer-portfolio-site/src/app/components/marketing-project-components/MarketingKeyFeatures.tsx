@@ -15,41 +15,72 @@ const MarketingKeyFeatures = () => {
           skills.
         </p>
         <p className="bold-20 py-4">Main requirements:</p>
-        <ul className="list-disc p-4">
-          <Reveal>
-            <li className="ml-6">Website should be stable and fast</li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">
-              Navigation should be effortless and intuitive
-            </li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">Focus on mobile design</li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">
-              Smooth animations included after each action, on page change and
-              scrolling
-            </li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">
-              Accessibility should be taken into consideration
-            </li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">
-              Carousel and accordion items used to display key data
-            </li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">
-              Design should be stylish enough for the clients, but not
-              overwhelming
-            </li>
-          </Reveal>
+
+        <ul className="list-none p-4">
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Website should be
+                stable and fast
+              </p>
+            </Reveal>
+          </li>
+
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Navigation should
+                be effortless and intuitive
+              </p>
+            </Reveal>
+          </li>
+
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Focus on mobile
+                design
+              </p>
+            </Reveal>
+          </li>
+
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Smooth animations
+                included after each action, on page change and scrolling
+              </p>
+            </Reveal>
+          </li>
+
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Accessibility
+                should be taken into consideration
+              </p>
+            </Reveal>
+          </li>
+
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Carousel and
+                accordion items used to display key data
+              </p>
+            </Reveal>
+          </li>
+
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span> Design should be
+                stylish enough for the clients, but not overwhelming
+              </p>
+            </Reveal>
+          </li>
         </ul>
+
         <Image
           src="/marketing_desktop_2.png"
           width={1200}
