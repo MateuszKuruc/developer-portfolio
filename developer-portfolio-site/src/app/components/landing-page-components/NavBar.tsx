@@ -100,14 +100,14 @@ const NavBar = () => {
                   </ScrollLink>
                 </li>
               ))}
-
-              <Link
-                className="nav-links-desktop"
-                // target="_blank"
-                href="/resume"
-              >
-                Resume
-              </Link>
+              <li className="nav-links-desktop">
+                <Link
+                  // target="_blank"
+                  href="/resume"
+                >
+                  Resume
+                </Link>
+              </li>
             </ul>
           </div>
         )}
