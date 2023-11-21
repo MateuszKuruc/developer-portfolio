@@ -177,45 +177,50 @@ const NavBar = () => {
                 key={link.key}
               >
                 {isHomePage() ? (
-                  <ScrollLink
-                    to={link.key}
-                    href={link.href}
-                    spy={true}
-                    smooth={true}
-                    offset={-103}
-                    duration={700}
-                    className={`${
-                      activeLink === link.key && isHomePage()
-                        ? "bold-24 text-gray-900"
-                        : ""
-                    }`}
-                    onClick={() => setOpenMenu(false)}
-                  >
-                    <p className="bold-24">{link.label}</p>
-                  </ScrollLink>
+                  <li>
+                    <ScrollLink
+                      to={link.key}
+                      href={link.href}
+                      spy={true}
+                      smooth={true}
+                      offset={-103}
+                      duration={700}
+                      className={`${
+                        activeLink === link.key && isHomePage()
+                          ? "bold-24 text-gray-900"
+                          : ""
+                      }`}
+                      onClick={() => setOpenMenu(false)}
+                    >
+                      <p className="bold-24">{link.label}</p>
+                    </ScrollLink>
+                  </li>
                 ) : (
-                  <Link
-                    href={`${isHomePage() ? link.href : `/${link.href}`}`}
-                    className={`${
-                      activeLink === link.key && isHomePage()
-                        ? "bold-24 text-gray-900"
-                        : ""
-                    }`}
-                    onClick={() => setOpenMenu(false)}
-                  >
-                    <p className="bold-24">{link.label}</p>
-                  </Link>
+                  <li>
+                    <Link
+                      href={`${isHomePage() ? link.href : `/${link.href}`}`}
+                      className={`${
+                        activeLink === link.key && isHomePage()
+                          ? "bold-24 text-gray-900"
+                          : ""
+                      }`}
+                      onClick={() => setOpenMenu(false)}
+                    >
+                      <p className="bold-24">{link.label}</p>
+                    </Link>
+                  </li>
                 )}
               </li>
             ))}
-            <Link
-              className="nav-links-mobile"
-              href="/resume"
-              onClick={() => setOpenMenu(false)}
-              rel="noopener noreferrer"
-            >
-              <p className="bold-24">Resume</p>
-            </Link>
+            <li className="nav-links-mobile">
+              <Link
+                href="/resume"
+                onClick={() => setOpenMenu(false)}
+                rel="noopener noreferrer"
+              >
+                <p className="bold-24">Resume</p>
+              </Link>
+            </li>
           </ul>
         </div>
         {/* Social media links */}
