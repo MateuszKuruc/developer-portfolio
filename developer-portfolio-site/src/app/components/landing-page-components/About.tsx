@@ -15,10 +15,8 @@ const About = () => {
               </h2>
 
               <h2 className="bold-40 text-center md:text-left">
-                {/* <h2 className="inline-flex flex-col h-[calc(40px*1.2)] overflow-hidden drop-shadow-xl bold-40 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700"> */}
                 Junior{" "}
                 <span className="inline-flex flex-col h-[calc(40px*1.2)] overflow-hidden bold-40 border-b-2 border-orange-700">
-                  {/* <div className="inline-flex flex-col h-[calc(40px*1.2)] overflow-hidden drop-shadow-xl bold-40 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700"> */}
                   <ul className=" animate-text-slide-3 text-center leading-[120%] ">
                     <li>
                       <h2 className="bold-40 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-blue-700">
@@ -41,13 +39,9 @@ const About = () => {
                       </h2>
                     </li>
                   </ul>
-
-                  {/* <div className="absolute inset-0 bg-orange-500 opacity-10 z-10 rounded-lg"></div> */}
-                  {/* </div>{" "} */}
                 </span>{" "}
                 Developer
               </h2>
-              {/* <div className="absolute inset-0 bg-orange-400 opacity-10 z-10 rounded-lg"></div> */}
 
               <div className="regular-18 leading-8">
                 <p className="pt-4">
@@ -75,10 +69,7 @@ const About = () => {
               rel="noopener noreferrer"
               aria-label="Visit my Github profile"
             >
-              <button
-                className="btn-about"
-                // aria-label="Github profile Mateusz Kuruc"
-              >
+              <button className="btn-about">
                 <p className="bold-18">Github</p>
                 <BsGithub size={30} />
               </button>
@@ -90,10 +81,7 @@ const About = () => {
               rel="noopener noreferrer"
               aria-label="Visit my LinkedIn profile"
             >
-              <button
-                className="btn-about"
-                // aria-label="Linkedin profile Mateusz Kuruc"
-              >
+              <button className="btn-about">
                 <p className="bold-18">LinkedIn</p>
                 <BsLinkedin size={30} />
               </button>

@@ -101,12 +101,7 @@ const NavBar = () => {
                 </li>
               ))}
               <li className="nav-links-desktop">
-                <Link
-                  // target="_blank"
-                  href="/resume"
-                >
-                  Resume
-                </Link>
+                <Link href="/resume">Resume</Link>
               </li>
             </ul>
           </div>

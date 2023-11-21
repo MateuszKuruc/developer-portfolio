@@ -53,66 +53,45 @@ const Projects = () => {
               <li className="ml-0">
                 <Reveal>
                   <p>
-                    <span className="bold-18 mr-2">&#x2022;</span> CRUD operations on candidate profiles
+                    <span className="bold-18 mr-2">&#x2022;</span> CRUD
+                    operations on candidate profiles
                   </p>
                 </Reveal>
               </li>
               <li className="ml-0">
                 <Reveal>
                   <p>
-                    <span className="bold-18 mr-2">&#x2022;</span> Token-based authentication
-                  </p>
-                </Reveal>
-              </li>
-                <li className="ml-0">
-                <Reveal>
-                  <p>
-                    <span className="bold-18 mr-2">&#x2022;</span> File management (upload, download, delete) for candidate
-                  profiles
+                    <span className="bold-18 mr-2">&#x2022;</span> Token-based
+                    authentication
                   </p>
                 </Reveal>
               </li>
               <li className="ml-0">
                 <Reveal>
                   <p>
-                    <span className="bold-18 mr-2">&#x2022;</span> Candidates data display with sorting and filtering
+                    <span className="bold-18 mr-2">&#x2022;</span> File
+                    management (upload, download, delete) for candidate profiles
                   </p>
                 </Reveal>
               </li>
-                <li className="ml-0">
+              <li className="ml-0">
                 <Reveal>
                   <p>
-                    <span className="bold-18 mr-2">&#x2022;</span>  Responsive design
+                    <span className="bold-18 mr-2">&#x2022;</span> Candidates
+                    data display with sorting and filtering
                   </p>
                 </Reveal>
               </li>
+              <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span> Responsive
+                    design
+                  </p>
+                </Reveal>
+              </li>
+            </ul>
 
-</ul>
-
-
-            {/* <ul className="list-disc regular-18 p-2 md:p-0">
-              <Reveal>
-                <li className="ml-6">CRUD operations on candidate profiles</li>
-              </Reveal>
-              <Reveal>
-                <li className="ml-6">Token-based authentication</li>
-              </Reveal>
-
-              <Reveal>
-                <li className="ml-6">
-                  File management (upload, download, delete) for candidate
-                  profiles
-                </li>
-              </Reveal>
-              <Reveal>
-                <li className="ml-6">
-                  Candidates data display with sorting and filtering
-                </li>
-              </Reveal>
-              <Reveal>
-                <li className="ml-6">Responsive design</li>
-              </Reveal>
-            </ul> */}
             <Reveal>
               <Link href="/projects/ats-for-recruiters">
                 <p className="p-2 hover:scale-105 ease-out duration-300 bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
@@ -126,10 +105,7 @@ const Projects = () => {
                 href="https://ats-mateuszkuruc.onrender.com/"
                 rel="noopener noreferrer"
               >
-                <button
-                  className="btn-about"
-                  // aria-label="go to page with ats project"
-                >
+                <button className="btn-about">
                   <p className="bold-18">Live</p>
                   <FaExternalLinkAlt size={30} />
                 </button>
@@ -139,10 +115,7 @@ const Projects = () => {
                 href={process.env.GITHUB_LINK}
                 rel="noopener noreferrer"
               >
-                <button
-                  className="btn-about"
-                  // aria-label="github page with code for ats project"
-                >
+                <button className="btn-about">
                   <p className="bold-18">Code</p>
                   <BsGithub size={30} />
                 </button>
@@ -194,65 +167,45 @@ const Projects = () => {
               <li className="ml-0">
                 <Reveal>
                   <p>
-                    <span className="bold-18 mr-2">&#x2022;</span> Automated contact form handling
+                    <span className="bold-18 mr-2">&#x2022;</span> Automated
+                    contact form handling
                   </p>
                 </Reveal>
               </li>
               <li className="ml-0">
                 <Reveal>
                   <p>
-                    <span className="bold-18 mr-2">&#x2022;</span> Performance-driven, optimized for speed and efficiency
-                  </p>
-                </Reveal>
-              </li>
-                <li className="ml-0">
-                <Reveal>
-                  <p>
-                    <span className="bold-18 mr-2">&#x2022;</span> Focus on intuitive and user-friendly interface
+                    <span className="bold-18 mr-2">&#x2022;</span>{" "}
+                    Performance-driven, optimized for speed and efficiency
                   </p>
                 </Reveal>
               </li>
               <li className="ml-0">
                 <Reveal>
                   <p>
-                    <span className="bold-18 mr-2">&#x2022;</span> Excellent performance on mobile devices
+                    <span className="bold-18 mr-2">&#x2022;</span> Focus on
+                    intuitive and user-friendly interface
                   </p>
                 </Reveal>
               </li>
-                <li className="ml-0">
+              <li className="ml-0">
                 <Reveal>
                   <p>
-                    <span className="bold-18 mr-2">&#x2022;</span>  Smooth animations to enhance user experience
+                    <span className="bold-18 mr-2">&#x2022;</span> Excellent
+                    performance on mobile devices
                   </p>
                 </Reveal>
               </li>
-
-</ul>
-              {/* old 
-              
-              
-              <Reveal>
-                <li className="ml-6">
-                  Performance-driven, optimized for speed and efficiency
-                </li>
-              </Reveal>
-              <Reveal>
-                <li className="ml-6">
-                  Focus on intuitive and user-friendly interface
-                </li>
-              </Reveal>
-              <Reveal>
-                <li className="ml-6">
-                  Excellent performance on mobile devices
-                </li>
-              </Reveal>
-              <Reveal>
-                <li className="ml-6">
-                  Smooth animations to enhance user experience
-                </li>
-              </Reveal>
+              <li className="ml-0">
+                <Reveal>
+                  <p>
+                    <span className="bold-18 mr-2">&#x2022;</span> Smooth
+                    animations to enhance user experience
+                  </p>
+                </Reveal>
+              </li>
             </ul>
-            */}
+
             <Reveal>
               <Link href="/projects/marketing-portfolio">
                 <p className="p-2 hover:scale-105 ease-out duration-300 bold-24 text-orange-500 py-8 hover:text-orange-700 cursor-pointer max-w-[150px]">
@@ -266,10 +219,7 @@ const Projects = () => {
                 href="https://www.reklamyfacebook.pl/"
                 rel="noopener noreferrer"
               >
-                <button
-                  className="btn-about"
-                  // aria-label="go to page with marketing portfolio project"
-                >
+                <button className="btn-about">
                   <p className="bold-18">Live</p>
                   <FaExternalLinkAlt size={30} />
                 </button>
@@ -279,10 +229,7 @@ const Projects = () => {
                 href={process.env.GITHUB_LINK}
                 rel="noopener noreferrer"
               >
-                <button
-                  className="btn-about"
-                  // aria-label="github page with code for marketing portfolio project"
-                >
+                <button className="btn-about">
                   <p className="bold-18">Code</p>
                   <BsGithub size={30} />
                 </button>

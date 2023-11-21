@@ -16,10 +16,7 @@ const Footer = () => {
             <p className="regular-18">
               Email:{" "}
               <span className="contact-details contact-email">
-                <a
-                  href={`mailto:${process.env.CONTACT_EMAIL}`}
-                  // aria-label="Contact via email"
-                >
+                <a href={`mailto:${process.env.CONTACT_EMAIL}`}>
                   {process.env.CONTACT_EMAIL}
                 </a>
               </span>
