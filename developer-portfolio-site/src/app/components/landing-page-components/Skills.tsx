@@ -20,7 +20,7 @@ const Skills = () => {
               id="skills"
               className="p-4 flex justify-center items-center gap-4 pb-20"
             >
-              <p className="hover:scale-105 ease-out duration-300 bold-24 text-orange-500 hover:text-orange-700">
+              <p className="hover:scale-105 ease-out duration-300 bold-24 text-orange-600 hover:text-orange-700">
                 See how I build my stuff
               </p>
               <AiOutlineArrowDown size={30} className="animate-bounce" />
