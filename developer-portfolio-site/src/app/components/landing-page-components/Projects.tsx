@@ -58,6 +58,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
+
               <li>
                 <Reveal>
                   <p>
@@ -66,6 +67,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
+
               <li>
                 <Reveal>
                   <p>
@@ -74,6 +76,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
+
               <li>
                 <Reveal>
                   <p>
@@ -82,6 +85,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
+
               <li>
                 <Reveal>
                   <p>
@@ -172,6 +176,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
+
               <li>
                 <Reveal>
                   <p>
@@ -180,6 +185,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
+
               <li>
                 <Reveal>
                   <p>
@@ -188,6 +194,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
+
               <li>
                 <Reveal>
                   <p>
@@ -196,6 +203,7 @@ const Projects = () => {
                   </p>
                 </Reveal>
               </li>
+
               <li>
                 <Reveal>
                   <p>

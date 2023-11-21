@@ -18,27 +18,50 @@ const AtsKeyFeatures = () => {
         </p>
         <p className="bold-20 py-4">Key features include:</p>
 
-        <ul className="list-disc p-4">
-          <Reveal>
-            <li className="ml-6">Login with token-based authentication</li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">
-              Adding, updating and deleting candidate profiles
-            </li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">Uploading, downloading and deleting files</li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">
-              Displaying sorted data related to candidate profiles and
-              statistics
-            </li>
-          </Reveal>
-          <Reveal>
-            <li className="ml-6">Responsive design</li>
-          </Reveal>
+        <ul className="list-none p-4">
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Login with
+                token-based authentication
+              </p>
+            </Reveal>
+          </li>
+
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Adding, updating
+                and deleting candidate profiles
+              </p>
+            </Reveal>
+          </li>
+
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Uploading,
+                downloading and deleting files
+              </p>
+            </Reveal>
+          </li>
+
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Displaying sorted
+                data related to candidate profiles and statistics
+              </p>
+            </Reveal>
+          </li>
+
+          <li>
+            <Reveal>
+              <p>
+                <span className="bold-18 mr-2">&#x2022;</span>Responsive design
+              </p>
+            </Reveal>
+          </li>
         </ul>
         <Image
           src="/ats_desktop_2.png"
