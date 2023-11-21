@@ -33,13 +33,13 @@ const AtsTechStack = () => {
               <Image
                 src="/react.svg"
                 width={100}
-                height={30}
+                height={248}
                 alt="react icon"
               />
               <Image
                 src="/redux.svg"
                 width={100}
-                height={30}
+                height={248}
                 alt="redux icon"
               />
             </div>
@@ -53,27 +53,27 @@ const AtsTechStack = () => {
               <Image
                 src="/nodejs.svg"
                 width={100}
-                height={30}
+                height={100}
                 alt="nodejs icon"
               />
               <Image
                 src="/express.svg"
                 width={100}
-                height={30}
+                height={100}
                 alt="express icon"
                 className="dark:invert"
               />
               <Image
                 src="/aws-icon.svg"
                 width={100}
-                height={30}
+                height={60}
                 alt="aws icon"
                 className="dark:invert"
               />
               <Image
                 src="/mongodb.svg"
                 width={100}
-                height={30}
+                height={100}
                 alt="mongodb icon"
               />
             </div>
@@ -116,11 +116,11 @@ const AtsTechStack = () => {
             </div>
 
             <div className="flex md:w-[50%] justify-around pt-4 md:pt-0">
-              <Image src="/mui.svg" width={100} height={30} alt="mui icon" />
+              <Image src="/mui.svg" width={100} height={194} alt="mui icon" />
               <Image
                 src="/styled-components.svg"
                 width={100}
-                height={30}
+                height={194}
                 alt="styled components icon"
                 className="dark:invert"
               />

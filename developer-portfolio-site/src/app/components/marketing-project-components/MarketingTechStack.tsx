@@ -32,14 +32,14 @@ const MarketingTechStack = () => {
               <Image
                 src="/nextjs.svg"
                 width={100}
-                height={30}
+                height={275}
                 alt="nextjs icon"
                 className="dark:invert"
               />
               <Image
                 src="/typescript.svg"
                 width={100}
-                height={30}
+                height={275}
                 alt="typescript icon"
               />
             </div>
@@ -53,13 +53,13 @@ const MarketingTechStack = () => {
               <Image
                 src="/tailwind.svg"
                 width={100}
-                height={30}
+                height={100}
                 alt="nodejs icon"
               />
               <Image
                 src="/framer-motion.svg"
                 width={100}
-                height={30}
+                height={100}
                 alt="express icon"
               />
             </div>
@@ -106,7 +106,7 @@ const MarketingTechStack = () => {
               <Image
                 src="/formik.svg"
                 width={100}
-                height={30}
+                height={275}
                 alt="formik icon"
               />
             </div>
