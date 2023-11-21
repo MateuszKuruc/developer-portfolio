@@ -42,7 +42,7 @@ const Playground = () => {
                 rel="noopener noreferrer"
               >
                 <span className="bold-20 text-orange-600 dark:text-orange-500 hover:scale-105 hover:text-orange-700 ease-in-out duration-300">
-                  this Github folder
+                  this Github repository
                 </span>
               </a>
             </span>{" "}
