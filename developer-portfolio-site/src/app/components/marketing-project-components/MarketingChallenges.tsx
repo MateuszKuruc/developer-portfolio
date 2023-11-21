@@ -83,8 +83,16 @@ const MarketingChallenges = () => {
                   <Reveal>
                     <p>
                       <span className="bold-18 mr-2">&#x2022;</span>Work quickly
-                      and show confirmation of message sent or notification
-                      about error if it happens
+                      and show confirmation of message sent
+                    </p>
+                  </Reveal>
+                </li>
+
+                <li>
+                  <Reveal>
+                    <p>
+                      <span className="bold-18 mr-2">&#x2022;</span>Display
+                      notification about error if the request fails
                     </p>
                   </Reveal>
                 </li>

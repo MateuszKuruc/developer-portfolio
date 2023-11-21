@@ -74,7 +74,7 @@ const MarketingKeyFeatures = () => {
           <li>
             <Reveal>
               <p>
-                <span className="bold-18 mr-2">&#x2022;</span> Design should be
+                <span className="bold-18 mr-2">&#x2022;</span>Design should be
                 stylish enough for the clients, but not overwhelming
               </p>
             </Reveal>
