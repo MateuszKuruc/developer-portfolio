@@ -43,7 +43,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={40}
                   height={40}
                   className="rounded-lg"
@@ -59,7 +60,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={40}
                   height={40}
                   className="rounded-lg dark:invert"
@@ -81,7 +83,9 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  // alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={50}
                   height={50}
                   className="rounded-lg"
@@ -97,7 +101,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={50}
                   height={50}
                   className="rounded-lg dark:invert"
@@ -125,7 +130,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={40}
                   height={40}
                 />
@@ -140,7 +146,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={40}
                   height={40}
                   className="dark:invert"
@@ -162,7 +169,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={50}
                   height={50}
                 />
@@ -177,7 +185,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={50}
                   height={50}
                   className="dark:invert"
@@ -205,7 +214,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={40}
                   height={40}
                   className="rounded-lg"
@@ -221,7 +231,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={40}
                   height={40}
                   className="rounded-lg dark:invert"
@@ -243,7 +254,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={50}
                   height={50}
                   className="rounded-lg "
@@ -259,7 +271,8 @@ const Skills = () => {
               >
                 <Image
                   src={skill.src}
-                  alt={skill.label}
+                  alt=""
+                  aria-hidden="true"
                   width={50}
                   height={50}
                   className="rounded-lg dark:invert"
