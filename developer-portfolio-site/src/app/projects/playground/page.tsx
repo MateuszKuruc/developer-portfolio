@@ -71,7 +71,7 @@ const Playground = () => {
                   {project.stack}
                 </p>
 
-                <p className="regular-20 py-4 h-[220px]">
+                <p className="regular-20 py-4 md:h-[220px]">
                   {project.description}
                 </p>
 
