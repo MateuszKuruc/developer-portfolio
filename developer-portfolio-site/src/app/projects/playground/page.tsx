@@ -11,9 +11,9 @@ const Playground = () => {
       <div className="flex flex-col items-center justify-around py-12 gap-8">
         <h2 className="bold-40 ">Playground</h2>
         <Image
-          src="/githubInfo.png"
+          src="/github_info.png"
           width={1200}
-          height={293}
+          height={276}
           alt="Github profile statistics Mateusz Kuruc"
           className="rounded-lg border- border-orange-700 dark:border-orange-500"
           priority={true}
