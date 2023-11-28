@@ -31,12 +31,13 @@ export const BACKEND_SKILLS = {
   standard: [
     { src: "/nodejs.svg", name: "Node.js", label: "NodeJS icon" },
     { src: "/mongodb.svg", name: "MongoDB", label: "MongoDB icon" },
+    { src: "/mongoose.svg", name: "Mongoose", label: "Mongoose icon" },
   ],
   invert: [
     { src: "/express.svg", name: "Express", label: "Express icon" },
     { src: "/aws-icon.svg", name: "AWS S3", label: "AWS icon" },
     { src: "/restapi.svg", name: "REST API", label: "REST API icon" },
-    { src: "/sql.svg", name: "SQL", label: "SQL icon" },
+    // { src: "/sql.svg", name: "SQL", label: "SQL icon" },
   ],
 };
 
@@ -49,7 +50,7 @@ export const OTHER_SKILLS = {
     { src: "/cypress.svg", name: "Cypress", label: "Cypress icon" },
     { src: "/formik.svg", name: "Formik", label: "Formik icon" },
     { src: "/postman.svg", name: "Postman", label: "Postman icon" },
-    { src: "/mongoose.svg", name: "Mongoose", label: "Mongoose icon" },
+    // { src: "/mongoose.svg", name: "Mongoose", label: "Mongoose icon" },
     {
       src: "/framer-motion.svg",
       name: "Framer Motion",
